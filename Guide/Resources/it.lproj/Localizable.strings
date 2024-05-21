@@ -1,0 +1,1149 @@
+/* Title of Guidebook */
+"GuideBook..title" = "Applicare un layout alle viste";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..title" = "Creare un’app diario unica! 📓💕";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..Paragraph0" = "Scopri le informazioni di base su come impostare il layout per una serie di viste in SwiftUI per estendere l’app diario con altre viste divertenti. È tutto pronto per iniziare?";
+
+/* Title of step named My Journal */
+"GuideBook..Guide0..StepMy Journal..title" = "Il mio diario";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph1" = "![](intro-header.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph2" = "Durante la creazione di un’app, una delle prime competenze da apprendere è la configurazione del layout dell’[interfaccia utente](glossary://user%20interface) o UI. Quando configuri il layout di una UI, devi svolgere tre azioni importanti:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph3" = "Organizza le viste in diverse configurazioni usando [viste contenitore](glossary://container).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph4" = "Regola con precisione dimensioni, spaziatura, allineamento e posizionamento delle viste.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph5" = "Esegui il debug delle viste quando qualcosa va storto.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph6" = "Grazie a questo esempio, acquisirai tutte queste competenze e anche molte altre, che potrai poi utilizzare per aggiungere viste con layout diversi all’app diario. È tutto pronto per dare inizio alla tua esperienza con il layout delle viste?";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..title" = "Avvia la guida passo passo";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..description" = "Descrizione di accessibilità per il pulsante";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..title" = "Perfezionare il layout delle viste";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..title" = "Organizzare le viste";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph7" = "Una vista può agire come un [contenitore](glossary://container) che contiene e organizza altre viste, note come [viste secondarie](glossary://subview).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph8" = "Il [VStack](doc://com.apple.documentation/documentation/swiftui/vstack) qui sotto è un esempio di vista contenitore che organizza verticalmente due viste secondarie `Circle`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph9" = "Aggiungi un altro cerchio in `VStack`. Ora, nella pila sono presenti tre cerchi, il che fa sì che tutte le viste dei cerchi si riducano.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph10" = "Questo perché i contenitori, come questo `VStack`, dividono lo spazio disponibile per le loro [viste secondarie](glossary://subview). In questo caso, il contenitore offre la stessa quantità di spazio a tutte e tre le viste cerchio, poiché hanno gli stessi requisiti di dimensione.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph11" = "Le viste `Shape` si espandono per riempire l’intero spazio disponibile nella vista contenitore. Poiché sono presenti tre viste cerchio che devono condividere equamente lo spazio in `VStack`, le loro dimensioni cambiano di conseguenza.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph12" = "Scopri cosa accade quando aggiungi elementi come `Capsule()` o `Ellipse()`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph13" = "Puoi anche organizzare le viste orizzontalmente utilizzando [HStack](doc://com.apple.documentation/documentation/swiftui/hstack).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph14" = "All’interno di `VStack`, sotto le viste cerchio, aggiungi un contenitore per organizzare le viste `HStack` orizzontalmente:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..CodeBlock0" = "HStack {\n    Rectangle()\n    Rectangle()\n    Rectangle()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph15" = "Puoi anche organizzare le viste sovrapponendole l’una all’altra utilizzando [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph16" = "Aggiungi questo codice sotto `HStack`, quindi cambia il tipo di pila che contiene le viste forma per vedere come cambia il layout.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..CodeBlock1" = "ZStack {\n    Circle()\n        .foregroundColor(.blue)\n    Circle()\n        .inset(by: 40)\n        .foregroundColor(.mint)\n    Text(\"🤩\")\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph17" = "Una pila può anche contenere altre pile. Ecco un esempio di `HStack` che contiene due viste `VStack` e ogni `VStack` contiene una vista [Image](doc://com.apple.documentation/documentation/swiftui/image) e una vista `RoundedRectangle()`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph18" = "Aggiungi quanto segue nel codice e osserva come cambia il layout nella vista:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..CodeBlock2" = "HStack {\n    VStack {\n        Image(systemName: \"tortoise\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.blue)\n        \n    }\n    VStack {\n        Image(systemName: \"hare\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.brown)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..Paragraph19" = "SwiftUI organizza e monitora il rapporto tra le viste utilizzando una [gerarchia delle viste](glossary://view%20hierarchy).";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..Paragraph20" = "Esistono altri contenitori oltre alle viste `HStack`, `VStack` e `ZStack`. Per scoprire i diversi contenitori e come utilizzarli per disporre i contenuti, consulta [Scegliere una vista contenitore per i contenuti](doc://com.apple.documentation/documentation/swiftui/picking-container-views-for-your-content).";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..title" = "Attività di progettazione n.1: far corrispondere un layout utilizzando i contenitori";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph21" = "In qualità di ingegnere informatico, spesso devi far corrispondere il modello di [UI](glossary://user%20interface) del designer al codice.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph22" = "Nella prima attività di progettazione, la tua missione consiste nell’aggiornare il corpo di `PatternChallengeView`, che viene disegnato nella metà inferiore dell’anteprima, in modo da farlo corrispondere alla metà superiore dell’anteprima.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph23" = "Prova subito e non esitare a usare i suggerimenti se ti blocchi.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..Paragraph24" = "Hai notato che il modello superiore impila due rettangoli in verticale? Come si modifica questa riga di codice per far sì che corrisponda a ciò che visualizzi nella metà superiore dell’anteprima?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..Paragraph25" = "Cosa bisogna aggiungere a ZStack, nel codice evidenziato, per far sì che il rettangolo superiore del design abbia lo stesso aspetto del rettangolo superiore dell’anteprima?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph26" = "Il rettangolo con i due cerchi è abbastanza vicino al modello del design.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph27" = "Riesci a indovinare cosa devi cambiare per renderlo uguale?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..Paragraph28" = "Ce l’hai fatta, complimenti! Se il design ti sembra un po’ strano, ecco un suggerimento su come potrebbe apparire il codice per corrispondere al modello del design:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..CodeBlock3" = "VStack {\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        Circle()\n            .foregroundColor(.themePink)\n    }\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        HStack {\n            Circle()\n                .foregroundColor(.themeRed)\n            Circle()\n                .foregroundColor(.themeOrange)\n        }\n    }\n}\n\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..title" = "Modificare e determinare le dimensioni delle viste";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..Paragraph29" = "Una [Vista](doc://com.apple.documentation/documentation/swiftui/view) SwiftUI determina la sua dimensione in base allo spazio offerto dalla vista [contenitore](glossary://container).";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..Paragraph30" = "Le varie viste hanno requisiti di spazio diversi. Non tutte le viste occupano la stessa quantità di spazio. È il momento di fare un esperimento. Aggiungi il seguente codice a `HStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..CodeBlock4" = "//#-learning-code-snippet(3.viewSizing)\nVStack {\n    Image(systemName: \"ladybug\")\n    Text(\"Sono schiacciata\")\n}\nRectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph31" = "Vedi come la vista `Text` e la coccinella (ladybug) risultano schiacciati? Indipendentemente dalle dimensioni dell’anteprima, le viste `Text` e `Image` occupano esattamente lo spazio di cui hanno bisogno, ma il rettangolo riempie il resto dello spazio in `HStack`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph32" = "È il momento di un nuovo esperimento! Aggiungi `Rectangle()` sopra `VStack` in `HStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..CodeBlock5" = "Rectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph33" = "Puoi osservare che le viste `Rectangle` modificano lo spazio occupato, ma `Text` e `Image` rimangono esattamente della stessa dimensione. Strano, vero?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph34" = "Siccome tutte le viste sono uniche, i vari tipi di vista dispongono dei propri requisiti di spazio all’interno di un contenitore.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..Paragraph35" = "Le viste sono in un certo senso magiche, poiché alcuni tipi di vista controllano il modo in cui si ridimensionano quando vengono inserite in un contenitore:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph36" = "Espandendosi per riempire lo spazio disponibile, come `Rectangle` o altre [Shapes](doc://com.apple.documentation/documentation/swiftui/shape).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph37" = "Ridimensionandosi in base al loro contenuto, come `Text(\"Supercalifragilisticexpialidocious\")` o `Image(\"myCoolImage\")`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph38" = "Mantenendo una dimensione specifica che non cambia, come [Stepper](doc://com.apple.documentation/documentation/swiftui/stepper).";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..Paragraph39" = "Per regolare la quantità di spazio occupato dalle viste `Text` o `Rectangle`, puoi specificare quale vista deve occupare più spazio. Prova ad aggiungere il modificatore `.frame` alle viste `Text`, `Image` e `Rectangle`, una alla volta, e osserva come cambia ogni vista:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..CodeBlock6" = ".frame(width: 150)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph40" = "Il [modificatore frame](doc://com.apple.documentation/documentation/SwiftUI/View/frame(width:height:alignment:)) ti consente di regolare la dimensione di una vista.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph41" = "Prova ad aggiungere il parametro altezza a una delle viste `Rectangle` per vedere come cambia:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..CodeBlock7" = ".frame(width: 100, height: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph42" = "Fornire valori fissi per `width` e `height` limita l’adattabilità della vista. 🙃";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph43" = "Un modo migliore di farlo è indicare una larghezza e un’altezza massime, minime o ideali di una vista. In questo modo, la vista verrà ridimensionata come necessario, sulla base dello spazio disponibile nel contenitore.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph44" = "Aggiungi uno di questi modificatori alla vista `Image`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock8" = ".frame(minWidth: 100, maxHeight: 200)\n";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock9" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph45" = "Potresti aver notato che l’aggiunta di un `frame` alla vista `Image` non cambia la dimensione effettiva della coccinella. Ciò accade perché devi aggiungere il modificatore [.resizable](doc://com.apple.documentation/documentation/SwiftUI/Image/resizable(capInsets:resizingMode:)) a un’immagine, se vuoi cambiare la sua dimensione.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph46" = "Aggiungi questo modificatore tra `Image` e `frame`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..CodeBlock10" = ".resizable()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph47" = "L’aggiunta di `resizable` dopo `frame` causerà un errore del compilatore. L’applicazione del modificatore `frame` a `Image` crea in realtà una nuova vista che non è una `Image` e che non ha quindi accesso al metodo di ridimensionamento.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph48" = "Vedi come la coccinella compare allungata anche aggiungendo una larghezza e un’altezza ideali? Per le immagini è spesso meglio usare [scaledToFill()](doc://com.apple.documentation/documentation/swiftui/view/scaledtofill()) o [scaledToFit()](doc://com.apple.documentation/documentation/swiftui/menu/scaledtofit()) invece di una cornice.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph49" = "Sostituisci il `frame` della vista `Image` con il codice sottostante:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..CodeBlock11" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph50" = "Potresti anche aver notato che l’aggiunta della cornice alla vista `Text` non ha ingrandito il testo presente all’interno della vista, ma solo la vista che contiene il testo. Ciò consente di inserire più testo nella vista, ma se desideri ingrandire il testo presente, puoi aggiungere il modificatore [font](doc://com.apple.documentation/documentation/swiftui/font) alla vista testo.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph51" = "Aggiungi questo modificatore sotto la vista testo e osserva come cambia il testo:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..CodeBlock12" = ".font(.title)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..title" = "Attività di progettazione n.2: regolare il ridimensionamento della vista";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..Paragraph52" = "È giunta l’ora di un’altra attività! Guarda l’anteprima a destra. Prova a ridimensionare le viste in modo che il design in basso corrisponda al modello in alto. 🧐";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..Paragraph53" = "Noterai che i rettangoli nel modello sono molto più piccoli rispetto al design. Come si fa a regolare le viste `Rectangle` per renderle leggermente più piccole?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph54" = "Se hai bisogno di aiuto, ecco un suggerimento:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..CodeBlock13" = ".frame(maxWidth: 200, maxHeight: 150)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph55" = "Accertati di aggiungere questo codice a entrambe le viste `Rectangle`, altrimenti il design avrà un aspetto insolito.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph56" = "Devi modificare anche le viste `Image` della rosa e del cuore. La rosa deve essere più grande per riempire lo spazio, mentre il cuore deve essere più piccolo, giusto?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph57" = "Utilizza le informazioni apprese sul ridimensionamento delle viste per regolare le immagini nella vista.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..Paragraph58" = "Se non ti ricordi il modo migliore per ridimensionare in scala una vista `Image`, ecco un suggerimento:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..CodeBlock14" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph59" = "`.scaledToFit` consente alla rosa di ridimensionarsi per adattarsi alle dimensioni del suo contenitore. E il cuore? Dispone già di `scaledToFit`. 🤔";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph60" = "Quale modificatore si può aggiungere per modificare le dimensioni del cuore?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..Paragraph61" = "Se hai bisogno di un piccolo promemoria, ecco un suggerimento:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..CodeBlock15" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..Paragraph62" = "Osserva come il testo nel modello risulta più marcato rispetto a quello nel design. Quale modificatore si può usare per regolare la dimensione e il peso del [font](doc://com.apple.documentation/documentation/swiftui/font)?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..Paragraph63" = "Questo è un modo per regolare il font. Puoi aggiungerlo come modificatore a `VStack` che lo contiene, in modo che possa essere applicato a tutte le viste `Text`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..CodeBlock16" = ".font(.headline)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..Paragraph64" = "Il ridimensionamento delle viste non ha più segreti per te! Se il layout ti sembra ancora un po’ strano, ecco come potrebbe apparire il codice per ottenere il design desiderato:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..CodeBlock17" = "VStack {\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"Le rose sono rosse,\")\n            Image(\"Rose\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"le viole sono blu, \")\n        }\n    }\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"e adoro\")\n            Image(\"Heart\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"scrivere codice insieme a te!\")\n        }\n    }\n}\n.font(.headline)\n.foregroundColor(.darkBrown)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..title" = "Migliorare spaziatura e allineamento delle viste";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph65" = "Ci sono più modi per specificare l’allineamento in SwiftUI. Un modo è specificare `alignment` dentro `HStack`, `VStack` o `ZStack`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph66" = "Prova a rimuovere interamente il parametro `alignment: leading` da `VStack`. `VStack` è la [vista contenitore](glossary://container) e lo scaffale e i libri sono viste secondarie. Questo è il motivo per cui i libri risultano allineati sul bordo destro dello schermo.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph67" = "Presta attenzione a come, adesso, i libri compaiono centrati. Ciò avviene perché l’allineamento di default delle viste all’interno di un `VStack` è centrato.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph68" = "Cosa succede se vuoi aggiungere un’altra riga con i libri allineati sul bordo destro dello scaffale?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph69" = "Un modo per farlo è aggiungere un altro `VStack` e impostarne l’allineamento su `.trailing`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph70" = "Aggiungi questo codice sotto `Rectangle` all’interno di `VStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..CodeBlock18" = "VStack (alignment: .trailing){\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        \n    Rectangle()\n        .frame(maxWidth: .infinity, maxHeight: 10)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph71" = "Attenzione: nelle pile verticali, puoi specificare unicamente l’allineamento orizzontale, come `.leading` o `.trailing`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph72" = "Allo stesso modo, nelle pile orizzontali puoi specificare unicamente l’allineamento verticale, come `.top` o `.bottom`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph73" = "Un altro modo per allineare i libri sull’altro lato dello scaffale è utilizzare il modificatore `frame` e specificare un valore per `alignment`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph74" = "Aggiungi questo codice sotto l’ultimo `VStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..CodeBlock19" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    .frame(maxWidth: .infinity, alignment: .trailing)\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    //#-learning-code-snippet(5.frameAlignmentExplain)\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph75" = "Per visualizzare la cornice intorno al libro, aggiungi un colore di sfondo sotto il modificatore `frame`.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..CodeBlock20" = ".background(Color.yellow)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph76" = "Impostando `maxWidth` su `.infinity`, estendi la vista `Image` orizzontalmente fino a riempire tutto lo spazio rimanente.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph77" = "Impostando il parametro `alignment` su `.trailing` i contenuti di `frame` si allineano sul bordo `.trailing`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph78" = "Ma non è finita qui! Puoi ottenere gli stessi risultati anche con [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph79" = "Per provare a farlo, aggiungi questo codice sotto le altre viste all’interno di `VStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..CodeBlock21" = "/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n/*#-code-walkthrough(5.stackSpacing)*/\nHStack {\n/*#-code-walkthrough(5.stackSpacing)*/\n    Spacer()\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        .background(Color.yellow)\n    //#-learning-code-snippet(5.addBook)\n}\n.background(Color.mint)\n/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..Paragraph80" = "Vedi come il colore di sfondo della vista `Image` non riempie più l’intera riga? Ciò avviene perché aggiungendo uno `Spacer` all’interno di `HStack` fa in modo che la pila si espanda per riempire tutto lo spazio orizzontale rimanente, spostando la vista `Image` sul bordo `.trailing`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph81" = "Prova ad aggiungere un altro libro all’ultimo scaffale.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph82" = "Aggiungi questo codice all’interno di `HStack` sotto l’altra `Image`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..CodeBlock22" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    //#-learning-code-snippet(5.padding)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph83" = "Vedi come `Spacer` riempie solo lo spazio vuoto rimanente in `HStack`?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph84" = "Hai appena imparato tre diversi modi per allineare i libri:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph85" = "Utilizzare il parametro allineamento nella vista contenitore";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph86" = "Aggiungere un modificatore della cornice con il parametro allineamento";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph87" = "Utilizzare uno `Spacer` per allineare le viste";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph88" = "Tipi di viste e circostanze diverse richiedono tecniche differenti. Per ulteriori informazioni sulle dimensioni e sulla spaziatura delle viste, consulta [Impostare il layout di una vista semplice](doc://com.apple.documentation/documentation/swiftui/laying-out-a-simple-view).";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph89" = "Come si fa a distanziare molto i libri l’uno dall’altro?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph90" = "Prova a specificare la spaziatura all’interno di `HStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..CodeBlock23" = "HStack(spacing: 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph91" = "Questa azione specifica la spaziatura orizzontale tra ogni [vista secondaria](glossary://subview) all’interno di `HStack`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph92" = "Se desideri posizionare i libri più lontano dal bordo, puoi aggiungere una spaziatura interna al bordo `.trailing` del libro:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..CodeBlock24" = ".padding(.trailing, 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph93" = "Questa azione aumenta leggermente lo spazio del bordo posteriore del libro. Prova a esplorare altre opzioni di spaziatura interna, come `.leading`, `.top`, `.bottom`, `.horizontal` e così via.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph94" = "Come si fa a posizionare tutti i libri e gli scaffali lontano dal bordo dello schermo?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph95" = "Puoi aggiungere una spaziatura interna orizzontale a ogni fila di scaffali e libri, ma si tratta di un lavoro lungo e non semplice da mantenere. Invece, dovresti applicare sempre i modificatori alla [vista contenitore](glossary://container). In questo caso, la vista contenitore è `VStack`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph96" = "Applicando il modificatore `padding` a `VStack`, è sufficiente aggiungerlo una sola volta, invece di aggiungerlo a ogni [vista secondaria](glossary://subview) all’interno di `VStack`.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..CodeBlock25" = ".padding(.horizontal)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph97" = "Tuttavia, se desideri che lo scaffale per i libri sia di un’ampiezza specifica, utilizza `frame` al posto di `padding`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph98" = "Per vedere chiaramente l’effetto della cornice, prova a estendere l’anteprima in modo che occupi metà dello schermo e poi inserisci il frammento di codice qui sotto. Anche l’aggiunta di `border` dopo la cornice ne facilita la visualizzazione.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..CodeBlock26" = ".frame(width: 250)\n.border(Color.black)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..Paragraph99" = "Ottimo! Ora hai tutti gli strumenti per creare le tue viste.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..title" = "Effettuare il debug delle viste";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph100" = "Quando le viste di SwiftUI non vengono visualizzate come previsto, devi sfruttare le tue capacità di debug per risolvere il problema.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph101" = "Inizia osservando la vista nell’anteprima: è chiaro che non viene visualizzata correttamente! 😩 Riesci a indovinare quale vista dovrebbe essere?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph102" = "È la carta da gioco della regina di cuori (o almeno dovrebbe esserlo 😵‍💫).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph103" = "Come suggerisce il nome, `HalfCard` contiene mezza scheda. Utilizza due istanze di `HalfCard` in `VStack` per creare questa vista. Poi, capovolgi `HalfCard` inferiore per formare un’immagine speculare di `HalfCard` superiore.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph104" = "Unendo le metà superiore e inferiore, crei una carta da gioco completa.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph105" = "Qualsiasi codice applicato alla vista `HalfCard` influisce sia sulla metà superiore che su quella inferiore della scheda, consentendoti di risolvere i problemi in entrambe le metà contemporaneamente.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph106" = "Prova ad aggiungere `border` alla vista `HalfCard` per visualizzare ogni metà:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..CodeBlock27" = ".border(Color.green)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph107" = "Aggiungere un bordo a una vista è un ottimo strumento di debug, perché ti consente di visualizzare quanto spazio occupa una vista. Puoi usare questa tecnica per diagnosticare molti problemi nel codice.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph108" = "Il primo grande problema è che tutte le grafiche appaiono schiacciate.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph109" = "Aggiungi `frame` in `HalfCard` e imposta `maxWidth` e `maxHeight` su `.infinity`. In questo modo, consenti a `frame` di espandersi per riempire tutto lo spazio disponibile nel contenitore `VStack`.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..CodeBlock28" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph110" = "Anche se la cornice si è espansa, tutte le grafiche risultano ancora schiacciate.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph111" = "Aggiungi un altro bordo sopra il modificatore `frame`. In questo modo puoi vedere il contorno di `VStack` prima di applicare `frame`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph112" = "Forse ti starai chiedendo: perché applicare il bordo prima o dopo `frame` fa la differenza? Ciò accade perché in effetti produci una nuova vista ogni volta che applichi un modificatore, quindi [l’ordine in cui applichi i modificatori è molto importante](doc://com.apple.documentation/documentation/swiftui/configuring-views).";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..CodeBlock29" = ".border(Color.blue)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph113" = "Osserva la differenza tra i bordi blu e verdi. Il bordo blu circonda le grafiche schiacciate in `VStack`, ma non si espande nello spazio vuoto circostante al `frame` verde.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph114" = "Riesci a pensare a come risolvere questo problema in modo che il contenuto di `VStack` riempia l’intero `frame`?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph115" = "Pensa all’ordine di questi modificatori in `VStack`:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph116" = "Crea `overlay`, che comporta il posizionamento di un altro `VStack` direttamente sopra a `VStack` del livello superiore.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph117" = "Espandi `frame` di `VStack` del livello superiore, applicandovi intorno un bordo vuoto.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph118" = "E se invertissi l’ordine di `overlay` e `frame`? In questo modo potresti espandere prima `frame`, che ti fornisce spazio aggiuntivo, e poi applicare `overlay` dove meglio si adatta.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..Paragraph119" = "Prova a rimuovere `frame` esistente e ad aggiungerne uno nuovo proprio sotto `VStack` del livello superiore, ma sopra il modificatore `overlay`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..CodeBlock30" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph120" = "Molto meglio. Manca solo un ultimo aspetto da sistemare. Di default, qualsiasi contenuto all’interno di `frame` viene allineato al centro. Tuttavia, la corona al centro di `HalfCard` deve essere allineata al bordo inferiore di `HalfCard.`";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph121" = "Riesci a trovare un modo per farlo? Ricorda che puoi aggiungere `border` per visualizzare quanto spazio serve alla tua vista e confrontarlo con il comportamento che ritieni debba avere la vista.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph122" = "Esistono due modi per allineare la corona alla parte inferiore della vista `HalfCard`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph123" = "Puoi aggiungere il parametro `alignment` a `frame`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock31" = ".frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph124" = "Oppure puoi aggiungere uno `Spacer` sopra la corona:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock32" = "VStack {\n    Spacer()\n    Image(systemName: \"crown.fill\")\n        .font(.system(size: 80))\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..Paragraph125" = "Ora che hai corretto l’allineamento della carta, puoi rimuovere i bordi che hai aggiunto.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph126" = "Guarda che bella carta da gioco!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph127" = "La prossima volta che non hai la certezza del motivo per cui le tue viste non vengono visualizzate come desideri, non dimenticare che puoi aggiungere un bordo o uno sfondo che ti aiutino a effettuare il debug dei problemi di visualizzazione.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..title" = "Migliorare ulteriormente l’app diario";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..title" = "Creare una vista per il banner titolo";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph128" = "Il banner del titolo di una voce del diario mostra il nome della voce insieme ad alcune decorazioni appariscenti.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph129" = "Supponiamo che tu sia un ingegnere informatico incaricato di modificare il design del banner del titolo in basso a sinistra nell’anteprima. Il designer del team ti ha fornito le specifiche del design per ottenere l’aspetto che desidera, ovvero la vista visualizzata nella parte superiore dell’anteprima.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph130" = "Fai del tuo meglio affinché il banner del titolo assomigli al modello del design nella metà superiore dell’anteprima.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph131" = "Inizia aggiungendo il cerchio giallo nell’angolo in alto a sinistra.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph132" = "Posiziona una vista `Circle` sopra il cerchio blu, utilizzando [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack) esistente. Dovrai anche usare i modificatori `.frame(width:height:)` e `.foregroundColor(_:)` per regolare dimensioni e colore della vista cerchio.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..CodeBlock33" = "Circle()\n    .frame(width: 15)\n    .foregroundColor(.bannerYellow)\n    //#-learning-code-snippet(4.entryBanner)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph133" = "Bello! Tuttavia il cerchio giallo non è esattamente dove dovrebbe essere. 😣";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph134" = "Puoi regolare la posizione di una vista aggiungendo il modificatore [offset](doc://com.apple.documentation/documentation/swiftui/view/offset(x:y:)) al cerchio giallo.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph135" = "Prova ad aggiungerlo tu, utilizzando il seguente suggerimento se ti blocchi nel tragitto:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..CodeBlock34" = ".offset(x: -10, y: -5)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph136" = "Fantastico, ora prova ad aggiungere il cerchio arancione in basso a sinistra nel banner in modo che corrisponda all’immagine.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph137" = "Utilizza il colore `Color.bannerOrange`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph138" = "Se hai bisogno di un suggerimento, la soluzione si trova al passaggio successivo.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph139" = "Per aggiungere il cerchio arancione, crea una vista `Circle` e utilizza i modificatori `.frame(width:)`, `.foregroundColor(_:)` e `.offset(x:y:)` per regolarne le dimensioni, la posizione e il colore.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph140" = "Se hai ancora bisogno di aiuto, ecco il codice del cerchio:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..CodeBlock35" = "    Circle()\n        .frame(width: 20)\n        .foregroundColor(.bannerOrange)\n        .offset(x: 6, y: 5)\n\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph141" = "Il lato sinistro del banner è perfetto. È giunto il momento di usare le tue capacità di configurazione del layout per il lato destro del banner.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph142" = "Al momento sono presenti solo un cerchio blu grande e uno rosa medio sul lato destro. Dai un tocco di colore aggiungendo il cerchio arancione più piccolo.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..Paragraph143" = "Sul lato sinistro del banner, è stato utilizzato `ZStack` per posizionare le viste circolari una sopra l’altra. Prova con lo stesso approccio qui.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..Paragraph144" = "Ecco un suggerimento per aggiungere elementi alla vista con il cerchio arancione:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..CodeBlock36" = "Circle()\n   .frame(width: 18)\n   .foregroundColor(.bannerOrange)\n   .offset(y: 20)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph145" = "Perfetto! Il design ora corrisponde al modello.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph146" = "Successivamente, utilizzerai le tue abilità di configurazione del layout per modificare il design del tracker del sonno.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..title" = "Creare la vista del tracker del sonno";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph147" = "Per la prossima attività, creerai la tua vista del tracker del sonno.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph148" = "Prima di iniziare, esegui l’anteprima dell’app e aggiungi una nuova voce del diario con il tracker del sonno di dimensioni complete. Ricorda che il pulsante per aggiungere tracker del sonno di dimensioni dimezzate è disabilitato.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph149" = "Il designer del team ti ha fornito le specifiche di design per l’aspetto della scheda del tracker del sonno con vista dimezzata. Siccome sei un ingegnere informatico, è il momento di crearla.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph150" = "Guardando l’anteprima `SleepViewHalf`, la metà superiore della vista contiene il modello del progetto, mentre nella metà inferiore si trova ciò che creerai.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph151" = "Inizia impostando le dimensioni corrette per le schede. Aggiungi un modificatore `.frame(minHeight:maxHeight:)` a `VStack` per impostare un’altezza minima e massima. Ricorda quanto detto in precedenza: impostare l’altezza minima consente la scalabilità della vista e il suo adattamento a schermi di diverse dimensioni.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..CodeBlock37" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph152" = "Ora che le schede sono della stessa dimensione, osserva come dispongono di due stati:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph153" = "Uno stato di visualizzazione sulla sinistra";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph154" = "Uno stato di modifica sulla destra";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph155" = "Anche il tracker del sonno deve presentare questi due stati.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph156" = "Inizia con lo stato di visualizzazione. Attualmente, disponi di due viste `Text` inserite in un `VStack`, una che mostra un titolo e l’altra che mostra il numero di ore di sonno.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph157" = "Confronta il tuo prototipo con i modelli di design. Non è ancora pronto.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph158" = "Ti serve uno spazio più ampio tra il titolo della scheda e il valore del sonno. Un modo per farlo è aggiungere un modificatore `.padding()` al bordo superiore o inferiore del valore del sonno:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..CodeBlock38" = ".padding(.top)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph159" = "Potresti notare che il design è più simile al modello, ma che non gli corrisponde ancora esattamente. Non preoccuparti, lo sistemerai in seguito.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph160" = "Ora, è il momento di dedicarti allo stato di modifica. All’interno dello stato di modifica è presente uno [Stepper](doc://com.apple.documentation/documentation/swiftui/stepper). `Stepper` consente agli utenti di modificare il valore del sonno toccando le freccia verso l’alto o il basso.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph161" = "`if statement` garantisce che `Stepper` venga visualizzato solo quando `isEditing` è impostato su `true`. Il valore di `isEditing` viene cambiato in `true` quando qualcuno modifica una voce del diario, altrimenti il valore è impostato su `false`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph162" = "Aggiungi il seguente codice in fondo a `VStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..CodeBlock39" = "if isEditing {\n    Stepper(\"Hours Slept\", value: $value, in: 0...12, step: 1)\n        .labelsHidden()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph163" = "Per aggiungere `SleepViewHalf` all’app, aggiungerai una logica per visualizzare `SleepViewHalf` quando una persona seleziona il tracker del sonno a scheda dimezzata.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph164" = "Rimuovi il codice evidenziato e sostituiscilo con il frammento di codice sottostante:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..CodeBlock40" = "if size == .small {\n    SleepViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    SleepViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph165" = "Per abilitare il pulsante per aggiungere il tracker del sonno a scheda dimezzata, imposta `disableSleepViewHalf` su `false`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..CodeBlock41" = "static var disableSleepViewHalf = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph166" = "Ora prova ad aggiungere un tracker del sonno a scheda dimezzata nell’anteprima dell’app diario. Puoi farlo toccando “Nuova voce” e il pulsante Aggiungi (+) per creare una nuova scheda. Il pulsante del tracker del sonno a scheda dimezzata risulta abilitato.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..Paragraph167" = "Evviva! Hai finito di creare la vista a scheda dimezzata per il tracker del sonno. È ora di ricontrollare tutto con il designer del team.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..title" = "Ultimi ritocchi per la vista del tracker del sonno";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph168" = "Ottimo lavoro! Ricorda però che il designer ha indicato alcune piccole differenze tra le viste e il modello. Ci sei quasi: è l’ora dei ritocchi finali al design dell’app!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph169" = "Ricontrolla il modello. Riesci a individuare le differenze? Puoi anche provare a espandere l’anteprima per visualizzare la scheda per schermi di diverse dimensioni.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph170" = "Espandi l’anteprima in modo che occupi metà dello schermo.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph171" = "Il titolo della scheda deve essere allineato a sinistra quando qualcuno sta modificando una voce di sonno e centrato negli altri casi. Puoi utilizzare un [operatore ternario](glossary://ternary%20conditional%20operator) per specificare l’allineamento per ogni stato.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph172" = "Aggiungi il frammento di codice sottostante per correggere l’allineamento del titolo della scheda:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..CodeBlock42" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph173" = "Hai notato che nelle specifiche di design il titolo di questa scheda è “Quante ore hai dormito?” mentre la persona è in stato di modifica?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph174" = "Copia e sostituisci il testo evidenziato con il frammento di codice sottostante:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..CodeBlock43" = "Text(isEditing ? \"How many hours did you sleep?\" : \"Hours Slept\")\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph175" = "L’aspetto è buono, ma dovresti spingere il titolo della scheda in cima alla scheda nello stato di visualizzazione. Puoi farlo aggiungendo uno [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph176" = "Vedi se riesci ad aggiungere `Spacer` autonomamente:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..CodeBlock44" = "Spacer()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph177" = "Se hai bisogno di aiuto, tocca Avanti.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph178" = "Quando aggiungi `Spacer` a `VStack`, lo spaziatore si espande per riempire gli spazi vuoti verticali rimanenti.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph179" = "Aggiungi `Spacer` sopra e sotto il valore del sonno.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph180" = "Entrambi gli spaziatori si espanderanno in modo uguale per mantenere il valore di sonno centrato nella scheda.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph181" = "In precedenza, hai aggiunto un modificatore `.padding()` per espandere lo spazio tra il titolo della scheda e il valore di sonno. Ora che hai aggiunto le viste `Spacer` intorno al valore di sonno, non è più necessaria la spaziatura aggiuntiva.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph182" = "Rimuovi `.padding()` evidenziato, in modo che il testo non venga visualizzato decentrato.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph183" = "Dopo aver aggiunto `Spacer` intorno al valore di sonno, il titolo della scheda e lo stepper sono stati spostati nei bordi superiore e inferiore della scheda. Tuttavia, si trovano un po’ troppo vicini ai bordi.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph184" = "Aggiungi la spaziatura interna attorno a `VStack` per creare uno spazio vuoto attorno al bordo della scheda:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..CodeBlock45" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..Paragraph185" = "Evviva, hai finito! Ora la scheda ha esattamente lo stesso aspetto del modello del designer.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..CodeBlock46" = "VStack {\n    Text(isEditing ? \"How many hours did you sleep?\" : \"Hours Slept\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    Spacer()\n    \n    Text(\"\\(Int(value))\")\n        .modifier(FontStyle(size: 50))\n\n    Spacer()\n    \n    if isEditing {\n        Stepper(\"Hours Slept\", value: $value, in: 0...12, step: 1)\n            .labelsHidden()\n    }\n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..title" = "Sistemare la vista del tracker dell’umore";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph186" = "Congratulazioni! Ora hai l’incarico di sistemare il tracker dell’umore a scheda intera secondo il modello del design.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph187" = "Prova ad abbinare gli elementi al modello, utilizzando i seguenti suggerimenti se ne hai bisogno.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph188" = "La spaziatura e l’allineamento del design sono diversi rispetto al modello. Inizia impostando `height` della scheda.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph189" = "Pensa ai diversi strumenti che hai imparato a utilizzare, come `Spacer`, `.frame(minHeight:maxHeight:)` e `.padding()`, e rifletti su come utilizzarli per migliorare il layout.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph190" = "Ricorda che esistono molti modi diversi per configurare un layout per una vista e il frammento di codice qui sotto ne è solo un esempio:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..CodeBlock47" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..Paragraph191" = "Ricorda che impostare `minHeight` e `maxHeight` consente il ridimensionamento della vista per schermi di diverse dimensioni.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph192" = "Analogamente a come hai fatto per il tracker del sonno, puoi spingere il titolo della scheda fino al bordo, impostando l’altezza massima su `.infinity`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph193" = "Aggiungi un’altra cornice a `HStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..CodeBlock48" = ".frame(maxHeight: .infinity, alignment: .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph194" = "Quindi, aggiungi una spaziatura interna per creare un po’ di spazio tra il titolo e il bordo della scheda.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph195" = "Applica `padding` a tutti i contenuti, aggiungendolo a `VStack` sotto il modificatore `frame`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..CodeBlock49" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph196" = "Ora dedicati all’allineamento del titolo della scheda. Allinealo al bordo anteriore quando qualcuno sta modificando il proprio diario e allinea al centro il titolo della scheda quando viene visualizzato il diario.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph197" = "Prova a programmare il codice da te, utilizzando la soluzione se necessario:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..CodeBlock50" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph198" = "Aggiungi il modificatore `.frame` con `maxWidth` di `.infinity` per espandere in orizzontale la vista `Text` e riempire ogni spazio disponibile.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph199" = "Il parametro `alignment` indica a `SwiftUI` che qualsiasi contenuto all’interno di `frame` si allinea al bordo iniziale se lo stato di modifica è attivo e allineato al centro nello stato di visualizzazione.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph200" = "Espandi l’anteprima fino a occupare metà dello schermo. Vedi come le emoji appaiono schiacciate al centro della vista sia nello stato di visualizzazione che in quello di modifica?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph201" = "Prova a programmare una soluzione, usa questo suggerimento se ti blocchi:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..CodeBlock51" = ".frame(maxWidth: .infinity, alignment: .center)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph202" = "Aggiungi il codice all’etichetta del pulsante nello stato di modifica e all’istruzione `ForEach` che mostra le emoji nello stato di visualizzazione.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph203" = "Che ne dici di aggiungere uno spazio tra i pulsanti circolari e le emoji nello stato di modifica?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph204" = "Ricorda che esistono più modi per ottenere gli stessi risultati. Sfrutta uno o più modificatori che hai imparato a usare per creare spazio.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..CodeBlock52" = ".padding(.bottom)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph205" = "Per aggiungere `MoodViewFull` all’app, aggiungerai una logica per visualizzare `MoodViewFull` quando qualcuno seleziona il tracker dell’umore a scheda intera.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph206" = "Rimuovi il codice evidenziato e sostituiscilo con il frammento di codice sottostante:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..CodeBlock53" = "if size == .small {\n    MoodViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    MoodViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph207" = "Per abilitare il pulsante per aggiungere il tracker dell’umore a scheda intera, imposta `disableMoodViewFull` su `false`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..CodeBlock54" = "static var disableMoodViewFull = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph208" = "Ora, prova ad aggiungere il tracker dell’umore a scheda intera nell’app diario. Riesci a vedere la vista che hai appena creato?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph209" = "Wow! Il tracker dell’umore ha un aspetto fantastico, proprio come voleva il designer.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph210" = "Se ti va, puoi continuare a modificare e regolare le viste delle schede per renderle esattamente come desideri.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph211" = "Sei sulla strada giusta per acquisire una solida esperienza con il layout delle viste di SwiftUI.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..CodeBlock55" = "VStack {\n    Text(isEditing ? \"Come ti senti oggi?\" : \"Umore\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    \n    HStack {\n        if isEditing {\n            ForEach(emojis, id: \\.self) { emoji in\n                Button{\n                    value = emoji\n                } label: {\n                    VStack {\n                        Text(emoji)\n                            .font(.system(size: 35))\n                            .frame(maxWidth: .infinity, alignment: .center)\n                            .padding(.bottom)\n                        \n                        Image(systemName: value == emoji ? \"circle.fill\" : \"circle\")\n                            .font(.system(size: 16))\n                            .foregroundColor(.darkBrown)\n                    }\n                }\n            }\n        } else {\n        ForEach(0..<displayEmojis, id:\\.self) { index in\n                Text(value)\n                    .font(.system(size: 50))\n                    .frame(maxWidth: .infinity, alignment: .center)\n            }\n        }\n    }\n    .frame(maxHeight: .infinity, alignment: .center)\n    \n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+

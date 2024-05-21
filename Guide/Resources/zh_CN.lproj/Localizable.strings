@@ -1,0 +1,1149 @@
+/* Title of Guidebook */
+"GuideBook..title" = "布局视图";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..title" = "创建一个独特的日记 App！📓💕";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..Paragraph0" = "了解如何在 SwiftUI 中布局各种视图的基础知识，然后通过更有趣的视图来扩展日记 App。准备好了吗？";
+
+/* Title of step named My Journal */
+"GuideBook..Guide0..StepMy Journal..title" = "我的日记";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph1" = "![](intro-header.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph2" = "创建 App 时，首先要学习的技能之一是如何给[用户界面](glossary://user%20interface)或 UI 布局。给 UI 布局时，你需要做三件主要的事情：";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph3" = "使用[容器视图](glossary://container)整理不同配置的视图。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph4" = "微调视图的大小、间距、对齐和位置。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph5" = "出现错误时调试视图。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph6" = "在这个示例中，你将学习所有的这些技能及更多内容，然后使用它们给日记 App 添加不同布局的视图。准备好开始视图布局之旅了吗？";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..title" = "开始演示";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..description" = "按钮辅助功能描述";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..title" = "深入了解视图布局";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..title" = "整理视图";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph7" = "视图可作为[容器](glossary://container)包含和整理其他视图，被包含的视图叫作[子视图](glossary://subview)。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph8" = "下方的 [VStack](doc://com.apple.documentation/documentation/swiftui/vstack) 是一个容器视图垂直整理两个 `Circle`（圆形）子视图的示例。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph9" = "在 `VStack` 中再添加一个圆形。现在堆栈中有三个圆形了，这会造成所有圆形视图收缩。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph10" = "这是因为容器（例如这个 `VStack`）会将可用空间划分给它的[子视图](glossary://subview)。在这里，容器会向全部三个圆形视图提供相同的空间，因为它们有着完全相同的大小需求。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph11" = "`Shape`（形状）视图会扩展以填满容器视图所提供的整个空间。由于有三个圆形视图需要均分 `VStack` 中的空间，它们的大小会因此相应地调整。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph12" = "看看加入 `Capsule()`（胶囊）或 `Ellipse()`（椭圆）时会发生什么。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph13" = "你还可以使用 [HStack](doc://com.apple.documentation/documentation/swiftui/hstack) 来水平整理视图。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph14" = "在 `VStack` 内的圆形视图下方，添加一个 `HStack` 容器来水平整理视图：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..CodeBlock0" = "HStack {\n    Rectangle()\n    Rectangle()\n    Rectangle()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph15" = "你还可以使用 [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack)（Z 轴堆栈）来上下堆叠视图。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph16" = "在 `HStack` 下方添加这些代码，然后更改支撑形状视图的堆栈的类型，看看它是如何更改布局的。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..CodeBlock1" = "ZStack {\n    Circle()\n        .foregroundColor(.blue)\n    Circle()\n        .inset(by: 40)\n        .foregroundColor(.mint)\n    Text(\"🤩\")\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph17" = "堆栈还可以包含其他堆栈。以下是一个 `HStack` 包含两个 `VStack` 视图的示例，每个 `VStack` 均包含一个 [Image 视图](doc://com.apple.documentation/documentation/swiftui/image)和一个 `RoundedRectangle()`（圆角矩形）视图。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph18" = "将这些代码添加到你的代码中，看看它在视图中的布局方式：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..CodeBlock2" = "HStack {\n    VStack {\n        Image(systemName: \"tortoise\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.blue)\n        \n    }\n    VStack {\n        Image(systemName: \"hare\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.brown)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..Paragraph19" = "SwiftUI 使用[视图层次](glossary://view%20hierarchy)整理和跟踪视图的关系。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..Paragraph20" = "容器并非只有 `HStack`、`VStack` 和 `ZStack` 视图。如果要探索不同的容器以及如何使用它们对内容进行布局，你可以参阅[为内容挑选容器视图](doc://com.apple.documentation/documentation/swiftui/picking-container-views-for-your-content)。";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..title" = "设计挑战 #1：使用容器匹配布局";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph21" = "作为一名软件工程师，你经常需要用代码来还原设计师的 [UI](glossary://user%20interface) 模型。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph22" = "在第一个设计挑战中，你的任务是更新预览下半部分中绘制的 `PatternChallengeView`（模式挑战视图）主体，让它与预览的上半部分吻合。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph23" = "现在试试看，遇到困难时可以尽情使用提示。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..Paragraph24" = "你有注意到顶部模型垂直堆放了两个矩形吗？你该如何编辑这行代码，来与预览的上半部分内容吻合？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..Paragraph25" = "你要在高亮标记的代码中给 `ZStack` 添加什么，才能让设计中的顶部矩形看起来像是预览中的顶部矩形？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph26" = "上方有两个圆形的矩形，与设计模型十分接近了。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph27" = "你能猜到要更改什么，才能使它完全一致吗？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..Paragraph28" = "哇，你完成了整个挑战！如果你的设计看起来有点古怪，这个提示可以告诉你与设计模型更吻合的代码看起来应该是什么样：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..CodeBlock3" = "VStack {\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        Circle()\n            .foregroundColor(.themePink)\n    }\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        HStack {\n            Circle()\n                .foregroundColor(.themeRed)\n            Circle()\n                .foregroundColor(.themeOrange)\n        }\n    }\n}\n\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..title" = "修改和确定视图大小";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..Paragraph29" = "SwiftUI [视图](doc://com.apple.documentation/documentation/swiftui/view)基于它的[容器](glossary://container)视图所提供的空间来确定它的大小。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..Paragraph30" = "不同视图所需的空间也不同。并非所有视图都会占用相同的空间。是时候试验一下了！在 `HStack` 中添加以下代码：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..CodeBlock4" = "//#-learning-code-snippet(3.viewSizing)\nVStack {\n    Image(systemName: \"ladybug\")\n    Text(\"我被压扁了\")\n}\nRectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph31" = "留意到了 `Text`（文本）视图和瓢虫是如何被压扁的吗？无论预览有多大，`Text` 和 `Image`（图像）视图会正好占用它们所需的空间大小，但矩形会填满 `HStack` 中的剩余空间。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph32" = "是时候进行另一个试验了。将这个 `Rectangle()` 添加到 `HStack` 中的 `VStack` 上方：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..CodeBlock5" = "Rectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph33" = "你可以看到 `Rectangle` 视图调整了它们所占用的空间，但 `Text` 和 `Image` 仍保持完全相同的大小，奇怪了！";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph34" = "由于所有视图都是唯一的，所以不同类型的视图在容器中有不同的空间需求。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..Paragraph35" = "视图有点神奇，因为某些视图类型可以控制被放在容器中时的大小调整方式：";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph36" = "扩展来填充可用空间，如 `Rectangle` 或其他 [Shape](doc://com.apple.documentation/documentation/swiftui/shape)（形状）。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph37" = "调整大小来适合它的内容，如 `Text(“Supercalifragilisticexpialidocious”)` 或 `Image(\"myCoolImage\")`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph38" = "保持不会改变的特定大小，如 [Stepper](doc://com.apple.documentation/documentation/swiftui/stepper)（步进器）。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..Paragraph39" = "如果要调整 `Text` 或 `Rectangle` 视图所需的空间，你可以指定哪个视图需要占用更多的空间。试着将每次将 `.frame` 修饰符添加到 `Text`、`Image` 和 `Rectangle` 视图中的一个，然后留意各个视图是如何变化的：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..CodeBlock6" = ".frame(width: 150)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph40" = "[框架修饰符](doc://com.apple.documentation/documentation/SwiftUI/View/frame(width:height:alignment:))可让你调整视图的大小。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph41" = "尝试将 `height`（高）参数添加到其中一个 `Rectangle` 视图，看看它是如何变化的：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..CodeBlock7" = ".frame(width: 100, height: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph42" = "为 `width`（宽）和 `height` 提供固定值会限制视图的适应度。🙃";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph43" = "更好的方法是为视图设定最大、最小或理想宽和高。这可让视图基于容器中提供了多少空间来按需调整大小。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph44" = "将这些修饰符中的一个添加到 `Image` 视图中：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock8" = ".frame(minWidth: 100, maxHeight: 200)\n";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock9" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph45" = "你可能注意到了，将 `frame` 添加到 `Image` 视图不会改变瓢虫的实际大小。这是因为你需要将 [.resizable](doc://com.apple.documentation/documentation/SwiftUI/Image/resizable(capInsets:resizingMode:))（可调整大小）修饰符添加到图像，才能更改它的大小。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph46" = "在 `Image` 和 `frame` 之间添加这个修饰符：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..CodeBlock10" = ".resizable()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph47" = "将 `resizable` 添加到 `frame` 后面会导致编译器错误。将 `frame` 修饰符应用到 `Image` 会实际创建非 `Image` 的新视图，如此一来，它便不可访问可调整大小的方法。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph48" = "注意到即便添加了理想的宽和高，瓢虫看起来也被拉伸了吗？对于图像而言，更建议使用 [scaledToFill()](doc://com.apple.documentation/documentation/swiftui/view/scaledtofill())（缩放以填充）或 [scaledToFit()](doc://com.apple.documentation/documentation/swiftui/menu/scaledtofit())（缩放以适合）而非 `frame`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph49" = "使用以下代码替换 `Image` 视图 `frame`：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..CodeBlock11" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph50" = "你可能还注意到了，将 `frame` 添加到 `Text` 视图不会让视图中的实际文本变大，但会让包含文本的视图变得更大。这可让视图容纳更多的文本，但如果想让实际文本变大，你可以将 [font](doc://com.apple.documentation/documentation/swiftui/font)（字体）修饰符添加到文本视图中。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph51" = "在文本视图下方添加这个修饰符，看看文本是如何变化的：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..CodeBlock12" = ".font(.title)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..title" = "设计挑战 #2：调整视图大小";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..Paragraph52" = "是时候进行另一个挑战了。看一下右边的预览。你能调整视图的大小，让底部的设计与顶部的模型相吻合吗？🧐";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..Paragraph53" = "你会注意到，模型中的矩形比你的设计小得多。你该如何调整 `Rectangle` 视图，让它们稍微小一点？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph54" = "如果需要帮助，这有一个提示：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..CodeBlock13" = ".frame(maxWidth: 200, maxHeight: 150)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph55" = "确保将这些代码添加到两个 `Rectangle` 视图中，否则你的设计看起来会不稳定！";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph56" = "你还需要更改玫瑰和爱心 `Image` 视图。玫瑰需要变大一点来填充空间，而爱心则需要变小一点，对吧？";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph57" = "利用你学到的关于调整视图大小的知识，来调整视图中的图像。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..Paragraph58" = "如果你忘了缩放 `Image` 视图的最佳方法，这有一个提示：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..CodeBlock14" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph59" = "嗯，`.scaledToFit` 可让玫瑰缩放以适合它的容器大小，但爱心该怎么处理呢？它已经有了 `scaledToFit`🤔。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph60" = "你可以添加哪个修饰符来微调爱心的大小呢？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..Paragraph61" = "如果需要一点提示，这就有一个：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..CodeBlock15" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..Paragraph62" = "留意一下模型中的文本是如何比你设计中的文本更粗的。你可以使用哪个修饰符来调整 [font](doc://com.apple.documentation/documentation/swiftui/font) 的大小和粗细呢？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..Paragraph63" = "有一种方法可以调整字体。你可以将字体作为修饰符添加到容器 `VStack` 中，这样它就可以应用到所有的 `Text` 视图了：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..CodeBlock16" = ".font(.headline)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..Paragraph64" = "你就是调整视图大小的冠军！如果布局看起来仍然有点古怪，获得你想要的设计的代码看起来应该是这样的：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..CodeBlock17" = "VStack {\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"玫瑰是红色的，\")\n            Image(\"Rose\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"紫罗兰是蓝色的，\")\n        }\n    }\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"我只喜欢\")\n            Image(\"Heart\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"和你一起写代码！\")\n        }\n    }\n}\n.font(.headline)\n.foregroundColor(.darkBrown)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..title" = "微调视图的间距和对齐";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph65" = "在 SwiftUI 中指定对齐的方式有多种。其中一种是在 `HStack`（水平堆栈）、`VStack`（垂直堆栈）或 `ZStack`（Z 轴堆栈）内指定 `alignment`（对齐）。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph66" = "试一下从 `VStack` 移除 `alignment: .leading` 参数。`VStack` 是[容器视图](glossary://container)，书架和图书是子视图。这就是图书对齐到屏幕右侧边缘的原因。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph67" = "留意一下图书现在是如何居中的。这是因为 `VStack` 中的视图默认居中对齐。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph68" = "现在，如果你想另加一行，让图书对齐到书架的右侧边缘，该怎么做呢？";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph69" = "方法之一是添加另一个 `VStack`，并将它的对齐设为 `.trailing`（末尾）。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph70" = "在 `VStack` 内的 `Rectangle`（矩形）下方添加这些代码：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..CodeBlock18" = "VStack (alignment: .trailing){\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        \n    Rectangle()\n        .frame(maxWidth: .infinity, maxHeight: 10)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph71" = "有一点需要注意：在垂直堆栈中，你只能设定水平对齐，如 `.leading`（开头）或 `.trailing`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph72" = "同样地，在水平堆栈中，你只能设定垂直对齐，如 `.top`（顶部）或 `.bottom`（底部）。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph73" = "另一种将图书对齐到书架另一端的方法，是使用 `frame`（框架）修饰符并指定 `alignment`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph74" = "在最后一个 `VStack` 下方添加这些代码：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..CodeBlock19" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    .frame(maxWidth: .infinity, alignment: .trailing)\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    //#-learning-code-snippet(5.frameAlignmentExplain)\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph75" = "如果要可视化图书外围的框架，你可以在 `frame` 修饰符下方添加背景颜色。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..CodeBlock20" = ".background(Color.yellow)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph76" = "将 `maxWidth`（最大宽度）设为 `.infinity`（无限）时，`Image` 视图会水平拉伸，直至填满剩余的空间。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph77" = "将 `alignment` 参数设为 `.trailing` 时，`frame` 内容会对齐到 `.trailing` 边缘。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph78" = "稍等一下，方法远不止这些！你还可以使用 [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer)（留白器）来获得同样的结果。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph79" = "在 `VStack` 内的其他视图下方添加这些代码来试试：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..CodeBlock21" = "/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n/*#-code-walkthrough(5.stackSpacing)*/\nHStack {\n/*#-code-walkthrough(5.stackSpacing)*/\n    Spacer()\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        .background(Color.yellow)\n    //#-learning-code-snippet(5.addBook)\n}\n.background(Color.mint)\n/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..Paragraph80" = "留意到 `Image` 视图的背景颜色是如何不再填充整行的吗？这是因为在 `HStack` 内添加一个 `Spacer`，会导致堆栈扩展以填满任何剩余的水平空间，并且将 `Image` 视图推至 `.trailing` 边缘。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph81" = "试着将另一本书添加到最后一个书架。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph82" = "在 `HStack` 内的另一个 `Image` 下方添加这些代码：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..CodeBlock22" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    //#-learning-code-snippet(5.padding)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph83" = "留意到 `Spacer` 是如何只填充 `HStack` 中的剩余空白空间的吗？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph84" = "你刚刚学会了对齐图书的三种不同方法：";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph85" = "在容器视图中使用对齐参数";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph86" = "添加带对齐参数的框架修饰符";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph87" = "利用 `Spacer` 来对齐视图";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph88" = "不同类型的视图和环境所需的技术不同。如果要进一步了解视图的大小和间距，你可以参阅[布局一个简单的视图](doc://com.apple.documentation/documentation/swiftui/laying-out-a-simple-view)。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph89" = "如果想让图书之间的距离更远，该怎么办？";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph90" = "试着在 `HStack` 内指定间距：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..CodeBlock23" = "HStack(spacing: 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph91" = "这会指定 `HStack` 内各个[子视图](glossary://subview)之间的水平间距。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph92" = "如果想让图书离边缘更远一些，你还可以给图书的 `.trailing` 边缘添加填补：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..CodeBlock24" = ".padding(.trailing, 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph93" = "这会给图书的末尾边缘增加一点空间。尝试探索其他填补选项，如 `.leading`、`.top`、`.bottom` 和 `.horizontal` 等等。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph94" = "现在，如果你想让所有图书和书架都远离屏幕边缘，该怎么办？";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph95" = "你可以给每一行书架和图书添加水平填补，但工作量会很大且不易维护。你应改为将修饰符始终应用到[容器视图](glossary://container)。在这里，容器是 `VStack`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph96" = "将 `padding`（填补）修饰符应用到 `VStack`，你便可以只添加一次该修饰符，而不用将它添加到 `VStack` 内的每一个[子视图](glossary://subview)中。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..CodeBlock25" = ".padding(.horizontal)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph97" = "但是，如果想为书架指定一个宽度，可以使用 `frame` 来代替 `padding`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph98" = "为了能清楚地看到框架的效果，你可以试着扩展预览，让它占据屏幕的一半空间，然后插入下方的代码片段。在框架后面添加一个 `border`（边界）对可视化框架也有帮助。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..CodeBlock26" = ".frame(width: 250)\n.border(Color.black)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..Paragraph99" = "哇！现在你拥有了创建专属视图的所有工具了。";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..title" = "调试视图";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph100" = "SwiftUI 视图没有按你预期的效果显示时，你需要灵活运用调试技能来解决问题。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph101" = "从预览中显示的视图着手，很明显它没有正确地显示！😩 你能猜到这个视图应该是什么吗？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph102" = "它是红心 Q 扑克牌（或者说它本来应该是 😵‍💫）。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph103" = "和名称的字面意思一样，`HalfCard`（半张牌）包含半张纸牌。你可以在 `VStack` 中使用两个 `HalfCard` 实例来创建这个视图。然后，上下翻转下方的 `HalfCard` 来形成上方 `HalfCard` 的镜像图像。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph104" = "合并上下两个部分，你就创建了一张完整的扑克牌。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph105" = "应用到 `HalfCard` 视图的任何代码，会同时影响牌的上半部分和下半部分，这可让你同时修复两个部分的问题。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph106" = "试着将 `border` 添加到 `HalfCard` 视图来查看各个部分：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..CodeBlock27" = ".border(Color.green)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph107" = "在视图中添加边界是很好的调试工具，因为它可让你看到视图占用了多少空间。你可以使用这个技能来诊断代码中的许多问题。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph108" = "这里的第一个主要问题是，所有图形都被挤压在了一起。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph109" = "在 `HalfCard` 中添加一个 `frame`，然后将 `maxWidth` 和 `maxHeight`（最大高度）设为 `.infinity`。这可让 `frame` 扩展以填充 `VStack` 容器提供的任何可用空间。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..CodeBlock28" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph110" = "即使扩展了框架，但所有图形还是被挤压在一起。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph111" = "在 `frame` 修饰符上方添加另一个边界。这可让你在应用 `frame` 之前看到 `VStack` 的轮廓。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph112" = "你可能会有疑问，在 `frame` 之前或之后应用边界为什么会有区别？这是因为每次你应用修饰符时，实际上生成了一个新的视图，所以[应用的顺序非常重要](doc://com.apple.documentation/documentation/swiftui/configuring-views)。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..CodeBlock29" = ".border(Color.blue)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph113" = "看看蓝色和绿色边界的区别。蓝色边界包围着 `VStack` 中被挤压的图形，但不会扩展到绿色 `frame` 周围的空白空间。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph114" = "你能想到什么办法来解决这个问题，让 `VStack` 的内容填满整个 `frame` 吗？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph115" = "想想 `VStack` 中这些修饰符的顺序：";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph116" = "你创建了一个 `overlay`（叠层），将另一个 `VStack` 直接放在了顶层 `VStack` 的上面。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph117" = "你扩展了顶层 `VStack` 的 `frame`，在它周围放置了空白的边界空间。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph118" = "如果你调转 `overlay` 和 `frame` 的顺序会怎么样呢？这可让你先扩展 `frame` 以获得额外的空间，然后在合适的位置应用 `overlay`。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..Paragraph119" = "尝试移除现有的 `frame`，并直接在顶层 `VStack` 的下方（但在 `overlay` 修饰符的上方）添加一个新的 `frame`：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..CodeBlock30" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph120" = "好多了。只剩一件事情需要解决。`frame` 中的所有内容默认居中对齐。但是，`HalfCard` 中间的皇冠需要对齐 `HalfCard` 的底部边缘。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph121" = "你能找到解决的办法吗？别忘了你可以添加 `border` 来可视化视图所需的空间，并与你预期的视图行为做比较。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph122" = "使皇冠对齐 `HalfCard` 视图底部的方法有两种。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph123" = "你可以将 `alignment` 参数添加到 `frame` 中：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock31" = ".frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph124" = "你也可以在皇冠上方添加一个 `Spacer`：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock32" = "VStack {\n    Spacer()\n    Image(systemName: \"crown.fill\")\n        .font(.system(size: 80))\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..Paragraph125" = "现在已经解决这张牌中的对齐问题，你可以移除已添加的任何边界。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph126" = "看看这张扑克牌，太漂亮了！";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph127" = "下次当你不知为什么视图没有按预期显示时，别忘了可以添加边界或背景来帮助调试视图问题。";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..title" = "扩展日记 App";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..title" = "创建标题横幅视图";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph128" = "日记条目的标题横幅会显示条目的名称，以及一些吸引人的装饰。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph129" = "假设你是一名软件工程师，负责调整预览左下方的标题横幅设计。团队中的设计师已经给了你他们想要的设计规格，也就是你在预览顶部看到的视图。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph130" = "尽你所能，让你的标题横幅看起来像预览上半部分的设计模型。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph131" = "首先添加左上角的黄色圆形。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph132" = "使用现有的 [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack) 将 `Circle`（圆形）视图放在蓝色圆形的上面。你还需要使用 `.frame(width:height:)` 和 `.foregroundColor(_:)`（前景颜色）修饰符来调整圆形视图的大小和颜色。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..CodeBlock33" = "Circle()\n    .frame(width: 15)\n    .foregroundColor(.bannerYellow)\n    //#-learning-code-snippet(4.entryBanner)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph133" = "很好！但黄色圆形的位置不太对。😣";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph134" = "你可以通过将 [offset](doc://com.apple.documentation/documentation/swiftui/view/offset(x:y:))（偏移）修饰符添加到黄色圆形，来调整视图的位置。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph135" = "试一下自己添加，遇到困难时可使用以下提示：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..CodeBlock34" = ".offset(x: -10, y: -5)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph136" = "太棒了！现在尝试在横幅左下方添加橙色圆形来匹配图像。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph137" = "使用颜色 `Color.bannerOrange`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph138" = "如果需要提示，解决方案就在下一步。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph139" = "如果要添加橙色圆形，你可以创建一个 `Circle` 视图，然后使用 `.frame(width:)`、`.foregroundColor(_:)` 和 `.offset(x:y:)` 修饰符来调整它的大小、位置和颜色。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph140" = "如果仍然需要帮助，这是圆形的代码：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..CodeBlock35" = "    Circle()\n        .frame(width: 20)\n        .foregroundColor(.bannerOrange)\n        .offset(x: 6, y: 5)\n\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph141" = "横幅的左侧看起来很棒。是时候将这些布局技能用在横幅的右侧了。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph142" = "现在，右侧只有一个大的蓝色圆形和一个中等的粉色圆形。加入小一点的橙色圆形来增添一些色彩。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..Paragraph143" = "在横幅的左侧，你使用了 `ZStack` 来上下叠放圆形视图。在这里试一下同样的方法。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..Paragraph144" = "这是添加橙色圆形视图的提示：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..CodeBlock36" = "Circle()\n   .frame(width: 18)\n   .foregroundColor(.bannerOrange)\n   .offset(y: 20)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph145" = "完美！你的设计现在与模型完全一致。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph146" = "下一步，你将使用布局技能来修改睡眠跟踪器的设计。";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..title" = "创建专属的睡眠跟踪器视图";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph147" = "下一个挑战，你将创建专属的睡眠跟踪器视图。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph148" = "开始之前，运行 App 预览并新增一个日记条目，包含一个完整大小的睡眠跟踪器。注意，添加一半大小的睡眠跟踪器的按钮已停用。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph149" = "团队中的设计师已经为你提供了设计规格，里面说明了他们想要的睡眠跟踪器卡片（一半视图）的效果。作为软件工程师，现在该由你来创建它了。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph150" = "看一下 `SleepViewHalf`（睡眠视图一半）预览，视图的上半部分有设计的模型，下半部分将由你来创建！";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph151" = "首先将卡片调整到正确的大小。将 `.frame(minHeight:maxHeight:)` 修饰符添加到 `VStack`，来设定最小和最大高度。回想一下，设定最小高度可让视图缩放和调整到不同的屏幕大小。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..CodeBlock37" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph152" = "现在卡片的大小相同，留意一下卡片是如何拥有两种状态的：";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph153" = "在左侧的显示状态";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph154" = "在右侧的编辑状态";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph155" = "你的睡眠跟踪器同样需要有这两种状态。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph156" = "从显示状态开始着手。当前在 `VStack` 中排列着两个 `Text` 视图；其中一个显示标题，另一个显示睡眠的小时数。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph157" = "比较一下你的原型与设计模型。还有很多需要完善的地方。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph158" = "卡片标题和睡眠值之间的间隔需要再宽一点。方法之一是将 `.padding()` 修饰符添加到睡眠值的顶部或底部边缘：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..CodeBlock38" = ".padding(.top)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph159" = "你可能已经发现，你的设计越来越接近模型了，但并不是完全相同。别担心，后面你还要进行修复。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph160" = "现在，是时候处理编辑状态了。编辑状态中有一个 [Stepper](doc://com.apple.documentation/documentation/swiftui/stepper)。`Stepper` 可让用户轻点上或下箭头来更改睡眠值。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph161" = "`if statement`（if 语句）可确保仅当 `isEditing`（正在编辑）为 `true` 时，`Stepper` 才会出现。用户编辑日记条目时，`isEditing` 的值会更改为 `true`，否则值为 `false`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph162" = "在 `VStack` 底部添加以下代码：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..CodeBlock39" = "if isEditing {\n    Stepper(\"睡眠小时数\", value: $value, in: 0...12, step: 1)\n        .labelsHidden()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph163" = "如果要将 `SleepViewHalf` 添加到 App 中，你需要添加逻辑，来在用户选择一半卡片大小的睡眠跟踪器时显示 `SleepViewHalf`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph164" = "移除高亮标记的代码，然后替换为下方的代码片段：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..CodeBlock40" = "if size == .small {\n    SleepViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    SleepViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph165" = "如果要启用按钮来添加一半卡片大小的睡眠跟踪器，你可以将 `disableSleepViewHalf`（停用睡眠视图一半）设为 `false`：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..CodeBlock41" = "static var disableSleepViewHalf = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph166" = "现在试试在日记 App 的 App 预览中，添加一个一半卡片大小的睡眠跟踪器。你可以轻点“新建条目”和“添加”按钮 (+) 来创建新的卡片。一半卡片大小的睡眠跟踪器按钮已启用。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..Paragraph167" = "耶！你为睡眠跟踪器创建好了一半卡片大小的视图。是时候与团队的设计师沟通一下了。";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..title" = "给睡眠跟踪器视图润色";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph168" = "你太棒了！但是设计师发现，你的视图和他的模型之间存在一些细小的差异。是时候润色一下 App 设计，然后收工！";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph169" = "再检查一下模型。你有发现差异吗？你还可以试着扩展预览来查看不同屏幕大小的卡片。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph170" = "扩展预览来使它占据屏幕的一半空间。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph171" = "用户编辑睡眠条目时，卡片标题需要左对齐，否则需要居中。你可以使用[三元运算符](glossary://ternary%20conditional%20operator)来指定各个状态下的对齐方式。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph172" = "添加下方的代码片段来纠正卡片标题的对齐方式：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..CodeBlock42" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph173" = "你注意到了在设计规格中，用户在编辑状态下这个卡片的标题是“你的睡眠小时数是多少？”吗？";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph174" = "使用下方的代码片段，复制并替换高亮标记的文本：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..CodeBlock43" = "Text(isEditing ? \"你的睡眠小时数是多少？\" : \"睡眠小时数\")\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph175" = "看起来非常棒，但显示状态下，卡片标题需要推至卡片顶部。你可以通过添加 [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer) 来实现。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph176" = "看看你可不可以自己添加 `Spacer`：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..CodeBlock44" = "Spacer()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph177" = "如果需要帮助，轻点“下一页”。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph178" = "将 `Spacer` 添加到 `VStack` 时，留白器会扩展以填满任何剩余的垂直空间。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph179" = "在睡眠值上方和下方添加一个 `Spacer`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph180" = "这两个留白器会同等扩展，保持睡眠值位于卡片的中心。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph181" = "之前，你添加了 `.padding()` 修饰符来扩展卡片标题和睡眠值之间的间隔。现在，你在睡眠值周围添加了 `Spacer` 视图，意味着不再需要这个额外的填补了。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph182" = "移除高亮标记的 `.padding()`，这样它就不会让文本偏离中心。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph183" = "在睡眠值周围添加 `Spacer` 时，卡片标题和步进器会被推至卡片的顶部和底部边缘，但这有点太靠近边缘了。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph184" = "在 `VStack` 周围添加填补，来在卡片的边缘周围创建间隔：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..CodeBlock45" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..Paragraph185" = "哇呼！你做到了。你的卡片现在看起来与设计师的模型完全一致。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..CodeBlock46" = "VStack {\n    Text(isEditing ? \"你的睡眠小时数是多少？\" : \"睡眠小时数\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    Spacer()\n    \n    Text(\"\\(Int(value))\")\n        .modifier(FontStyle(size: 50))\n\n    Spacer()\n    \n    if isEditing {\n        Stepper(\"睡眠小时数\", value: $value, in: 0...12, step: 1)\n            .labelsHidden()\n    }\n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..title" = "修复心情跟踪器视图";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph186" = "恭喜！现在你将负责根据设计模型修复完整卡片大小的心情跟踪器。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph187" = "尝试自己来匹配模型，需要时可使用以下提示。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph188" = "设计的间距和对齐看起来和模型不太一样。第一步先设定卡片的 `height`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph189" = "考虑一下你学到的不同工具，如 `Spacer`、`.frame(minHeight:maxHeight:)` 和 `.padding()`，然后想想你可以如何使用它们来改进布局。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph190" = "要记住，视图布局的方法有多种，下方的代码片段只是一个示例：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..CodeBlock47" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..Paragraph191" = "要记住，设定 `minHeight`（最小高度）和 `maxHeight`（最大高度）后，视图会根据不同的屏幕大小进行缩放。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph192" = "与睡眠跟踪器的处理方式类似，你可以将最大高度设为 `.infinity`，来将你的卡片标题推到边缘处。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph193" = "将另一个框架添加到 `HStack`：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..CodeBlock48" = ".frame(maxHeight: .infinity, alignment: .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph194" = "下一步，添加一些填补来为标题和卡片边缘之间创建空间。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph195" = "通过将 `padding` 添加到 `VStack` 的 `frame` 修饰符下方，来为所有内容添加 `padding`：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..CodeBlock49" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph196" = "现在来处理卡片标题的对齐问题。用户编辑日记时，让卡片标题对齐到前缘，用户显示日记时则让它对齐到中心。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph197" = "试着自己编写实现此功能的代码，需要时可使用解决方案：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..CodeBlock50" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph198" = "添加 `maxWidth` 为 `.infinity` 的 `.frame` 修饰符，`Text` 视图会水平拉伸并填充任何可用的空间。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph199" = "`alignment` 参数会告诉 `SwiftUI`，`frame` 中的所有内容在编辑状态下会对齐到前缘，在显示状态下会对齐到中心。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph200" = "扩展预览以占据屏幕的一半空间。注意到编辑状态和显示状态下，视图中间的表情符号是如何被压扁的吗？";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph201" = "试着用代码写一个解决方案；遇到困难时可以使用这个提示：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..CodeBlock51" = ".frame(maxWidth: .infinity, alignment: .center)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph202" = "编辑状态下将代码添加到按钮标签，显示状态下将代码添加到显示表情符号的 `ForEach`（针对每个）语句。";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph203" = "编辑状态下，在圆形按钮和表情符号之间添加一个间隔怎么样？";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph204" = "要记住，获得同一结果的方法有多种。尝试使用你学到的一个或多个修饰符来创建一些空间。";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..CodeBlock52" = ".padding(.bottom)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph205" = "如果要将 `MoodViewFull`（心情视图完整）添加到 App 中，你需要添加一些逻辑，来在用户选择完整卡片大小的心情跟踪器时显示 `MoodViewFull`。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph206" = "移除高亮标记的代码，然后替换为下方的代码片段：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..CodeBlock53" = "if size == .small {\n    MoodViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    MoodViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph207" = "如果要启用按钮来添加完整卡片大小的心情跟踪器，你可以将 `disableMoodViewFull`（停用心情视图完整）设为 `false`：";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..CodeBlock54" = "static var disableMoodViewFull = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph208" = "现在试试在日记 App 中添加一个完整卡片大小的心情跟踪器。你有看到刚刚创建的视图吗？";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph209" = "哇！你的心情跟踪器看起来很棒。设计师表示很满意。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph210" = "如果想挑战自我，你可以继续编辑和调整卡片视图，使它们完全符合你的喜好。";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph211" = "很快你将成为一名 SwiftUI 视图布局专家！";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..CodeBlock55" = "VStack {\n    Text(isEditing ? \"你的心情如何？\" : \"心情\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    \n    HStack {\n        if isEditing {\n            ForEach(emojis, id: \\.self) { emoji in\n                Button{\n                    value = emoji\n                } label: {\n                    VStack {\n                        Text(emoji)\n                            .font(.system(size: 35))\n                            .frame(maxWidth: .infinity, alignment: .center)\n                            .padding(.bottom)\n                        \n                        Image(systemName: value == emoji ? \"circle.fill\" : \"circle\")\n                            .font(.system(size: 16))\n                            .foregroundColor(.darkBrown)\n                    }\n                }\n            }\n        } else {\n        ForEach(0..<displayEmojis, id:\\.self) { index in\n                Text(value)\n                    .font(.system(size: 50))\n                    .frame(maxWidth: .infinity, alignment: .center)\n            }\n        }\n    }\n    .frame(maxHeight: .infinity, alignment: .center)\n    \n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+

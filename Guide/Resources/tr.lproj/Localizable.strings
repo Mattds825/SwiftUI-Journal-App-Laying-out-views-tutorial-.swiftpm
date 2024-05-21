@@ -1,0 +1,1149 @@
+/* Title of Guidebook */
+"GuideBook..title" = "Görüntüleri Yerleştirme";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..title" = "Eşsiz bir günlük uygulaması yarat! 📓💕";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..Paragraph0" = "Günlük uygulamasını başka eğlenceli görüntülerle genişletmek için SwiftUI’da çeşitli görüntüleri yerleştirmenin temel bilgilerini öğren. Başlamaya hazır mısın?";
+
+/* Title of step named My Journal */
+"GuideBook..Guide0..StepMy Journal..title" = "Günlüğüm";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph1" = "![](intro-header.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph2" = "Bir uygulama yaratırken ilk öğrenilecek becerilerden biri [kullanıcı arayüzünü](glossary://user%20interface) yerleştirmektir. Kullanıcı arayüzünü yerleştirirken yapman gereken üç önemli şey vardır:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph3" = "[Kapsayıcı görüntülerini](glossary://container) kullanarak görüntülerini farklı konfigürasyonlarda düzenle.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph4" = "Görüntülerinin boyutu, aralığı, hizalaması ve konumu ile ilgili ince ayarlar yap.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph5" = "Bir sorun oluşması durumunda görüntülerindeki hataları ayıkla.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph6" = "Bu örnekte, bu becerilerin tümünü ve daha fazlasını öğrenecek ve daha sonra günlük uygulamasına farklı yerleşimlere sahip görüntüler eklemek için bunları kullanacaksın. Görüntü yerleşimi yolculuğuna başlamaya hazır mısın?";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..title" = "Kılavuzu Başlat";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..description" = "Düğme için erişilebilirlik açıklaması";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..title" = "Görüntü yerleşimini derinlemesine öğrenme";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..title" = "Görüntülerini düzenleme";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph7" = "Bir görüntü, [alt görüntü](glossary://subview) olarak bilinen başka görüntüleri içeren ve düzenleyen bir [kapsayıcı](glossary://container) görevi görebilir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph8" = "Aşağıdaki [VStack](doc://com.apple.documentation/documentation/swiftui/vstack), iki `Circle` alt görüntüsünü düşey olarak düzenleyen bir kapsayıcı görüntüsü örneğidir.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph9" = "`VStack`’e bir daire daha ekle. Şimdi yığınında üç daire var ve bu da tüm daire görüntülerinin küçülmesine neden oluyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph10" = "Bunun nedeni, bu `VStack` gibi kapsayıcıların kullanılabilir alanı kendi [alt görüntülerine](glossary://subview) bölmesidir. Bu durumda kapsayıcı, üç daire görüntüsü de aynı büyüklük gereksinimlerine sahip olduğu için bunların hepsine aynı büyüklükte bir alan sunar.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph11" = "`Shape` görüntüleri, kapsayıcı görüntü tarafından sunulan tüm alanı dolduracak şekilde genişler. `VStack`’teki alanı eşit olarak paylaşması gereken üç daire görüntüsü olduğu için bunların büyüklükleri ona göre ayarlanır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph12" = "Bir `Capsule()` veya `Ellipse()` eklediğinde ne olacağını gör.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph13" = "Bir [HStack](doc://com.apple.documentation/documentation/swiftui/hstack) kullanarak görüntülerini yatay olarak da düzenleyebilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph14" = "`VStack`’inin içinde, daire görüntülerinin altına görüntüleri yatay olarak düzenlemek için bir `HStack` kapsayıcısı ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..CodeBlock0" = "HStack {\n    Rectangle()\n    Rectangle()\n    Rectangle()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph15" = "Görüntülerini bir [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack) kullanarak üst üste olacak şekilde de düzenleyebilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph16" = "Bu kodu `HStack`’in alt tarafına ekle, sonra yerleşimini nasıl değiştireceğini görmek için şekil görüntülerini tutan yığın türünü değiştir.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..CodeBlock1" = "ZStack {\n    Circle()\n        .foregroundColor(.blue)\n    Circle()\n        .inset(by: 40)\n        .foregroundColor(.mint)\n    Text(\"🤩\")\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph17" = "Bir yığın başka yığınlar içerebilir. Burada iki `VStack` görüntüsü içeren bir `HStack` örneği bulunmaktadır. Her bir `VStack`’te bir [Resim görüntüsü](doc://com.apple.documentation/documentation/swiftui/image) ve bir `RoundedRectangle()` görüntüsü var.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph18" = "Bunu koduna ekle ve görüntünün nasıl olacağını gör:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..CodeBlock2" = "HStack {\n    VStack {\n        Image(systemName: \"tortoise\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.blue)\n        \n    }\n    VStack {\n        Image(systemName: \"hare\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.brown)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..Paragraph19" = "SwiftUI, görüntüler arasındaki ilişkileri bir [görüntü hiyerarşisi](glossary://view%20hierarchy) kullanarak düzenler ve izler.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..Paragraph20" = "`HStack`, `VStack` ve `ZStack` görüntüleri dışında başka kapsayıcılar da vardır. Farklı kapsayıcıları ve bunların içeriklerini yerleştirmede nasıl kullanılacağını keşfetmek için [İçeriklerin için kapsayıcı görüntülerini seçme](doc://com.apple.documentation/documentation/swiftui/picking-container-views-for-your-content) bölümüne bak.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..title" = "Tasarım Meydan Okuması 1: Kapsayıcıları kullanarak yerleşime uydurma";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph21" = "Bir yazılım mühendisi olarak çoğunlukla kodunu tasarımcının [kullanıcı arayüzü](glossary://user%20interface) modeline benzetmen gerekir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph22" = "İlk tasarım meydan okumanda görevin, önizlemenin alt yarısına çizilen `PatternChallengeView` gövde kısmını önizlemenin üst yarısıyla eşleşecek şekilde güncellemek.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph23" = "Şimdi bir dene ve sıkışırsan ipuçlarını kullanmaktan çekinme.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..Paragraph24" = "Üstteki modelin iki dikdörtgeni düşey olarak üst üste koyduğuna dikkat ettin mi? Bu kod satırını, önizlemenin üst yarısında gördüğünle eşleşecek şekilde nasıl düzenleyebilirsin?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..Paragraph25" = "Tasarımında üstteki dikdörtgenin önizlemedeki üstteki dikdörtgen gibi görünmesini sağlamak için vurgulanan kodda `ZStack`’e ne eklemen gerekir?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph26" = "Üzerinde iki daire olan dikdörtgen, tasarım modeline oldukça yakın.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph27" = "Bunları aynı yapmak için neleri değiştirmen gerektiğini tahmin edebilir misin?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..Paragraph28" = "Vay canına, bütün meydan okumayı tamamladın! Tasarımın biraz tuhaf görünüyorsa kodunun tasarım modeliyle eşleşmesi için nasıl olması gerektiğiyle ilgili bir ipucu işte burada:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..CodeBlock3" = "VStack {\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        Circle()\n            .foregroundColor(.themePink)\n    }\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        HStack {\n            Circle()\n                .foregroundColor(.themeRed)\n            Circle()\n                .foregroundColor(.themeOrange)\n        }\n    }\n}\n\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..title" = "Görüntü büyüklüklerini değiştirme ve belirleme";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..Paragraph29" = "Bir SwiftUI [görüntüsü](doc://com.apple.documentation/documentation/swiftui/view), kendi büyüklüğünü [kapsayıcı](glossary://container) görüntüsü tarafından sunulan alana göre belirler.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..Paragraph30" = "Farklı görüntülerin farklı alan gereksinimleri vardır. Her görüntü aynı büyüklükte yer kaplamaz. Deneme zamanı! Aşağıdaki kodu `HStack`’e ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..CodeBlock4" = "//#-learning-code-snippet(3.viewSizing)\nVStack {\n    Image(systemName: \"ladybug\")\n    Text(\"Ezildim\")\n}\nRectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph31" = "`Text` görüntünün ve uğur böceğinin nasıl ezildiğine dikkat ettin mi? Önizlemeyi ne kadar büyük yaparsan yap `Text` ve `Image` görüntüleri tam ihtiyaç duydukları kadar alanı kaplar ama dikdörtgen `HStack`’te kalan yeri doldurur.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph32" = "Başka bir deneme zamanı. Bu `Rectangle()`’ı `HStack`’in içindeki `VStack`’in üst tarafına ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..CodeBlock5" = "Rectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph33" = "`Rectangle` görüntülerinin kapladıkları yer miktarını ayarladıklarını görebilirsin ama `Text` ve `Image` görüntüleri tamamen aynı boyutta kalır. İlginç, değil mi?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph34" = "Görüntülerin hepsi benzersiz olduğu için farklı türlerde görüntülerin bir kapsayıcı içinde kendilerine özel alan gereksinimleri vardır.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..Paragraph35" = "Bazı görüntü türleri bir kapsayıcıya yerleştirildiklerinde büyüklüklerinin nasıl değişeceğini denetleyebildikleri için görüntüler biraz büyülüdür diyebiliriz:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph36" = "`Rectangle` veya başka [şekiller](doc://com.apple.documentation/documentation/swiftui/shape) gibi, kullanılabilir alanı dolduracak şekilde genişleme.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph37" = "`Text(“Supercalifragilisticexpialidocious”)` veya `Image(\"myCoolImage\")` gibi içerikleri sığdırmak için büyüklüğünü değiştirme.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph38" = "[Adımlayıcı](doc://com.apple.documentation/documentation/swiftui/stepper) gibi değişmeyen belirli bir büyüklüğü koruma.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..Paragraph39" = "`Text` veya `Rectangle` görüntülerinin ihtiyaç duydukları alan miktarını ayarlamak için hangi görüntünün daha çok yer kaplaması gerektiğini belirtebilirsin. `.frame` niteleyicisini `Text`, `Image` ve `Rectangle` görüntülerine teker teker eklemeyi dene ve her bir görüntünün nasıl değiştiğine dikkat et:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..CodeBlock6" = ".frame(width: 150)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph40" = "[Frame niteleyicisi](doc://com.apple.documentation/documentation/SwiftUI/View/frame(width:height:alignment:)), bir görüntünün büyüklüğünü ayarlamana olanak tanır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph41" = "`Rectangle` görüntülerinden birine yükseklik (`height`) parametresini eklemeyi dene ve nasıl değiştiğini gör:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..CodeBlock7" = ".frame(width: 100, height: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph42" = "Genişlik (`width`) ve yükseklik (`height`) için sabit değerler verilmesi görüntünün ne kadar uyarlanabilir olacağını sınırlar. 🙃";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph43" = "Bunu yapmanın daha iyi bir yolu, görüntü için maksimum, minimum veya ideal bir genişlik ve yükseklik vermektir. Bu, görüntü büyüklüğünün kapsayıcıdaki kullanılabilir alana göre gerektiği şekilde değiştirilmesine olanak tanır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph44" = "Bu niteleyicilerden birini `Image` görüntüne ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock8" = ".frame(minWidth: 100, maxHeight: 200)\n";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock9" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph45" = "`Image` görüntüsüne bir `frame` eklemenin uğur böceğinin gerçek boyutunu değiştirmediğini fark etmişsindir. Görüntünün boyutunu değiştirmek istiyorsan ona [.resizable](doc://com.apple.documentation/documentation/SwiftUI/Image/resizable(capInsets:resizingMode:)) niteleyicisini eklemen gerekir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph46" = "Bu niteleyiciyi `Image` ile `frame` arasına ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..CodeBlock10" = ".resizable()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph47" = "`frame`’den sonra `resizable` eklenirse bir derleyici hatası oluşur. `frame` niteleyicisi `Image`’a uygulandığında `Image` olmayan yeni bir görüntü yaratılır ve bu nedenle bu görüntünün büyüklüğü değiştirilebilir (resizable) metoduna erişimi yoktur.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph48" = "İdeal bir genişlik ve yükseklik eklediğinde bile uğur böceğinin nasıl uzatılmış göründüğüne dikkat ettin mi? Görüntüler için çerçeve (`frame`) yerine [scaledToFill()](doc://com.apple.documentation/documentation/swiftui/view/scaledtofill()) veya [scaledToFit()](doc://com.apple.documentation/documentation/swiftui/menu/scaledtofit()) kullanmak genellikle daha iyidir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph49" = "`Image` görüntüsündeki `frame`’i aşağıdaki kodla değiştir:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..CodeBlock11" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph50" = "Çerçeveyi (`frame`) `Text` görüntüsüne eklemenin görüntünün içindeki asıl metni daha büyük yapmadığını da (metni tutan görüntüyü büyüttüğünü) fark etmişsindir. Bu, görüntüye daha fazla metnin sığmasını sağlar ama metnin kendisini büyütmek istiyorsan metin görüntüne [font](doc://com.apple.documentation/documentation/swiftui/font) niteleyicisini ekleyebilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph51" = "Bu niteleyiciyi metin görüntüsünün altına ekle ve metnin nasıl değiştiğini gör:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..CodeBlock12" = ".font(.title)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..title" = "Tasarım Meydan Okuması 2: Görüntü büyüklüğünü ayarlama";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..Paragraph52" = "Başka bir meydan okuma zamanı. Sağ taraftaki önizlemeye bir bak. Alttaki tasarımının üstteki modelle eşleşmesi için görüntülerinin büyüklüğünü değiştirip değiştiremeyeceğine bak. 🧐";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..Paragraph53" = "Modeldeki dikdörtgenlerin tasarımındakilerden çok daha küçük olduğunu fark edeceksin. `Rectangle` görüntülerini biraz daha küçük olmaları için nasıl ayarlayabilirsin?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph54" = "Biraz yardıma ihtiyacın varsa işte bir ipucu:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..CodeBlock13" = ".frame(maxWidth: 200, maxHeight: 150)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph55" = "Bu kodu `Rectangle` görüntülerinin her ikisine de eklediğinden emin ol, yoksa tasarımın kötü görünür!";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph56" = "Gül ve kalp `Image` görüntülerini de değiştirmen gerekecek. Gülün alanı doldurması için biraz daha büyük olması gerekir, kalp ise daha küçük olmalı, değil mi?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph57" = "Görüntüdeki resimleri ayarlamak için görüntü büyüklüğünü değiştirme hakkında öğrendiklerini kullan.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..Paragraph58" = "Bir `Image` görüntüsünü ölçeklemenin en iyi yolunu anımsayamıyorsan işte bir ipucu:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..CodeBlock14" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph59" = "Şöyle ki; `.scaledToFit`, gülün ölçeklenerek kapsayıcısının boyutuna sığmasını sağlıyor, peki ama ya kalp? `scaledToFit`’i zaten kullanıyor 🤔.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph60" = "Kalp büyüklüğünde ince ayarlar yapmak için hangi niteleyiciyi ekleyebilirsin?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..Paragraph61" = "Küçük bir anımsatıcıya ihtiyacın varsa işte bir ipucu:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..CodeBlock15" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..Paragraph62" = "Modeldeki metnin tasarımındaki metinden daha kalın olduğuna dikkat et. [Fontun](doc://com.apple.documentation/documentation/swiftui/font) puntosunu ve kalınlığını ayarlamak için hangi niteleyiciyi kullanabilirsin?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..Paragraph63" = "Fontu ayarlamanın yollarından biri bu. Onu, kapsayan `VStack`’e niteleyici olarak ekleyerek tüm `Text` görüntülerine uygulanmasını sağlayabilirsin:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..CodeBlock16" = ".font(.headline)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..Paragraph64" = "Görüntü büyüklüğünü değiştirme şampiyonusun! Yerleşim hâlâ biraz komik görünüyorsa istediğin tasarımı elde etmek için kodun şöyle görünmesi gerekir:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..CodeBlock17" = "VStack {\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"Güller kırmızı,\")\n            Image(\"Rose\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"menekşeler mor, \")\n        }\n    }\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"En sevdiğim şey\")\n            Image(\"Heart\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"birlikte yazılan kodlar!\")\n        }\n    }\n}\n.font(.headline)\n.foregroundColor(.darkBrown)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..title" = "Görüntülerinin aralığını ve hizalamasını düzeltme";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph65" = "SwiftUI’da hizalamayı belirtmenin birçok yolu var. Bunlardan biri, `HStack`’in, `VStack`’in veya `ZStack`’in içinde `alignment`’ı belirtmektir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph66" = "`alignment: .leading` parametresini `VStack`’inden silmeyi dene. `VStack`, [kapsayıcı görüntü](glossary://container), raf ve kitaplar ise alt görüntülerdir. Kitapların, ekranın sağ kenarına hizalanmasının nedeni budur.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph67" = "Şimdi kitaplarının nasıl ortalandığına dikkat et. Bunun nedeni, bir `VStack`’in içindeki görüntüleri ortaya hizalamak saptanmış ayardır.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph68" = "Şimdi, kitapların rafın sağ kenarına hizalandığı başka bir sıra eklemek istersen ne olacak?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph69" = "Bunun bir yolu başka bir `VStack` ekleyip hizalamasını `.trailing` olarak ayarlamaktır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph70" = "Bu kodu `VStack` içinde `Rectangle`’ın altına ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..CodeBlock18" = "VStack (alignment: .trailing){\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        \n    Rectangle()\n        .frame(maxWidth: .infinity, maxHeight: 10)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph71" = "Dikkat edilmesi gereken bir şey: Düşey yığınlarda yalnızca yatay hizalamayı (`.leading` veya `.trailing` gibi) ayarlayabilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph72" = "Aynı şekilde, yatay yığınlarda ise yalnızca düşey hizalamayı (`.top` veya `.bottom` gibi) ayarlayabilirsin.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph73" = "Kitapları rafın diğer tarafına hizalamanın başka bir yolu bir `frame` niteleyicisi kullanıp `alignment`’ı belirtmektir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph74" = "Bu kodu son `VStack`’inin altına ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..CodeBlock19" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    .frame(maxWidth: .infinity, alignment: .trailing)\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    //#-learning-code-snippet(5.frameAlignmentExplain)\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph75" = "Kitabın etrafındaki çerçeveyi görselleştirmek için `frame` niteleyicisinin alt tarafına bir arka plan rengi ekle.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..CodeBlock20" = ".background(Color.yellow)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph76" = "`maxWidth`’i `.infinity`’ye ayarlayarak `Image` görüntüsünü kalan alanın hepsini dolduruncaya kadar yatay olarak uzatmış olursun.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph77" = "`alignment` parametresini `.trailing`’e ayarlamak, `frame` içeriğinin sondaki (`.trailing`) kenara hizalanmasını sağlar.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph78" = "Ama bitmedi, dahası var! Aynı sonucu bir [aralayıcı](doc://com.apple.documentation/documentation/swiftui/spacer) ile de elde edebilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph79" = "Denemek için bu kodu `VStack` içinde diğer görüntülerinin altına ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..CodeBlock21" = "/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n/*#-code-walkthrough(5.stackSpacing)*/\nHStack {\n/*#-code-walkthrough(5.stackSpacing)*/\n    Spacer()\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        .background(Color.yellow)\n    //#-learning-code-snippet(5.addBook)\n}\n.background(Color.mint)\n/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..Paragraph80" = "`Image` görüntüsünün arka plan renginin artık sıranın tamamını doldurmadığına dikkat ettin mi? Bunun nedeni, `HStack`’in içine`Spacer` eklemenin, yığının kalan yatay alanı doldurmak üzere genişleyip `Image` görüntüsünü sondaki (`.trailing`) kenara itmesine neden olmasıdır.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph81" = "Son rafa başka bir kitap eklemeyi dene.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph82" = "Bu kodu `HStack` içinde diğer `Image`’ın altına ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..CodeBlock22" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    //#-learning-code-snippet(5.padding)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph83" = "`Spacer`’ın nasıl yalnızca `HStack`’te kalan boş alanı doldurduğuna dikkat ettin mi?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph84" = "Az önce kitaplarını hizalamanın üç farklı yolunu öğrendin:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph85" = "Kapsayıcı görüntüsünde hizalama parametresini kullanma";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph86" = "Hizalama parametresiyle bir çerçeve (frame) niteleyicisi ekleme";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph87" = "Görüntülerini hizalamak için bir `Spacer`’dan yararlanma";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph88" = "Farklı türlerde görüntüler ve durumlar farklı teknikler gerektirir. Görüntülerin büyüklüğü ve aralığı hakkında daha fazla bilgi edinmek için [Basit Görüntü Yerleştirme](doc://com.apple.documentation/documentation/swiftui/laying-out-a-simple-view) bölümüne bak.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph89" = "Kitapları birbirinden daha uzağa koymak istiyorsan ne olacak?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph90" = "Aralığı `HStack`’in içinde belirtmeyi dene:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..CodeBlock23" = "HStack(spacing: 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph91" = "Bu, `HStack`’in içinde bulunan [alt görüntüler](glossary://subview) arasındaki yatay aralığı belirtir.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph92" = "Kitapları kenardan daha uzağa yerleştirmek istiyorsan kitabın sondaki (`.trailing`) kenarına da boşluk ekleyebilirsin:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..CodeBlock24" = ".padding(.trailing, 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph93" = "Bu, kitabın sondaki kenarına biraz boşluk ekler. `.leading`, `.top`, `.bottom`, `.horizontal` ve benzeri gibi diğer boşluk seçeneklerini keşfetmeyi dene.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph94" = "Peki ama ya kitapların ve rafların tümünü ekranın kenarından uzağa yerleştirmek istiyorsan?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph95" = "Her raf ve kitap sırasına yatay boşluk ekleyebilirsin ama bu çok zaman alır ve sürdürmesi de kolay değildir. Bunun yerine, niteleyicileri her zaman [kapsayıcı görüntüye](glossary://container) uygulamalısın. Bu durumda `VStack` kapsayıcı görüntüdür.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph96" = "`padding` niteleyicisini `VStack`’e uygulayarak onu `VStack`’in her [alt görüntüsüne](glossary://subview) eklemek yerine yalnızca bir kez eklemen yeterli olur.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..CodeBlock25" = ".padding(.horizontal)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph97" = "Ancak kitap rafının belirli bir genişliği olmasını istiyorsan `padding` yerine bir `frame` kullan.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph98" = "Çerçevenin etkisini açık bir şekilde görmek için önizlemeni, ekranın yarısını kaplayacak şekilde genişletmeyi dene ve sonra aşağıdaki kod parçacığını ekle. Çerçeveden sonra bir `border` eklemek, çerçeveyi gözünde canlandırmana yardımcı olur.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..CodeBlock26" = ".frame(width: 250)\n.border(Color.black)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..Paragraph99" = "İşte bu! Artık kendi görüntülerini yaratmanı sağlayacak tüm araçlara sahipsin.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..title" = "Görüntülerle ilgili hataları ayıklama";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph100" = "SwiftUI görüntülerin beklediğin gibi gözükmüyorsa bunları düzeltmek için hata ayıklama becerilerini kasman gerekecek.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph101" = "Önizlemede gösterilen görüntüye bakmakla başla; doğru gözükmediği açık! 😩 Bu görüntünün ne olması gerektiğini tahmin edebilir misin?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph102" = "Kupa kızı oyun kartı (veya öyle olması gerekiyordu 😵‍💫).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph103" = "Adından da anlaşılacağı gibi `HalfCard` kartın yarısını içerir. `VStack`’te bu görüntüyü yaratmak için iki `HalfCard` örneği kullanırsın. Sonra, üst `HalfCard`’ın bir ayna görüntüsünü oluşturmak için alt `HalfCard`’ı baş aşağı çevirirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph104" = "Üst ve alt yarıları birleştirerek tam bir oyun kartı yaratırsın.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph105" = "`HalfCard` görüntüsüne uygulanan herhangi bir kod, kartın hem üst hem de alt yarısını etkiler ve her iki yarıdaki sorunları aynı anda düzeltmene olanak tanır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph106" = "Her bir yarıyı görmek için `HalfCard` görüntüsüne bir `border` eklemeyi dene:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..CodeBlock27" = ".border(Color.green)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph107" = "Bir görüntüye kenar eklemek, görününtünün ne kadar yer kapladığını görmeni sağladığı için harika bir hata ayıklama aracıdır. Kodunda birçok soruna tanı koymak için bu tekniği kullanabilirsin.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph108" = "Burada öncelikle en büyük sorun grafiklerin tümü sıkışık görünüyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph109" = "`HalfCard`’a bir `frame` ekleyip `maxWidth`’i ve `maxHeight`’ı `.infinity` olarak ayarla. Bu, `frame`’in kapsayıcı (`VStack`) tarafından sunulan kullanılabilir alanın tümünü dolduracak şekilde genişlemesini sağlar.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..CodeBlock28" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph110" = "Çerçeve genişletilmiş olmasına rağmen grafiklerin tümü hâlâ sıkışık görünüyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph111" = "`frame` niteleyicisinin üstüne başka bir kenar ekle. Bu, `frame`’i uygulamadan `VStack`’in çerçevesini görmeni sağlar.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph112" = "Kenarı `frame`’den önce veya sonra uygulamanın ne fark ettireceğini merak ediyor olabilirsin. Bunun nedeni, her niteleyici uyguladığında aslında yeni bir görüntü oluşturuyor olmandır, bu nedenle [bunları uyguladığın sıra gerçekten önemlidir](doc://com.apple.documentation/documentation/swiftui/configuring-views).";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..CodeBlock29" = ".border(Color.blue)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph113" = "Mavi ve yeşil kenarlar arasındaki farka bak. Mavi kenar `VStack`’teki sıkışık grafikleri sarmalıyor ama yeşil `frame`’i sarmalayan boş alana genişlemiyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph114" = "`VStack` içeriğinin `frame`’in tamamını doldurması için aklına bunu düzeltmenin bir yolu geliyor mu?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph115" = "`VStack`’inde bu niteleyicilerin sırasını düşün:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph116" = "En üst düzeydeki `VStack`’in tam üstüne başka bir `VStack` yerleştiren bir `overlay` yaratırsın.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph117" = "En üst düzeydeki `VStack`’in `frame`’ini genişletir ve çevresine boş bir kenar alanı yerleştirirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph118" = "`overlay` ile `frame`’in sırasını değiştirsen ne olur? Bu şekilde önce `frame`’i genişleterek ekstra alan kazanır, sonra da `overlay`’i sığacağı bir yere uygulamış olursun.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..Paragraph119" = "Var olan `frame`’i silip en üst düzeydeki `VStack`’in hemen altına ama `overlay` niteleyicisinin üst tarafına yeni bir tane eklemeyi dene:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..CodeBlock30" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph120" = "Çok daha iyi. Düzeltilecek bir şey daha var. `frame`’deki içerikler saptanmış olarak ortaya hizalı. Ancak `HalfCard`’ın ortasındaki tacın `HalfCard`’ın alt kenarıyla hizalı olması gerekiyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph121" = "Bu işi gerçekleştirmenin bir yolunu bulabilir misin? Görüntünün ne kadar yere ihtiyacı olduğunu görselleştirmek için bir kenar (`border`) ekleyebileceğini unutma ve bunu görüntünün davranması gerektiğini düşündüğün şekliyle karşılaştır.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph122" = "Tacı, `HalfCard` görüntünün altına hizalamanın iki yolu var.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph123" = "`alignment` parametresini `frame`’e ekleyebilirsin:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock31" = ".frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph124" = "Tacın üst tarafında bir `Spacer` da ekleyebilirsin:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock32" = "VStack {\n    Spacer()\n    Image(systemName: \"crown.fill\")\n        .font(.system(size: 80))\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..Paragraph125" = "Bu kartta hizalamayı düzelttiğine göre eklediğin kenarları silebilirsin.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph126" = "Şu güzelim oyun kartına bak!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph127" = "Bir daha görüntülerinin neden istediğin gibi görünmediğinden emin olamazsan görüntülerinle ilgili sorunlarda hata ayıklamana yardımcı olması için bir kenar ekleyebileceğini unutma.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..title" = "Günlük uygulamasını genişletme";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..title" = "Başlık manşeti görüntüsünü yaratma";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph128" = "Günlük girişinin başlık manşeti, gösterişli süslemelerle girişin adını gösteriyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph129" = "Diyelim, bir yazılım mühendisi olarak önizlemenin sol alt tarafındaki başlık manşeti tasarımını değiştirme görevi sana verildi. Ekibindeki tasarımcı da olmasını istedikleri tasarım özelliklerini sana verdi. Bu, önizlemenin en üstünde gördüğün görüntüdür.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph130" = "Başlık manşetinin önizlemenin üst yarısındaki tasarım modeline benzemesini sağlamak için elinden geleni yap.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph131" = "Sarı daireyi sol üst köşeye ekleyerek başla.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph132" = "Var olan [ZStack’i](doc://com.apple.documentation/documentation/swiftui/zstack) kullanarak mavi dairenin üstüne bir `Circle` görüntüsü yerleştir. Daire görüntüsünün büyüklüğünü ve rengini ayarlamak için `.frame(width:height:)` ve `.foregroundColor(_:)` niteleyicilerini de kullanman gerekecek.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..CodeBlock33" = "Circle()\n    .frame(width: 15)\n    .foregroundColor(.bannerYellow)\n    //#-learning-code-snippet(4.entryBanner)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph133" = "Güzel ama sarı daire tam olarak olması gereken yerde değil. 😣";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph134" = "Görüntünün konumunu, sarı daireye [uzaklık](doc://com.apple.documentation/documentation/swiftui/view/offset(x:y:)) niteleyicisini ekleyerek ayarlayabilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph135" = "Kendin eklemeyi dene, sıkışırsan aşağıdaki ipucunu kullan:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..CodeBlock34" = ".offset(x: -10, y: -5)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph136" = "Harika! Şimdi manşetin sol alt tarafına görüntüyle eşleşecek turuncu bir daire eklemeyi dene.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph137" = "`Color.bannerOrange` rengini kullan.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph138" = "İpucuna ihtiyacın varsa çözüm bir sonraki adımda.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph139" = "Turuncu daireyi eklemek için bir `Circle` görüntüsü yarat ve büyüklüğünü, konumunu ve rengini ayarlamak için `.frame(width:)`, `.foregroundColor(_:)` ve `.offset(x:y:)` niteleyicilerini kullan.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph140" = "Hâlâ yardıma ihtiyacın varsa işte dairenin kodu:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..CodeBlock35" = "    Circle()\n        .frame(width: 20)\n        .foregroundColor(.bannerOrange)\n        .offset(x: 6, y: 5)\n\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph141" = "Manşetin sol tarafı harika görünüyor. Bu yerleşim becerilerini manşetin sağ tarafında kullanma zamanı.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph142" = "Şu an sağ tarafta yalnızca büyük bir mavi daire ve orta büyüklükte bir pembe daire var. Daha küçük turuncu daireyi ekleyerek bir parça renk kat.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..Paragraph143" = "Manşetin sol tarafında, daire görüntülerini üst üste yerleştirmek için bir `ZStack` kullandın. Burada da aynı yaklaşımı dene.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..Paragraph144" = "Turuncu daire görüntüsünü ekleme ipucu işte burada:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..CodeBlock36" = "Circle()\n   .frame(width: 18)\n   .foregroundColor(.bannerOrange)\n   .offset(y: 20)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph145" = "Mükemmel! Artık tasarımın modelle eşleşiyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph146" = "Sırada, uyku izleyici tasarımını değiştirmek için yerleşim becerilerini kullanmak var.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..title" = "Kendi uyku izleyici görüntünü oluşturma";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph147" = "Bir sonraki meydan okumanda kendi uyku izleyici görüntünü yaratacaksın.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph148" = "Başlamadan önce uygulama önizlemesini çalıştır ve tam boyutta bir uyku izleyici ile yeni bir günlük girişi ekle. Yarım boyutta bir uyku izleyici ekleme düğmesinin etkisizleştirilmiş olduğuna dikkat et.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph149" = "Ekibindeki tasarımcı, görüntünün yarısında uyku izleyici kartının nasıl görüneceği ile ilgili tasarım özelliklerini sana verdi. Bir yazılım mühendisi olarak bu yaratma sırası sende.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph150" = "`SleepViewHalf` önizlemesine bakarsan görüntünün üst yarısında tasarımın modeli var, alt yarısında ise senin yaratacağın görüntü olacak!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph151" = "Kartları doğru büyüklüğe getirmekle başla. Bir minimum ve maksimum yükseklik ayarlamak için `VStack`’ine bir `.frame(minHeight:maxHeight:)` niteleyicisi ekle. Daha önceden hatırlarsan minimum yükseklik ayarlamak görüntünün farklı ekran boyutlarına göre ölçeklenip ayarlanmasını sağlar.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..CodeBlock37" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph152" = "Artık kartların büyüklükleri aynı. Kartın iki durumu olduğuna dikkat et:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph153" = "Sol tarafta bir görüntüleme durumu";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph154" = "Sağ tarafta bir düzenleme durumu";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph155" = "Uyku izleyicinde de bu iki durumun olması gerekir.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph156" = "Görüntüleme durumuyla başla. Şu anda `VStack` şeklinde düzenlenmiş iki `Text` görüntün var; bunlardan biri bir başlık, diğeri ise kaç saat uyunduğunu görüntülüyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph157" = "Prototipini tasarım modelleriyle karşılaştır. Henüz tam olmadı.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph158" = "Kart başlığı ile uyuma değeri arasında daha geniş bir aralık bırakman gerekir. Bunu yapmanın bir yolu, uyuma değerinin üst veya alt kenarına bir `.padding()` niteleyicisi eklemektir:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..CodeBlock38" = ".padding(.top)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph159" = "Fark ettiysen modele yaklaştın ama henüz modelin bire bir aynısı değil. Endişelenme, bunu daha sonra düzelteceksin.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph160" = "Şimdi sıra düzenleme durumunu halletmeye geldi. Düzenleme durumunun içinde bir [adımlayıcı](doc://com.apple.documentation/documentation/swiftui/stepper) var. `Stepper`, kişilerin yukarı veya aşağı oklara dokunarak uyuma değerini değiştirmesini sağlar.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph161" = "`if` ifadesi, `Stepper`’ın yalnızca `isEditing` `true` iken görünmesini sağlar. `isEditing` değeri biri günlük girişini düzenlerken `true` olarak değişir, diğer durumlarda bu değer `false`’tur.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph162" = "Aşağıdaki kodu `VStack`’in en altına ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..CodeBlock39" = "if isEditing {\n    Stepper(\"Uyunan Saat\", value: $value, in: 0...12, step: 1)\n        .labelsHidden()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph163" = "Uygulamaya `SleepViewHalf`’ı eklemek için bir kişi yarım kart uyku izleyiciyi seçtiğinde `SleepViewHalf`’ı görüntüleme mantığını ekleyeceksin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph164" = "Vurgulanan kodu sil ve aşağıdaki kod parçacığı ile değiştir:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..CodeBlock40" = "if size == .small {\n    SleepViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    SleepViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph165" = "Yarım kart uyku izleyiciyi ekleme düğmesini etkinleştirmek için `disableSleepViewHalf`’ı `false` olarak ayarla:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..CodeBlock41" = "static var disableSleepViewHalf = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph166" = "Şimdi yarım kart uyku izleyiciyi günlük uygulamasının önizlemesine eklemeyi dene. “Yeni Giriş”e ve Ekle düğmesine (+) dokunup yeni bir kart yaratarak bunu yapabilirsin. Yarım kart uyku izleyici düğmesi etkinleştirilir.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..Paragraph167" = "Yaşasın! Uyku izleyici için yarım kart görüntüsünü yaratmayı bitirdin. Ekibindeki tasarımcıya kontrol ettirme zamanı.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..title" = "Uyku izleyici görüntün için son rötuşlar";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph168" = "Harikasın! Ancak tasarımcı senin görüntülerinle kendi modeli arasında bazı küçük farklılıklara dikkat çekti. Bugünlük bu kadar yeter demeden önce uygulama tasarımında biraz rötuş yapma zamanı!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph169" = "Modeli yeniden incele. Farkları görebiliyor musun? Kartı farklı ekran boyutlarında görüntülemek için önizlemeyi genişletmeyi de deneyebilirsin.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph170" = "Önizlemeni, ekranının yarısını kaplayacak şekilde genişlet.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph171" = "Kartının başlığı, biri uyku girişini düzenlerken sol tarafa, diğer durumlarda ortaya hizalı olmalıdır. Her bir durum için hizalamayı belirtmek istiyorsan bir [üçlü işleç](glossary://ternary%20conditional%20operator) kullanabilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph172" = "Kart başlığının hizalamasını düzeltmek için aşağıdaki kod parçacığını ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..CodeBlock42" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph173" = "Tasarım özelliklerinde, kişi düzenleme durumundayken bu kartın başlığında “Kaç saat uyudun?” yazdığını fark ettin mi?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph174" = "Aşağıdaki kod parçacığını kopyala ve vurgulanan metni bununla değiştir:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..CodeBlock43" = "Text(isEditing ? \"Kaç saat uyudun?\" : \"Uyunan Saat\")\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph175" = "Oldukça iyi görünüyor ama görüntüleme durumunda kart başlığını kartın üst tarafına doğru itmen gerekiyor. Bunu bir [aralayıcı](doc://com.apple.documentation/documentation/swiftui/spacer) ekleyerek yapabilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph176" = "`Spacer`’ı kendin ekleyip ekleyemeyeceğine bak:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..CodeBlock44" = "Spacer()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph177" = "Biraz yardıma ihtiyacın varsa Sonraki düğmesine dokun.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph178" = "Bir `VStack`’e bir `Spacer` eklediğinde aralayıcı kalan düşey alanı dolduracak şekilde genişler.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph179" = "Uyuma değerinin üst ve alt tarafına bir `Spacer` ekle.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph180" = "Her iki aralayıcı da uyuma değerini kartta ortalanmış tutmak için eşit miktarda uzar.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph181" = "Daha önce, kart başlığı ile uyuma değeri arasındaki boşluğu genişletmek için bir `.padding()` niteleyicisi eklemiştin. Artık uyuma değerinin etrafına `Spacer` görüntülerini eklediğine göre bu ekstra boşluğa ihtiyacın kalmadı.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph182" = "Metninin ortalanmamış görünmemesi için vurgulanan `.padding()`’i sil.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph183" = "`Spacer`’ı uyuma değerinin etrafına eklediğinde kart başlığı ve adımlayıcı kartın üst ve alt kenarlarına doğru itilir. Ancak bunlar da kenarlara çok yakın oldu.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph184" = "Kartın kenarında bir boşluk yaratmak için `VStack`’inin etrafına boşluk ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..CodeBlock45" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..Paragraph185" = "İşte bu! Bitirdin. Şimdi kartın tam tasarımcının modeli gibi görünüyor.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..CodeBlock46" = "VStack {\n    Text(isEditing ? \"Kaç saat uyudun?\" : \"Uyunan Saat\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    Spacer()\n    \n    Text(\"\\(Int(value))\")\n        .modifier(FontStyle(size: 50))\n\n    Spacer()\n    \n    if isEditing {\n        Stepper(\"Uyunan Saat\", value: $value, in: 0...12, step: 1)\n            .labelsHidden()\n    }\n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..title" = "Ruh hâli izleyici görüntüsünü düzeltme";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph186" = "Tebrikler! Artık tam kart ruh hâli izleyiciyi tasarım modeline göre düzeltme işi sende.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph187" = "Kendin modelle eşleştirmeyi dene. İhtiyacın olursa aşağıdaki ipuçlarını kullan.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph188" = "Tasarımdaki aralık ve hizalama modele göre biraz bozuk görünüyor. Kartının yüksekliğini (`height`) ayarlayarak başla.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph189" = "Öğrendiğin farklı araçları (`Spacer`, `.frame(minHeight:maxHeight:)`, `.padding()` gibi) ve yerleşimi iyileştirmek için bunları nasıl kullanabileceğini düşün.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph190" = "Bir görüntü yerleşimini düzenlemenin birçok farklı yolu olduğunu unutma. Aşağıdaki kod parçacığı yalnızca bir örnek:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..CodeBlock47" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..Paragraph191" = "`minHeight` ile `maxHeight`’ı ayarlamanın görüntünün farklı ekran boyutlarına göre ölçeklenmesini sağladığını unutma.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph192" = "Uyku izleyici için yaptığına benzer şekilde maksimum yüksekliği `.infinity`’ye ayarlayarak kart başlığını kenara itebilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph193" = "`HStack`’ine başka bir çerçeve ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..CodeBlock48" = ".frame(maxHeight: .infinity, alignment: .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph194" = "Sonra, başlıkla kartının kenarı arasında aralık olması için biraz boşluk ekle.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph195" = "Boşluğu (`padding`) `frame` niteleyicinin alt tarafındaki `VStack`’e ekleyerek her şeye boşluk ekle:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..CodeBlock49" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph196" = "Şimdi kart başlığının hizalamasını hallet. Kart başlığını, biri günlüğünü düzenlerken öndeki kenara, günlüğü görüntülerken de ortaya hizala.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph197" = "Bunu kendin kodlamayı dene, gerekirse çözümü kullan:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..CodeBlock50" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph198" = "`.frame` niteleyicisini `.infinity`’ye ayarlanmış bir `maxWidth` ile ekleyerek `Text` görüntünü yatay olarak uzat ve mevcut alanı doldur.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph199" = "`alignment` parametresi, `SwiftUI`’ya `frame`’de bulunan içeriklerin düzenleme durumundayken öndeki kenara, görüntüleme durumundayken ortaya hizalanacağını söyler.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph200" = "Önizlemeyi, ekranın yarısını kaplayacak şekilde genişlet. Hem düzenleme hem de görüntüleme durumunda görüntünün ortasındaki emojilerin nasıl sıkışık göründüğüne dikkat ettin mi?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph201" = "Bir çözüm kodlamayı dene; sıkışırsan bu ipucunu kullan:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..CodeBlock51" = ".frame(maxWidth: .infinity, alignment: .center)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph202" = "Kodunu, düzenleme durumundaki düğme etiketine ve emojileri görüntüleme durumunda gösteren `ForEach` ifadesine ekle.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph203" = "Düzenleme durumunda dairesel düğmeler ile emoji arasına bir boşluk eklemeye ne dersin?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph204" = "Aynı sonucu elde etmenin birçok yolu olduğunu unutma. Biraz alan yaratmak için öğrendiğin niteleyicilerden birini veya birden fazlasını kullanmayı dene.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..CodeBlock52" = ".padding(.bottom)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph205" = "Uygulamaya `MoodViewFull` eklemek istiyorsan biri tam kart ruh hâli izleyiciyi seçtiğinde `MoodViewFull`’u görüntülemek için biraz mantık eklemen gerekiyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph206" = "Vurgulanan kodu sil ve aşağıdaki kod parçacığı ile değiştir:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..CodeBlock53" = "if size == .small {\n    MoodViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    MoodViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph207" = "Tam kart ruh hâli izleyiciyi ekleme düğmesini etkinleştirmek için `disableMoodViewFull`’u `false` olarak ayarla:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..CodeBlock54" = "static var disableMoodViewFull = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph208" = "Şimdi tam kart ruh hâli izleyiciyi günlük uygulamasına eklemeyi dene. Yarattığın görüntüyü görüyor musun?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph209" = "Vay canına! Ruh hâli izleyicin harika görünüyor. Tam tasarımcının istediği gibi.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph210" = "Kendine güveniyorsan kart görüntülerini düzenlemeyi ve ayarlamayı sürdürüp onların tam istediğin gibi görünmesini sağlayabilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph211" = "Bir SwiftUI görüntü yerleşimi uzmanı olma yolunda ilerliyorsun!";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..CodeBlock55" = "VStack {\n    Text(isEditing ? \"Ruh hâlin nasıl?\" : \"Ruh Hâli\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    \n    HStack {\n        if isEditing {\n            ForEach(emojis, id: \\.self) { emoji in\n                Button{\n                    value = emoji\n                } label: {\n                    VStack {\n                        Text(emoji)\n                            .font(.system(size: 35))\n                            .frame(maxWidth: .infinity, alignment: .center)\n                            .padding(.bottom)\n                        \n                        Image(systemName: value == emoji ? \"circle.fill\" : \"circle\")\n                            .font(.system(size: 16))\n                            .foregroundColor(.darkBrown)\n                    }\n                }\n            }\n        } else {\n        ForEach(0..<displayEmojis, id:\\.self) { index in\n                Text(value)\n                    .font(.system(size: 50))\n                    .frame(maxWidth: .infinity, alignment: .center)\n            }\n        }\n    }\n    .frame(maxHeight: .infinity, alignment: .center)\n    \n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+

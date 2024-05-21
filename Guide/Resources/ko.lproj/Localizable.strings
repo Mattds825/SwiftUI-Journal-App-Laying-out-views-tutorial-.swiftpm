@@ -1,0 +1,1149 @@
+/* Title of Guidebook */
+"GuideBook..title" = "보기 배치하기";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..title" = "특별한 저널 앱 만들기! 📓💕";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..Paragraph0" = "SwiftUI에서 다양한 보기를 배치하는 기본적인 방법을 배우고 재미있는 보기를 사용하여 저널 앱을 확장해 보세요. 시작할 준비가 되었나요?";
+
+/* Title of step named My Journal */
+"GuideBook..Guide0..StepMy Journal..title" = "나의 저널";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph1" = "![](intro-header.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph2" = "앱을 만들 때 가장 먼저 배워야 할 기술 중 하나는 [사용자 인터페이스](glossary://user%20interface) 또는 UI의 레이아웃을 설정하는 방법입니다. UI 레이아웃을 설정할 때 다음 세 가지 주요 작업이 필요합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph3" = "[컨테이너 보기](glossary://container)를 사용하여 보기의 구조를 다양하게 구성해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph4" = "보기의 크기, 공간, 정렬 및 위치를 미세하게 조절해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph5" = "문제가 발생하면 보기를 디버깅하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph6" = "이 샘플에서는 이러한 기술 등을 모두 배운 다음 이를 사용하여 저널 앱에 서로 다른 레이아웃의 보기를 추가합니다. 보기 레이아웃 탐험을 시작할 준비가 되었나요?";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..title" = "가이드 시작하기";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..description" = "버튼에 대한 손쉬운 사용 설명";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..title" = "보기 레이아웃 이해하기";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..title" = "보기 구성하기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph7" = "[컨테이너](glossary://container) 역할을 하는 보기로, [하위 보기](glossary://subview)라고 하는 다른 보기를 포함하고 구성합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph8" = "아래의 [VStack](doc://com.apple.documentation/documentation/swiftui/vstack)은 두 개의 `Circle` 하위 보기를 가로로 구성하는 컨테이너 보기의 예시입니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph9" = "`VStack`에 원을 하나 더 추가합니다. 이제 스택에 원이 세 개 있어서 모든 원형 보기가 축소됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph10" = "이 `VStack`과 같이 컨테이너가 [하위 보기](glossary://subview)에 사용할 수 있는 공간을 나누기 때문입니다. 이 경우, 세 개의 원형 보기의 크기 요구사항이 완전히 동일하기 때문에 컨테이너는 세 개의 원형 보기 모두에게 동일한 공간을 제공합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph11" = "`Shape` 보기는 컨테이너 보기에서 제공하는 공간 전체를 채우도록 확장합니다. `VStack`의 공간을 균등하게 공유해야 하는 세 개의 원형 보기가 있기 때문에 크기가 적절하게 조절됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph12" = "`Capsule()` 또는 `Ellipse()`를 추가하면 어떻게 되는지 살펴봅니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph13" = "[HStack](doc://com.apple.documentation/documentation/swiftui/hstack)을 사용하여 보기를 가로로 구성할 수도 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph14" = "`VStack` 내부의 원형 보기 아래에 `HStack` 컨테이너를 추가하여 보기를 가로로 구성합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..CodeBlock0" = "HStack {\n    Rectangle()\n    Rectangle()\n    Rectangle()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph15" = "또한 [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack)을 사용하여 각 보기를 서로 상단에 구성할 수도 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph16" = "이 코드를 `HStack` 아래에 추가한 다음 도형 보기를 가진 스택 유형을 변경하여 레이아웃이 어떻게 변경되는지 확인해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..CodeBlock1" = "ZStack {\n    Circle()\n        .foregroundColor(.blue)\n    Circle()\n        .inset(by: 40)\n        .foregroundColor(.mint)\n    Text(\"🤩\")\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph17" = "스택에는 다른 스택도 포함될 수 있습니다. 다음은 두 개의 `VStack` 보기를 포함하는 `HStack`의 예제이며, 각 `VStack`에는 [Image 보기](doc://com.apple.documentation/documentation/swiftui/image)가 포함되어 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph18" = "코드에 이 항목을 추가하고 보기에서 어떻게 배치되는지 확인해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..CodeBlock2" = "HStack {\n    VStack {\n        Image(systemName: \"tortoise\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.blue)\n        \n    }\n    VStack {\n        Image(systemName: \"hare\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.brown)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..Paragraph19" = "SwiftUI는 [보기 계층](glossary://view%20hierarchy)을 사용하여 보기의 관계를 구성하고 추적합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..Paragraph20" = "`HStack`, `VStack` 및 `ZStack` 보기 외에도 더 많은 컨테이너가 있습니다. 다른 컨테이너 및 해당 컨테이너를 사용하여 콘텐츠를 배치하는 방법을 알아보려면 [Picking Container Views for Your Content](doc://com.apple.documentation/documentation/swiftui/picking-container-views-for-your-content)를 참조하세요.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..title" = "디자인 도전 과제 #1: 컨테이너를 사용하여 레이아웃 일치시키기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph21" = "소프트웨어 엔지니어로서 코드의 [UI](glossary://user%20interface)를 디자이너의 모형과 일치시켜야 할 때가 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph22" = "첫 번째 디자인 도전 과제는 미리보기 하단부에 그려진 `PatternChallengeView` 본문을 미리보기 상단부와 일치하도록 업데이트하는 것입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph23" = "지금 시도해 보세요. 어려우면 부끄러워하지 말고 힌트를 사용해 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..Paragraph24" = "상단의 모형이 두 개의 직사각형을 수직으로 쌓아 놓은 것을 보았나요? 미리보기의 상단부에 나타나는 것과 일치하도록 이 코드를 어떻게 편집할 수 있을까요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..Paragraph25" = "디자인의 상단 직사각형이 미리보기의 상단 직사각형처럼 보이도록 하려면 하이라이트된 코드에서 `ZStack`에 무엇을 추가해야 할까요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph26" = "두 개의 원이 그려진 직사각형은 디자인 모형에 아주 가깝습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph27" = "이와 똑같이 하려면 무엇을 바꿔야 하는지 아시나요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..Paragraph28" = "와, 도전을 다 해냈군요! 디자인이 조금 우스꽝스러워 보인다면, 디자인 모형과 일치하는 코드의 모습을 보여주는 힌트를 확인할 수 있습니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..CodeBlock3" = "VStack {\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        Circle()\n            .foregroundColor(.themePink)\n    }\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        HStack {\n            Circle()\n                .foregroundColor(.themeRed)\n            Circle()\n                .foregroundColor(.themeOrange)\n        }\n    }\n}\n\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..title" = "보기 크기를 수정하고 결정하기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..Paragraph29" = "SwiftUI [View](doc://com.apple.documentation/documentation/swiftui/view)의 크기는 해당 [컨테이너](glossary://container)가 제공하는 공간을 기반으로 결정합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..Paragraph30" = "보기마다 공간 요구사항이 다릅니다. 모든 보기가 동일한 공간을 차지하지는 않습니다. 실험을 해 볼 시간입니다! 다음 코드를 `HStack`에 추가하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..CodeBlock4" = "//#-learning-code-snippet(3.viewSizing)\nVStack {\n    Image(systemName: \"ladybug\")\n    Text(\"I’m squished\")\n}\nRectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph31" = "`Text` 보기 및 무당벌레가 어떻게 찌그러지는지 보았나요? 미리보기를 아무리 크게 만들어도 `Text` 및 `Image` 보기는 필요한 만큼만 공간을 차지합니다. 반면에 직사각형은 `HStack`의 남은 공간을 채웁니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph32" = "또 다른 실험을 해 볼 시간입니다. `HStack`의 `VStack` 위에 이 `Rectangle()`을 추가합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..CodeBlock5" = "Rectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph33" = "`Rectangle` 보기는 차지하는 공간을 조절하지만 `Text`와 `Image` 는 정확히 같은 크기를 유지합니다. 이상하죠?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph34" = "모든 보기가 고유하기 때문에 서로 다른 유형의 보기는 컨테이너 안에서 고유한 공간 요구사항을 가집니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..Paragraph35" = "특정 보기 유형이 컨테이너에 배치될 때 크기 조절 방법을 제어할 수 있어서 보기는 꽤 마법과 같습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph36" = "사용 가능한 공간을 채우도록 확장됩니다(예: `Rectangle` 또는 기타 [Shapes](doc://com.apple.documentation/documentation/swiftui/shape)).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph37" = "`Text(“Supercalifragilisticexpialidocious”)` 또는 `Image(\"myCoolImage\")`와 같은 콘텐츠에 맞도록 크기를 조절합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph38" = "[Stepper](doc://com.apple.documentation/documentation/swiftui/stepper)와 같이 변경되지 않는 특정 크기는 유지합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..Paragraph39" = "`Text` 또는 `Rectangle` 보기에 필요한 공간을 조정하기 위해 어떤 보기가 더 많은 공간이 필요한지 지정할 수 있습니다. `.frame` 제어자를 `Text`, `Image` 및 `Rectangle` 보기에 한 번에 하나씩 추가하여 각 보기가 어떻게 변하는지 확인해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..CodeBlock6" = ".frame(width: 150)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph40" = "[frame 제어자](doc://com.apple.documentation/documentation/SwiftUI/View/frame(width:height:alignment:))를 사용하면 보기의 크기를 조절할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph41" = "`height` 매개변수를 `Rectangle` 보기 중 하나에 추가하여 `height` 매개변수가 어떻게 변경되는지 확인해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..CodeBlock7" = ".frame(width: 100, height: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph42" = "`width`와 `height`에 고정된 값을 제공하면 보기의 적응 정도가 제한됩니다. 🙃";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph43" = "보기의 크기를 변경하는 데 더 좋은 방법은 도형에 최대, 최소 또는 이상적인 너비 및 높이 값을 제공하는 것입니다. 이렇게 하면 컨테이너에서 사용 가능한 공간을 기반으로 필요한 만큼 보기의 크기를 변경할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph44" = "다음 제어자 중 하나를 `Image` 보기에 추가합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock8" = ".frame(minWidth: 100, maxHeight: 200)\n";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock9" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph45" = "`Image` 보기에 `frame`을 추가해도 무당벌레의 실제 크기는 변경되지 않습니다. 이미지에 [.resizable](doc://com.apple.documentation/documentation/SwiftUI/Image/resizable(capInsets:resizingMode:)) 제어자를 추가해야 크기를 변경할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph46" = "`Image`와 `frame` 사이에 이 제어자를 추가합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..CodeBlock10" = ".resizable()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph47" = "`frame` 뒤에 `resizable`을 추가하면 컴파일러 오류가 발생합니다. `Image`에 `frame` 제어자를 적용하면 `Image`가 아닌 새로운 보기가 생성되므로 resizable 메소드에 접근할 수 없습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph48" = "이상적인 너비와 높이를 추가했는데도 무당벌레가 늘어나 보이는 이유를 알아챘나요? 이미지의 경우 `frame` 대신 [scaledToFill()](doc://com.apple.documentation/documentation/swiftui/view/scaledtofill()) 또는 [scaledToFit()](doc://com.apple.documentation/documentation/swiftui/menu/scaledtofit())을 사용하는 것이 좋습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph49" = "`Image` 보기 `frame`을 아래 코드로 대치합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..CodeBlock11" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph50" = "또한 `frame`을 `Text` 보기에 추가하면 보기 내부의 실제 텍스트가 더 커지지 않고 텍스트가 들어 있는 보기가 더 커집니다. 이렇게 하면 보기에 더 많은 텍스트를 넣을 수 있지만, 실제 텍스트를 더 크게 만들려면 [font](doc://com.apple.documentation/documentation/swiftui/font) 제어자를 텍스트 보기에 추가할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph51" = "텍스트 보기 아래에 이 제어자를 추가하고 텍스트가 어떻게 변경되는지 확인합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..CodeBlock12" = ".font(.title)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..title" = "디자인 도전 과제 #2: 보기 크기 조절하기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..Paragraph52" = "또 다른 도전의 시간입니다. 오른쪽의 미리보기를 살펴 보세요. 하단에 있는 디자인이 상단에 있는 모형과 일치하도록 보기의 크기를 조정할 수 있는지 확인합니다. 🧐";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..Paragraph53" = "모형의 직사각형이 디자인보다 훨씬 작다는 것을 알 수 있습니다. 어떻게 하면 `Rectangle` 보기를 조금 더 작게 만들 수 있을까요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph54" = "도움이 필요한 경우 다음과 같은 힌트를 참조하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..CodeBlock13" = ".frame(maxWidth: 200, maxHeight: 150)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph55" = "이 코드를 `Rectangle` 보기에 모두 추가해야 합니다. 그렇지 않으면 디자인이 정말 우스꽝스럽게 보일 거예요!";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph56" = "장미와 하트 `Image` 보기도 변경해야 합니다. 장미는 공간을 채우도록 더 커지고, 하트는 더 작아져야 할 것 같은데, 맞나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph57" = "보기 크기 조절 방법에서 배운 내용을 사용하여 보기의 이미지를 조절하세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..Paragraph58" = "`Image` 보기를 크기 조절하는 가장 좋은 방법이 생각나지 않는다면 힌트를 드릴게요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..CodeBlock14" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph59" = "`.scaledToFit`은 장미가 컨테이너에 맞도록 크기 조절해 줍니다. 하트의 경우는 어떤가요? 하트에 이미 `scaledToFit`이 있는데 말이죠🤔.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph60" = "어떤 제어자를 추가해야 하트의 크기를 미세하게 조절할 수 있을까요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..Paragraph61" = "아직 잘 생각나지 않는다면 힌트를 드릴게요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..CodeBlock15" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..Paragraph62" = "모형의 텍스트가 디자인보다 굵다는 점에 주목하세요. 어떤 제어자를 사용하여 [font](doc://com.apple.documentation/documentation/swiftui/font)의 크기와 굵기를 조절할 수 있을까요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..Paragraph63" = "이는 서체를 조절할 수 있는 하나의 방법입니다. 포함하는 `VStack` 컨테이너에 이를 제어자로 추가하여 모든 `Text` 보기에 적용되도록 할 수 있습니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..CodeBlock16" = ".font(.headline)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..Paragraph64" = "이제 보기 크기 조절 챔피언이 되셨어요! 아직도 레이아웃이 좀 이상하게 보인다면 원래 의도한 디자인을 표시하는 이 코드를 참조하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..CodeBlock17" = "VStack {\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"Roses are red,\")\n            Image(\"Rose\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"violets are blue, \")\n        }\n    }\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"I just love\")\n            Image(\"Heart\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"coding with you!\")\n        }\n    }\n}\n.font(.headline)\n.foregroundColor(.darkBrown)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..title" = "보기의 공간 및 정렬 정밀 조정하기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph65" = "SwiftUI에서 정렬을 지정하는 다양한 방법이 있습니다. 그 중 한 가지 방법은 `HStack`, `VStack` 또는 `ZStack` 내부에 `alignment`를 지정하는 것입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph66" = "`alignment: .leading` 매개변수를 `VStack`에서 완전히 제거해 보세요. `VStack`은 [컨테이너 보기](glossary://container)이고, 책장과 책은 하위 보기입니다. 따라서 책이 화면 오른쪽 가장자리에 정렬됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph67" = "책이 지금 어떻게 중앙으로 정렬되는지 잘 보세요. 이렇게 되는 이유는 `VStack` 내부에서 보기의 기본 정렬이 중앙 정렬이기 때문입니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph68" = "책장의 오른쪽 가장자리에 정렬된 책이 있는 행을 추가하고 싶으면 어떻게 하면 될까요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph69" = "한 가지 방법은 다른 `VStack`을 추가하고 `.trailing`으로 정렬하는 것입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph70" = "`VStack` 내부의 `Rectangle` 아래에 이 코드를 추가합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..CodeBlock18" = "VStack (alignment: .trailing){\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        \n    Rectangle()\n        .frame(maxWidth: .infinity, maxHeight: 10)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph71" = "한 가지 주의할 사항: 세로 스택에서는 `.leading` 또는 `.trailing`과 같은 가로 정렬만 설정할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph72" = "마찬가지로 가로 스택에서는 `.top` 또는 `.bottom`과 같은 세로 정렬만 설정할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph73" = "책을 책장의 반대편에 정렬하는 또 다른 방법은 `frame` 제어자를 사용하여 `alignment`를 지정하는 것입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph74" = "마지막 `VStack` 아래에 이 코드를 추가합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..CodeBlock19" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    .frame(maxWidth: .infinity, alignment: .trailing)\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    //#-learning-code-snippet(5.frameAlignmentExplain)\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph75" = "책 주변의 프레임을 시각화하려면 `frame` 제어자 아래에 배경 색상을 추가합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..CodeBlock20" = ".background(Color.yellow)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph76" = "`maxWidth`를 `.infinity`로 설정하여 남은 공간을 채울 때까지 `Image` 보기를 가로로 늘립니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph77" = "`alignment` 매개변수를 `.trailing`으로 설정하면 `frame` 콘텐츠가 `.trailing` 가장자리에 정렬됩니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph78" = "잠깐만요, 아직 더 많은 내용이 있어요! [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer)를 사용하여 동일한 결과를 얻을 수도 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph79" = "`VStack` 내부의 다른 보기 아래에 이 코드를 추가하여 사용해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..CodeBlock21" = "/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n/*#-code-walkthrough(5.stackSpacing)*/\nHStack {\n/*#-code-walkthrough(5.stackSpacing)*/\n    Spacer()\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        .background(Color.yellow)\n    //#-learning-code-snippet(5.addBook)\n}\n.background(Color.mint)\n/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..Paragraph80" = "`Image` 보기의 배경 색상이 어떻게 더 이상 전체 행을 채우지 않는지 잘 보세요. 이는 `HStack` 내부에 `Spacer`를 추가하면 스택이 확장되어 나머지 가로 공간을 채우고 `Image` 보기를 `.trailing` 가장자리로 밀어내기 때문입니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph81" = "다른 책을 마지막 책장에 추가해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph82" = "다른 `Image` 아래의 `HStack` 내부에 이 코드를 추가합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..CodeBlock22" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    //#-learning-code-snippet(5.padding)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph83" = "`Spacer`가 `HStack`에 남은 빈 공간만 어떻게 채우는지 잘 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph84" = "방금 책을 정렬하는 세 가지 방법을 배웠습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph85" = "컨테이너 보기에서 정렬 매개변수 사용하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph86" = "정렬 매개변수를 사용하여 프레임 제어자 추가하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph87" = "`Spacer`를 이용하여 보기 정렬하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph88" = "서로 다른 유형의 보기 및 상황은 서로 다른 기술을 필요로 합니다. 보기의 크기 및 공간에 대한 자세한 내용은 [Laying out a simple view](doc://com.apple.documentation/documentation/swiftui/laying-out-a-simple-view)를 확인해 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph89" = "책들이 서로 더 멀리 떨어지도록 공간을 주려면 어떻게 해야 할까요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph90" = "`HStack` 내부에 공간을 지정해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..CodeBlock23" = "HStack(spacing: 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph91" = "이렇게 하면 `HStack` 내부의 각 [하위 보기](glossary://subview) 사이의 가로 공간이 지정됩니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph92" = "책을 가장자리에서 떨어진 곳에 배치하려면 책의 `.trailing` 가장자리에 패딩을 추가할 수도 있습니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..CodeBlock24" = ".padding(.trailing, 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph93" = "이렇게 하면 책의 가장자리에 여분의 공간을 추가합니다. `.leading`, `.top`, `.bottom` 및 `.horizontal` 등과 같은 다른 패딩 옵션을 알아 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph94" = "자, 모든 책과 책꽂이를 화면 가장자리에서 떨어진 곳에 배치하고 싶은 경우 어떻게 해야 할까요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph95" = "책장의 각 줄과 책에 가로 패딩을 추가할 수는 있지만, 많은 작업을 해야하고 관리도 어렵습니다. 대신에 [컨테이너 보기](glossary://container)에 항상 제어자가 적용되도록 하면 됩니다. 이 경우 컨테이너는 `VStack`이 됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph96" = "`padding` 제어자를 `VStack`에 적용하면 해당 제어자를 `VStack` 내의 모든 [하위 보기](glossary://subview)에 추가할 필요 없이 한 번만 추가하면 됩니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..CodeBlock25" = ".padding(.horizontal)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph97" = "그러나 책장에 특정 너비를 지정하려면 `padding` 대신 `frame`을 사용해야 합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph98" = "프레임 효과를 선명하게 보려면 미리보기가 화면의 절반을 차지하도록 확장한 다음 아래에 코드 스니펫을 삽입하세요. `border`를 프레임 뒤에 추가하면 프레임을 시각적으로 표현할 수도 있습니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..CodeBlock26" = ".frame(width: 250)\n.border(Color.black)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..Paragraph99" = "우와! 이제 나만의 보기를 만들 수 있는 모든 도구가 생겼어요!";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..title" = "보기 디버깅";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph100" = "SwiftUI 보기가 예상대로 표시되지 않으면 디버깅 기술을 활용해 문제를 해결해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph101" = "미리보기에 표시된 보기를 살펴보는 것부터 시작해 보세요. 분명히 제대로 표시되지 않네요! 😩 이 보기가 어떤 것인지 추측해 볼 수 있나요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph102" = "하트 퀸 카드 놀이를 하는 거예요. (혹은, 그렇다고 하죠. 😵‍💫)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph103" = "이름으로 알 수 있듯이 `HalfCard`에는 카드 반장이 들어 있습니다. 이 보기를 만들려면 `VStack`에서 두 개의 `HalfCard` 인스턴스를 사용합니다. 하단의 `HalfCard`를 거꾸로 뒤집어서 상단 `HalfCard’의 거울에 비치는 이미지를 만듭니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph104" = "상단부와 하단부를 결합하여 전체 플레이 카드를 만듭니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph105" = "`HalfCard` 보기에 적용된 모든 코드는 카드의 상단부와 하단부에 영향을 미치므로 양쪽의 문제를 동시에 해결할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph106" = "`border`를 `HalfCard` 보기에 추가하여 각각의 절반을 확인해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..CodeBlock27" = ".border(Color.green)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph107" = "보기에 테두리를 추가하면 보기가 차지하는 공간을 확인할 수 있기 때문에 훌륭한 디버깅 도구가 됩니다. 이 기술을 사용하여 코드의 여러 가지 문제를 진단할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph108" = "여기서 첫 번째 주된 문제는 모든 그래픽이 너무 서로 찌그러져 보인다는 거예요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph109" = "`HalfCard`에 `frame`을 추가하고 `maxWidth`와 `maxHeight`를 `.infinity`로 설정합니다. 이렇게 하면 `frame`을 `VStack` 컨테이너가 제공하는 사용 가능한 공간에 채우도록 확장할 수 있습니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..CodeBlock28" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph110" = "프레임을 확장해도 모든 그래픽이 여전히 서로 찌그러져 보입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph111" = "`frame` 제어자 위에 다른 테두리를 추가합니다. 이렇게 하면 `frame`을 적용하기 전에 `VStack`의 윤곽이 표시됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph112" = "`frame` 앞뒤에 테두리를 두면 왜 차이가 생길까요? 제어자를 적용할 때마다 실제로 새로운 보기를 생성하므로 [해당 제어자를 적용하는 순서가 정말 중요](doc://com.apple.documentation/documentation/swiftui/configuring-views)합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..CodeBlock29" = ".border(Color.blue)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph113" = "파란색과 녹색 테두리의 차이를 보세요. 파란색 테두리는 `VStack`에서 찌그러진 그래픽을 둘러싸고 있지만 녹색 프레임의 빈 주변 공간으로 확장되지는 않습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph114" = "`VStack`의 콘텐츠가 전체 `frame`을 채우도록 하려면 어떤 방법이 있을까요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph115" = "`VStack`에서 다음 제어자의 순서에 대해 생각해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph116" = "최상위 레벨 `VStack` 위에 직접 다른 `VStack`을 배치하는 `overlay`를 만듭니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph117" = "최상위 레벨 `VStack의 `frame`을 확장하여 그 주변에 빈 테두리 공간을 배치합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph118" = "`overlay`와 `frame`의 순서를 바꾸면 어떨까요? 이렇게 하면 여유 공간을 주는 `frame`을 먼저 확장한 다음 맞는 곳에 `overlay`를 적용할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..Paragraph119" = "기존 `frame`을 제거하고 최상위 레벨 `VStack` 바로 아래의 `overlay` 제어자 위에 새로운 프레임을 추가해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..CodeBlock30" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph120" = "한결 보기 좋네요. 고칠 게 딱 하나 더 있어요. 기본적으로 `frame` 내부의 모든 콘텐츠는 중앙 정렬됩니다. 다만 `HalfCard` 가운데에 있는 크라운은 `HalfCard` 하단 가장자리에 정렬해야 합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph121" = "이렇게 되도록 하는 방법을 알아낼 수 있나요? `border`를 추가하여 보기에 필요한 공간을 시각화하고 보기를 원하는 동작과 비교할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph122" = "`HalfCard` 보기 하단에 크라운을 정렬하는 방법에는 두 가지가 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph123" = "`alignment` 매개변수를 `frame`에 추가할 수 있습니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock31" = ".frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph124" = "아니면, `Spacer`를 크라운 위에 추가하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock32" = "VStack {\n    Spacer()\n    Image(systemName: \"crown.fill\")\n        .font(.system(size: 80))\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..Paragraph125" = "이제 이 카드에서 정렬을 해결했으니 추가한 테두리를 제거할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph126" = "저 아름다운 카드 좀 보세요!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph127" = "다음에 보기가 원하는 방식으로 표시되지 않는 이유를 알 수 없는 경우 보기의 문제를 디버깅하는 데 도움이 되는 테두리 또는 배경을 추가할 수 있습니다.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..title" = "저널 앱 확장하기";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..title" = "제목 배너 보기 생성하기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph128" = "저널 항목의 제목 배너는 항목의 이름과 화려한 장식을 표시합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph129" = "이제 소프트웨어 엔지니어가 되었다고 생각해 봅시다. 미리보기의 왼쪽 하단에 있는 제목 배너 디자인을 조절하는 업무를 맡게 되었죠. 팀의 디자이너가 디자인에 대한 세부사항을 전달했고 이는 미리보기의 상단 보기에 표시되어 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph130" = "제목 배너가 미리보기 상단부의 디자인 모형과 똑같아지도록 최선을 다해 만들어 보세요!";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph131" = "왼쪽 상단 모서리에 있는 노란색 원을 추가하여 시작하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph132" = "기존의 [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack)을 사용하여 파란색 원 위에 `Circle` 보기를 배치하세요. 또한 원 보기의 크기와 색상을 조절하려면 `.frame(width:height:)` 및 `.foregroundColor(_:)` 제어자를 사용해야 합니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..CodeBlock33" = "Circle()\n    .frame(width: 15)\n    .foregroundColor(.bannerYellow)\n    //#-learning-code-snippet(4.entryBanner)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph133" = "잘했어요! 하지만 노란색 원이 원래 있어야 할 위치에 있지 않네요. 😣";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph134" = "노란색 원에 [offset](doc://com.apple.documentation/documentation/swiftui/view/offset(x:y:)) 제어자를 추가하여 보기의 위치를 조절할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph135" = "스스로 추가해 보고, 문제가 발생한 경우에는 다음 힌트를 사용하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..CodeBlock34" = ".offset(x: -10, y: -5)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph136" = "멋져요! 이제 이미지와 일치하도록 배너의 왼쪽 하단에 주황색 원을 추가해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph137" = "`Color.bannerOrange` 색상을 사용하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph138" = "힌트가 필요한 경우, 다음 단계에서 해결 방법을 알려드릴게요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph139" = "주황색 원을 추가하려면, `Circle` 보기를 생성하고 `.frame(width:)`, `.foregroundColor(_:)` 및 `.offset(x:y:)` 제어자를 사용하여 크기, 위치, 색상을 조절하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph140" = "도움이 더 필요한 경우, 여기에 있는 원에 대한 코드를 참조하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..CodeBlock35" = "    Circle()\n        .frame(width: 20)\n        .foregroundColor(.bannerOrange)\n        .offset(x: 6, y: 5)\n\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph141" = "배너의 왼쪽이 올바르게 표시가 되네요. 이제 배너의 오른쪽에 레이아웃 기술을 적용합시다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph142" = "현재는 오른쪽 측면에 커다란 파란색 원과 중간 크기의 분홍색 원만 있습니다. 더 작은 주황색 원을 추가하여 색상을 늘리세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..Paragraph143" = "배너의 왼쪽에서 `ZStack`을 사용하여 각 항목 위로 원 보기를 배치하였습니다. 똑같은 방법을 여기에 사용해 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..Paragraph144" = "주황색 원 보기를 추가하는 힌트는 여기에서 참조하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..CodeBlock36" = "Circle()\n   .frame(width: 18)\n   .foregroundColor(.bannerOrange)\n   .offset(y: 20)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph145" = "완벽해요! 이제 디자인이 모형과 일치합니다!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph146" = "다음으로, 레이아웃 기술을 사용하여 수면 추적기 디자인을 수정하겠습니다.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..title" = "나만의 수면 추적기 보기 만들기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph147" = "다음 도전 과제로 나만의 수면 추적기 보기를 생성하겠습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph148" = "시작하기 전에, 앱 미리보기를 실행하고 전체 크기의 수면 추적기가 있는 새로운 저널 항목을 추가하세요. 1/2 크기의 수면 추적기를 추가하는 버튼은 비활성화되어 있다는 점에 주목하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph149" = "팀의 디자이너가 1/2 보기의 수면 추적기 카드가 어떻게 표시되어야 하는지 디자인 세부사항을 전달했습니다. 이제 소프트웨어 엔지니어가 되었다고 생각하고 디자인을 생성해 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph150" = "`SleepViewHalf` 미리보기를 살펴보면, 보기의 상단부에는 디자인 모형이 있고, 하단부에 디자인을 생성하면 됩니다!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph151" = "카드를 올바른 크기로 만드는 작업을 시작해 보세요. `VStack`에 `.frame(minHeight:maxHeight:)` 제어자를 추가하여 최소 및 최대 높이를 설정하세요. 이전에 학습한 내용에서 최소 높이를 설정하면 보기의 크기를 조정하고 여러 화면 크기에 맞출 수 있다는 것을 기억해보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..CodeBlock37" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph152" = "이제 카드가 같은 크기가 되었으니, 카드에 두 가지 상태가 있다는 점에 주목하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph153" = "왼쪽에는 표시 상태가 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph154" = "오른쪽에는 편집 상태가 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph155" = "수면 추적기에도 이 두 가지 상태가 있어야 합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph156" = "표시 상태부터 살펴보겠습니다. 현재 두 개의 `Text` 보기가 `VStack`에 정렬되어 있습니다. 하나는 제목을 표시하고 나머지 하나는 수면 시간에 해당하는 숫자를 표시합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph157" = "이 프로토타입을 디자인 모형과 비교해 보세요. 완성되려면 아직 많은 작업이 남았습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph158" = "카드 제목과 수면 시간 값 사이의 간격을 더 넓혀야 합니다. 이를 적용하기 위한 한 가지 방법은 수면 시간 값의 상단 또는 하단 가장자리에 `.padding()` 제어자를 추가하는 것입니다.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..CodeBlock38" = ".padding(.top)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph159" = "모형과 비슷해졌지만 아직 똑같지는 않습니다. 걱정 마세요. 나중에 고칠 테니까요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph160" = "이제 편집 상태를 살펴보겠습니다. 편집 상태 안에는 [Stepper](doc://com.apple.documentation/documentation/swiftui/stepper)가 있습니다. `Stepper`는 위아래 화살표를 탭하여 사용자가 수면 시간 값을 변경할 수 있도록 허용합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph161" = "`if 구문`은 `isEditing`이 `true`일 때만 `Stepper`가 표시되도록 합니다. 저널 항목을 편집하면 `isEditing` 값이 `true`, 그렇지 않으면 `false`로 나타납니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph162" = "`VStack` 하단에 다음 코드를 추가하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..CodeBlock39" = "if isEditing {\n    Stepper(\"Hours Slept\", value: $value, in: 0...12, step: 1)\n        .labelsHidden()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph163" = "`SleepViewHalf`를 앱에 추가하려면, 사용자가 1/2 카드 수면 추적기를 선택할 때 `SleepViewHalf`를 표시하도록 로직을 추가하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph164" = "하이라이트된 코드를 제거하고 아래의 코드 스니펫으로 대치하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..CodeBlock40" = "if size == .small {\n    SleepViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    SleepViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph165" = "버튼을 사용하여 1/2 카드 수면 추적기를 추가하려면 `disableSleepViewHalf`를 `false`로 설정하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..CodeBlock41" = "static var disableSleepViewHalf = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph166" = "이제 저널 앱의 앱 미리보기에서 1/2 카드 수면 추적기를 추가해 보세요. ‘새로운 항목’ 및 추가 버튼(+)을 탭하여 새로운 카드를 만들 수 있습니다. 1/2 카드 수면 추적기 버튼이 활성화됩니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..Paragraph167" = "야호! 1/2 카드 보기의 수면 추적기를 생성했습니다. 이제 팀의 디자이너와 확인할 차례입니다.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..title" = "수면 추적기 보기 다듬기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph168" = "지금까지 잘했습니다! 하지만 디자이너가 보기와 그 모형 사이에 미세한 오차를 발견했습니다. 이제 앱 디자인을 다듬고 마무리해 봅시다!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph169" = "모형을 다시 살펴보세요. 차이점이 보이나요? 미리보기를 확장하여 여러 화면 크기로 카드를 볼 수도 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph170" = "미리보기를 확장하여 화면의 1/2 크기가 되도록 하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph171" = "카드의 제목은 다른 사람이 수면 항목을 편집 중일 때는 왼쪽 정렬이 되어야 하고 편집 상태가 아닐 때에는 중앙 정렬이 되어야 합니다. [세 부분으로 구성된 조건 연산자](glossary://ternary%20conditional%20operator)를 사용하여 각 상태의 정렬을 지정할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph172" = "아래의 코드 스니펫을 추가하여 카드 제목의 정렬을 올바르게 수정하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..CodeBlock42" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph173" = "사용자가 편집 상태에 있을 때 이 카드의 제목이 ‘How many hours did you sleep?’으로 표시되어야 한다고 디자인 세부사항에 입력되어 있네요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph174" = "하이라이트된 텍스트를 아래의 코드 스니펫으로 복사하고 대치하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..CodeBlock43" = "Text(isEditing ? \"How many hours did you sleep?\" : \"Hours Slept\")\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph175" = "꽤 괜찮아 보이네요. 하지만 표시 상태일 때 카드 제목이 카드의 상단으로 밀려나야 합니다. [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer)를 추가하여 이를 수행할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph176" = "직접 `Spacer`를 추가해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..CodeBlock44" = "Spacer()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph177" = "도움이 필요한 경우 다음을 탭하세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph178" = "`Spacer`를 `VStack`에 추가할 때, Spacer가 남아 있는 세로 공간을 채우도록 확장됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph179" = "수면 시간 값 위와 아래에 `Spacer`를 추가하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph180" = "두 Spacer 모두 똑같이 확장되어 카드에서 수면 시간 값이 중앙에 위치하도록 합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph181" = "앞 부분에서, 카드 제목과 수면 시간 값 사이의 간격을 확장하도록 `.padding()` 제어자를 추가했던 게 기억나나요? 이제 수면 시간 값 주변에 `Spacer` 보기를 추가했으므로 패딩이 더 이상 필요하지 않습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph182" = "하이라이트된 `.padding()`을 제거하면 텍스트가 중앙에서 벗어나지 않습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph183" = "수면 시간 값 주변에 `Spacer`를 추가했을 때, 카드 제목과 스테퍼가 카드 상단 및 하단의 가장자리로 밀려났습니다. 하지만 가장자리에 너무 가까이 있는 것 같네요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph184" = "`VStack` 주변에 패딩을 추가하여 카드의 가장자리 주변에 간격을 생성하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..CodeBlock45" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..Paragraph185" = "우와! 모두 완료했습니다. 이제 카드가 디자이너의 모형과 완전히 똑같아요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..CodeBlock46" = "VStack {\n    Text(isEditing ? \"How many hours did you sleep?\" : \"Hours Slept\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    Spacer()\n    \n    Text(\"\\(Int(value))\")\n        .modifier(FontStyle(size: 50))\n\n    Spacer()\n    \n    if isEditing {\n        Stepper(\"Hours Slept\", value: $value, in: 0...12, step: 1)\n            .labelsHidden()\n    }\n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..title" = "감정 추적기 보기 수정하기";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph186" = "축하합니다! 이제 디자인 모형에 따라 전체 카드 감정 추적기를 수정할 차례입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph187" = "필요하면 다음 힌트를 사용하여 모형을 직접 일치시켜 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph188" = "모형과 비교해 볼 때 디자인의 공간과 정렬이 차이가 있습니다. 카드의 `height`를 설정하는 것으로 시작하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph189" = "학습한 `Spacer`, `.frame(minHeight:maxHeight:)`, `.padding()`과 같은 여러 도구를 떠올린 다음 어떻게 사용하면 레이아웃을 개선할 수 있을지 생각해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph190" = "보기를 배치하는 방법에는 여러 가지가 있고 아래의 코드 스니펫은 그중 하나를 예로 든 것이라는 점을 기억하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..CodeBlock47" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..Paragraph191" = "`minHeight`와 `maxHeight`를 설정하면 보기가 여러 화면 크기에 맞게 크기 조절된다는 점을 기억하세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph192" = "그리고 수면 추적기에서 했던 방식과 비슷하게 최대 높이를 `.infinity`로 설정하면 카드 제목을 가장자리로 밀어낼 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph193" = "`HStack`에 프레임을 하나 더 추가하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..CodeBlock48" = ".frame(maxHeight: .infinity, alignment: .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph194" = "다음으로, 패딩을 추가하여 제목과 카드 가장자리 사이에 공간을 생성하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph195" = "`VStack`의 `frame` 제어자 밑에 `padding`을 추가하여 한번에 모든 항목에 패딩을 추가하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..CodeBlock49" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph196" = "이제 카드 제목의 정렬을 살펴보겠습니다. 저널을 편집할 때는 시작 가장자리에 정렬하고, 저널을 표시할 때는 카드 제목을 중앙 정렬합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph197" = "스스로 코딩해 보고, 필요한 경우 해결 방법을 사용하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..CodeBlock50" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph198" = "`maxWidth`의 값이 `.infinity`인 `.frame` 제어자를 추가하면 `Text` 보기를 가로로 늘리고 남아 있는 공간을 채웁니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph199" = "`alignment` 매개변수는 `SwiftUI`에 `frame` 안에 있는 콘텐츠가 편집 상태에서는 시작 가장자리에 정렬되어야 하고 표시 상태일 경우에는 중앙 정렬되어야 한다고 전달합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph200" = "미리보기를 확장하여 화면의 1/2 크기가 되도록 하세요. 편집 및 표시 상태의 보기 가운데 부분에서 이모티콘이 찌그러지는 걸 알 수 있나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph201" = "해결 방법을 코딩해 보고, 문제가 발생한 경우에는 힌트를 사용하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..CodeBlock51" = ".frame(maxWidth: .infinity, alignment: .center)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph202" = "편집 상태의 버튼 레이블에 코드를 추가하고 표시 상태의 이모티콘을 보여주는 `ForEach` 구문에 코드를 추가하세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph203" = "편집 상태에서 원형 버튼과 이모티콘 사이에 간격을 추가하는 건 어떨까요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph204" = "여러 가지 방법으로 같은 결과에 도달할 수 있다는 점을 기억하세요. 지금까지 배운 제어자를 1개 이상 사용하여 공간을 생성해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..CodeBlock52" = ".padding(.bottom)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph205" = "`MoodViewFull`를 앱에 추가하려면 누군가 전체 카드 감정 추적기를 선택할 때 일부 로직을 추가해 `MoodViewFull`을 표시하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph206" = "하이라이트된 코드를 제거하고 아래의 코드 스니펫으로 대치하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..CodeBlock53" = "if size == .small {\n    MoodViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    MoodViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph207" = "버튼을 사용하여 전체 카드 감정 추적기를 추가하려면 `disableMoodViewFull`을 `false`로 설정하세요.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..CodeBlock54" = "static var disableMoodViewFull = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph208" = "이제 저널 앱에서 전체 카드 감정 추적기를 추가해 보세요. 방금 생성한 보기가 보이나요?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph209" = "우와! 감정 추적기의 모양이 보기 좋게 완성되었네요! 디자이너가 원하던 모양이 되었어요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph210" = "자신감이 생겼다면 원하는 대로 카드 보기를 표시하도록 계속 편집하고 조절할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph211" = "SwiftUI 보기 레이아웃 전문가가 되어 보세요!";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..CodeBlock55" = "VStack {\n    Text(isEditing ? \"What\'s your mood?\" : \"Mood\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    \n    HStack {\n        if isEditing {\n            ForEach(emojis, id: \\.self) { emoji in\n                Button{\n                    value = emoji\n                } label: {\n                    VStack {\n                        Text(emoji)\n                            .font(.system(size: 35))\n                            .frame(maxWidth: .infinity, alignment: .center)\n                            .padding(.bottom)\n                        \n                        Image(systemName: value == emoji ? \"circle.fill\" : \"circle\")\n                            .font(.system(size: 16))\n                            .foregroundColor(.darkBrown)\n                    }\n                }\n            }\n        } else {\n        ForEach(0..<displayEmojis, id:\\.self) { index in\n                Text(value)\n                    .font(.system(size: 50))\n                    .frame(maxWidth: .infinity, alignment: .center)\n            }\n        }\n    }\n    .frame(maxHeight: .infinity, alignment: .center)\n    \n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+

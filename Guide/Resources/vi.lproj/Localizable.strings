@@ -1,0 +1,1149 @@
+/* Title of Guidebook */
+"GuideBook..title" = "Tạo bố cục các chế độ xem";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..title" = "Tạo ra một ứng dụng nhật ký độc đáo! 📓💕";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageCreate a unique journal app! 📓💕..Paragraph0" = "Tìm hiểu các khái niệm cơ bản về cách tạo bố cục nhiều chế độ xem trong SwiftUI để mở rộng ứng dụng nhật ký với nhiều chế độ xem thú vị hơn. Sẵn sàng bắt đầu chưa?";
+
+/* Title of step named My Journal */
+"GuideBook..Guide0..StepMy Journal..title" = "Nhật ký của tôi";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph1" = "![](intro-header.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph2" = "Khi tạo ra một ứng dụng, một trong những kỹ năng đầu tiên cần học là cách tạo bố cục [giao diện người dùng](glossary://user%20interface) hoặc UI. Khi tạo bố cục UI, có ba việc chính mà bạn cần thực hiện:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph3" = "Sắp xếp các chế độ xem của bạn theo các cấu hình khác nhau bằng các [chế độ xem bộ chứa](glossary://container).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph4" = "Tinh chỉnh kích cỡ, khoảng cách, căn chỉnh và định vị của các chế độ xem.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..UnorderedList0..Paragraph5" = "Gỡ lỗi các chế độ xem khi xảy ra sự cố.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..Paragraph6" = "Trong mẫu này, bạn sẽ học tất cả những kỹ năng này và nhiều hơn nữa, rồi sử dụng chúng để thêm các chế độ xem với các bố cục khác nhau vào ứng dụng nhật ký. Bạn đã sẵn sàng bắt đầu hành trình vào bố cục chế độ xem chưa?";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..title" = "Bắt đầu hướng dẫn";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepMy Journal..LearningCenterContent..GuideButtonStart Walkthrough..description" = "Mô tả AX cho nút";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..title" = "Đi sâu vào bố cục chế độ xem";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..title" = "Sắp xếp các chế độ xem";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph7" = "Một chế độ xem có thể đóng vai trò là một [bộ chứa](glossary://container) lưu giữ và sắp xếp các chế độ xem khác, được gọi là [chế độ xem phụ](glossary://subview).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page0..Paragraph8" = "[VStack](doc://com.apple.documentation/documentation/swiftui/vstack) ở bên dưới là một ví dụ về chế độ xem bộ chứa sắp xếp hai chế độ xem phụ `Circle` theo chiều dọc.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph9" = "Thêm một hình tròn khác vào `VStack`. Bây giờ, bạn có ba hình tròn trong ngăn xếp, khiến cho tất cả các chế độ xem hình tròn thu hẹp.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page1..Paragraph10" = "Đó là vì các bộ chứa, giống như `VStack` này, chia không gian khả dụng cho các [chế độ xem phụ](glossary://subview) của chúng. Trong trường hợp này, bộ chứa cung cấp cùng một khoảng không gian giống nhau cho tất cả ba chế độ xem hình tròn, vì chúng có cùng các yêu cầu định cỡ giống nhau.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph11" = "Các chế độ xem `Shape` mở rộng để phủ kín toàn bộ không gian do chế độ xem bộ chứa cung cấp. Vì có ba chế độ xem hình tròn cần chia sẻ không gian trong `VStack` đều nhau nên kích cỡ của chúng điều chỉnh tương ứng.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page2..Paragraph12" = "Hãy xem điều gì xảy ra khi bạn thêm một `Capsule()` hoặc `Ellipse()`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph13" = "Bạn cũng có thể sắp xếp các chế độ xem của mình theo chiều ngang bằng một [HStack](doc://com.apple.documentation/documentation/swiftui/hstack).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..Paragraph14" = "Bên trong `VStack` của bạn, bên dưới các chế độ xem hình tròn, hãy thêm một bộ chứa `HStack` để sắp xếp các chế độ xem theo chiều ngang:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page3..CodeBlock0" = "HStack {\n    Rectangle()\n    Rectangle()\n    Rectangle()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph15" = "Bạn cũng có thể sắp xếp các chế độ xem chồng lên trên nhau bằng một [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..Paragraph16" = "Thêm mã này bên dưới `HStack`, sau đó thay đổi kiểu của ngăn xếp đang lưu giữ các chế độ xem hình dạng của bạn để xem bố cục thay đổi như thế nào.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page4..CodeBlock1" = "ZStack {\n    Circle()\n        .foregroundColor(.blue)\n    Circle()\n        .inset(by: 40)\n        .foregroundColor(.mint)\n    Text(\"🤩\")\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph17" = "Một ngăn xếp cũng có thể chứa các ngăn xếp khác. Đây là ví dụ về một `HStack` chứa hai chế độ xem `VStack` và mỗi `VStack` chứa một [chế độ xem Hình ảnh](doc://com.apple.documentation/documentation/swiftui/image) và một chế độ xem `RoundedRectangle()`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..Paragraph18" = "Thêm phần này vào mã của bạn và xem cách tạo bố cục chế độ xem:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page5..CodeBlock2" = "HStack {\n    VStack {\n        Image(systemName: \"tortoise\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.blue)\n        \n    }\n    VStack {\n        Image(systemName: \"hare\")\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.brown)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page6..Paragraph19" = "SwiftUI sắp xếp và theo dõi mối quan hệ của các chế độ xem bằng [phân cấp chế độ xem](glossary://view%20hierarchy).";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..Taskcontainers..Page7..Paragraph20" = "Có nhiều bộ chứa, không phải chỉ gồm các chế độ xem `HStack`, `VStack` và `ZStack`. Để khám phá các bộ chứa khác nhau và cách sử dụng chúng để tạo bố cục cho nội dung của bạn, hãy xem [Lựa chọn chế độ xem bộ chứa cho nội dung của bạn](doc://com.apple.documentation/documentation/swiftui/picking-container-views-for-your-content).";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..title" = "Thử thách thiết kế #1: Khớp bố cục bằng các bộ chứa";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph21" = "Là một kỹ sư phần mềm, bạn thường xuyên phải khớp [UI](glossary://user%20interface) của nhà thiết kế với mô hình bằng mã.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph22" = "Trong thử thách thiết kế đầu tiên, nhiệm vụ của bạn là cập nhật phần thân `PatternChallengeView`, được vẽ trong nửa dưới của bản xem trước, để khớp với nửa trên của bản xem trước.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page8..Paragraph23" = "Hãy thử nghiệm ngay và đừng ngại sử dụng các gợi ý nếu bạn bị vướng mắc.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page9..Paragraph24" = "Bạn có nhận thấy rằng mô hình trên cùng xếp hai hình chữ nhật theo chiều dọc không? Bạn có thể sửa dòng mã này bằng cách nào để khớp với những gì bạn nhìn thấy ở nửa trên của bản xem trước?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page10..Paragraph25" = "Bạn phải thêm thứ gì vào `ZStack` trong mã được tô sáng để làm cho hình chữ nhật ở trên cùng trong thiết kế của bạn trông giống như hình chữ nhật ở trên cùng trong bản xem trước?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph26" = "Hình chữ nhật với hai hình tròn trên đó trông khá giống với mô hình thiết kế.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page11..Paragraph27" = "Bạn có đoán được mình phải thay đổi thứ gì để làm cho chúng giống hệt nhau không?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..Paragraph28" = "Chà, bạn đã hoàn thành toàn bộ thử thách đó! Nếu thiết kế của bạn trông hơi kỳ cục thì đây là gợi ý về mã mà bạn có thể viết để khớp với mô hình thiết kế:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskpatternChallenge..Page12..CodeBlock3" = "VStack {\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        Circle()\n            .foregroundColor(.themePink)\n    }\n    ZStack {\n        Rectangle()\n            .foregroundColor(.themeBlue)\n        HStack {\n            Circle()\n                .foregroundColor(.themeRed)\n            Circle()\n                .foregroundColor(.themeOrange)\n        }\n    }\n}\n\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..title" = "Sửa đổi và xác định kích cỡ chế độ xem";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page13..Paragraph29" = "[Chế độ xem](doc://com.apple.documentation/documentation/swiftui/view) SwiftUI xác định kích cỡ của mình dựa trên không gian do chế độ xem [bộ chứa](glossary://container) cung cấp.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..Paragraph30" = "Các chế độ xem khác nhau có yêu cầu không gian khác nhau. Không phải tất cả các chế độ xem đều chiếm cùng một mức không gian. Giờ là lúc thử nghiệm! Hãy thêm mã sau đây vào `HStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page14..CodeBlock4" = "//#-learning-code-snippet(3.viewSizing)\nVStack {\n    Image(systemName: \"ladybug\")\n    Text(\"Tôi bị kẹt\")\n}\nRectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph31" = "Bạn có nhận thấy cách chế độ xem `Text` và con bọ rùa dính vào nhau không? Bất kể bạn tăng kích cỡ bản xem trước lên bao nhiêu thì các chế độ xem `Text` và `Image` vẫn chỉ chiếm đúng mức không gian mà chúng cần, nhưng hình chữ nhật phủ kín phần không gian còn lại trong `HStack`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..Paragraph32" = "Đến lúc thực hiện một thử nghiệm khác. Hãy thêm `Rectangle()` này phía trên `VStack` trong `HStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page15..CodeBlock5" = "Rectangle()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph33" = "Bạn có thể thấy rằng các chế độ xem `Rectangle` điều chỉnh mức không gian mà chúng chiếm, nhưng `Text` và `Image` vẫn giữ nguyên đúng kích cỡ. Thật kỳ lạ phải không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page16..Paragraph34" = "Vì tất cả các chế độ xem là duy nhất nên các kiểu chế độ xem có yêu cầu không gian riêng của chúng bên trong bộ chứa.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..Paragraph35" = "Ở một mức độ nào đó, các chế độ xem thật kỳ diệu. Đó là việc các kiểu chế độ xem nhất định kiểm soát cách chúng định cỡ lại khi được đặt trong một bộ chứa:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph36" = "Mở rộng để phủ kín không gian khả dụng, ví dụ như `Rectangle` hoặc các [Hình dạng](doc://com.apple.documentation/documentation/swiftui/shape) khác.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph37" = "Định cỡ lại để vừa với nội dung, ví dụ như `Text(“Supercalifragilisticexpialidocious”)` hoặc `Image(\"myCoolImage\")`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page17..UnorderedList1..Paragraph38" = "Duy trì một kích cỡ cụ thể không thay đổi, như [Trình tạo bước](doc://com.apple.documentation/documentation/swiftui/stepper).";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..Paragraph39" = "Để điều chỉnh mức không gian mà các chế độ xem `Text` hoặc `Rectangle` cần, bạn có thể chỉ định chế độ xem nào cần chiếm nhiều không gian hơn. Hãy thử thêm trình sửa đổi `.frame` vào các chế độ xem `Text`, `Image` và `Rectangle` lần lượt và lưu ý cách từng chế độ xem thay đổi:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page18..CodeBlock6" = ".frame(width: 150)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph40" = "[Trình sửa đổi khung hình](doc://com.apple.documentation/documentation/SwiftUI/View/frame(width:height:alignment:)) cho phép bạn điều chỉnh kích cỡ của một chế độ xem.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..Paragraph41" = "Thử thêm tham số `height` vào một trong các chế độ xem `Rectangle` của bạn để xem những sự thay đổi:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page19..CodeBlock7" = ".frame(width: 100, height: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph42" = "Việc cung cấp các giá trị cố định cho `width` và `height` giới hạn khả năng thích ứng của chế độ xem. 🙃";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph43" = "Một cách phù hợp hơn để thực hiện việc này là cung cấp chiều rộng và chiều cao tối đa, tối thiểu hoặc lý tưởng cho chế độ xem. Việc này cho phép chế độ xem định cỡ lại khi cần, dựa trên khoảng không gian khả dụng trong bộ chứa.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..Paragraph44" = "Thêm một trong những trình sửa đổi này vào chế độ xem `Image` của bạn:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock8" = ".frame(minWidth: 100, maxHeight: 200)\n";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page20..CodeBlock9" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph45" = "Bạn có thể nhận thấy rằng việc thêm `frame` vào chế độ xem `Image` không thay đổi kích cỡ thực tế của con bọ rùa. Điều này là vì bạn cần thêm trình sửa đổi [.resizable](doc://com.apple.documentation/documentation/SwiftUI/Image/resizable(capInsets:resizingMode:)) vào hình ảnh nếu bạn muốn thay đổi kích cỡ của hình ảnh đó.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph46" = "Thêm trình sửa đổi này giữa `Image` và `frame`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..CodeBlock10" = ".resizable()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page21..Paragraph47" = "Việc thêm `resizable` ở phía sau `frame` gây ra một lỗi trình biên dịch. Trên thực tế, việc áp dụng trình sửa đổi `frame` vào `Image` tạo ra một chế độ xem mới không phải là `Image`, nên chế độ xem đó không có quyền truy cập vào phương thức có thể định cỡ.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph48" = "Bạn có nhận thấy cách con bọ rùa bị kéo giãn ngay cả khi thêm chiều rộng và chiều cao lý tưởng không? Thông thường, đối với các hình ảnh thì việc sử dụng [scaledToFill()](doc://com.apple.documentation/documentation/swiftui/view/scaledtofill()) hoặc [scaledToFit()](doc://com.apple.documentation/documentation/swiftui/menu/scaledtofit()) thay vì `frame` sẽ phù hợp hơn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..Paragraph49" = "Thay thế `frame` của chế độ xem `Image` bằng mã bên dưới:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page22..CodeBlock11" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph50" = "Có thể bạn cũng đã nhận thấy rằng việc thêm `frame` vào chế độ xem `Text` không phóng to văn bản thực tế trong chế độ xem — mà phóng to chế độ xem đang lưu giữ văn bản. Việc này cho phép bạn đưa được nhiều văn bản hơn vào chế độ xem, nhưng nếu bạn muốn làm cho văn bản thực tế lớn hơn thì bạn có thể thêm trình sửa đổi [phông chữ](doc://com.apple.documentation/documentation/swiftui/font) vào chế độ xem văn bản.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..Paragraph51" = "Thêm trình sửa đổi này bên dưới chế độ xem văn bản và xem văn bản thay đổi như thế nào:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizing..Page23..CodeBlock12" = ".font(.title)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..title" = "Thử thách thiết kế #2: Điều chỉnh kích cỡ chế độ xem";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page24..Paragraph52" = "Đã đến lúc cho một thử thách khác. Nhìn vào bản xem trước ở bên phải. Hãy xem liệu bạn có thể định cỡ các chế độ xem sao cho thiết kế ở phía dưới khớp với mô hình ở phía trên không. 🧐";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page25..Paragraph53" = "Bạn sẽ nhận thấy rằng các hình chữ nhật trong mô hình nhỏ hơn nhiều so với trong thiết kế của bạn. Bạn có thể điều chỉnh các chế độ xem `Rectangle` bằng cách nào để làm chúng nhỏ hơn một chút?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph54" = "Nếu bạn cần trợ giúp thì đây là một gợi ý:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..CodeBlock13" = ".frame(maxWidth: 200, maxHeight: 150)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page26..Paragraph55" = "Hãy đảm bảo thêm mã này vào cả hai chế độ xem `Rectangle`, nếu không thiết kế của bạn sẽ trông không vững chắc!";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph56" = "Bạn cũng sẽ cần thay đổi các chế độ xem `Image` bông hồng và trái tim. Bông hồng cần phải lớn hơn để phủ kín không gian trong khi trái tim cần phải nhỏ hơn đúng không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page27..Paragraph57" = "Hãy sử dụng những gì bạn đã học về việc định cỡ để điều chỉnh các hình ảnh trong chế độ xem.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..Paragraph58" = "Nếu bạn không thể nhớ cách tốt nhất để định tỷ lệ một chế độ xem `Image` thì đây là một gợi ý:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page28..CodeBlock14" = ".scaledToFit()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph59" = "Chà, `.scaledToFit` cho phép định cỡ bông hồng để vừa với kích cỡ của bộ chứa, nhưng còn trái tim thì sao? Trái tim đã có sẵn `scaledToFit`🤔.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page29..Paragraph60" = "Bạn có thể thêm trình sửa đổi nào để tinh chỉnh kích cỡ của trái tim?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..Paragraph61" = "Nếu bạn cần một chút nhắc nhở thì đây là gợi ý:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page30..CodeBlock15" = ".frame(maxWidth: 50)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page31..Paragraph62" = "Hãy lưu ý cách văn bản trong mô hình đậm hơn trong thiết kế của bạn. Bạn có thể sử dụng trình sửa đổi nào để điều chỉnh kích cỡ và độ đậm của [phông chữ](doc://com.apple.documentation/documentation/swiftui/font)?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..Paragraph63" = "Đây là một cách mà bạn có thể điều chỉnh phông chữ. Bạn có thể thêm dưới dạng trình sửa đổi vào `VStack` chứa, sao cho tất cả các chế độ xem `Text` đều được áp dụng:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page32..CodeBlock16" = ".font(.headline)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..Paragraph64" = "Bạn đã chiến thắng thử thách định cỡ chế độ xem! Nếu bố cục trông vẫn hơi buồn cười thì đây là cách bạn có thể viết mã để đạt được thiết kế mong muốn:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskviewSizingChallenge..Page33..CodeBlock17" = "VStack {\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"Roses are red,\")\n            Image(\"Rose\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"violets are blue, \")\n        }\n    }\n    ZStack {\n        RoundedRectangle(cornerRadius: 10)\n            .foregroundColor(.paleOrange)\n            .frame(maxWidth: 200, maxHeight: 150)\n        VStack {\n            Text(\"I just love\")\n            Image(\"Heart\")\n                .resizable()\n                .scaledToFit()\n                .frame(maxWidth: 50)\n                .foregroundColor(.themeRed)\n            Text(\"coding with you!\")\n        }\n    }\n}\n.font(.headline)\n.foregroundColor(.darkBrown)\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..title" = "Tinh chỉnh khoảng cách và căn chỉnh của các chế độ xem";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph65" = "Có nhiều cách để chỉ định cách căn chỉnh trong SwiftUI. Một trong những cách đó là chỉ định `alignment` bên trong `HStack`, `VStack` hoặc `ZStack`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph66" = "Thử xóa tham số `alignment: .leading` khỏi `VStack` của bạn. `VStack` là [chế độ xem bộ chứa](glossary://container) còn kệ sách và các sách là chế độ xem phụ. Đây là lý do tại sao các sách được căn chỉnh theo cạnh bên phải của màn hình.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page34..Paragraph67" = "Hãy lưu ý cách các sách của bạn bây giờ ở giữa. Đó là vì các chế độ xem được căn giữa theo mặc định bên trong `VStack`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph68" = "Bây giờ, chuyện gì xảy ra nếu bạn muốn thêm một hàng khác với các sách được căn chỉnh theo cạnh bên phải của kệ sách?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph69" = "Một cách là thêm một `VStack` khác và đặt cách căn chỉnh thành `.trailing`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..Paragraph70" = "Thêm mã này bên dưới `Rectangle` bên trong `VStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page35..CodeBlock18" = "VStack (alignment: .trailing){\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        \n    Rectangle()\n        .frame(maxWidth: .infinity, maxHeight: 10)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph71" = "Một điều cần lưu ý: Trong các ngăn xếp dọc, bạn chỉ có thể đặt căn chỉnh theo chiều ngang, như `.leading` hoặc `.trailing`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page36..Paragraph72" = "Tương tự, trong các ngăn xếp theo chiều ngang, bạn chỉ có thể đặt căn chỉnh theo chiều dọc, như `.top` hoặc `.bottom`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph73" = "Một cách khác để căn chỉnh các sách về phía khác của kệ sách là sử dụng trình sửa đổi `frame` và chỉ định `alignment`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..Paragraph74" = "Thêm mã này bên dưới `VStack` cuối cùng của bạn:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page37..CodeBlock19" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    .frame(maxWidth: .infinity, alignment: .trailing)\n    /*#-code-walkthrough(5.frameAlignmentExplain)*/\n    //#-learning-code-snippet(5.frameAlignmentExplain)\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph75" = "Để trực quan hóa khung hình xung quanh sách, hãy thêm một màu nền bên dưới trình sửa đổi `frame`.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..CodeBlock20" = ".background(Color.yellow)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph76" = "Bằng việc đặt `maxWidth` thành `.infinity`, bạn kéo giãn chế độ xem `Image` theo chiều ngang đến khi lấp kín không gian còn lại.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page38..Paragraph77" = "Việc đặt tham số `alignment` thành `.trailing` làm cho nội dung của `frame` căn chỉnh theo cạnh `.trailing`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph78" = "Nhưng hãy khoan, vẫn còn nữa! Bạn cũng có thể đạt được kết quả tương tự với [Ký tự khoảng trống](doc://com.apple.documentation/documentation/swiftui/spacer).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..Paragraph79" = "Thêm mã này bên dưới các chế độ xem khác của bạn bên trong `VStack` để thử nghiệm:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page39..CodeBlock21" = "/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n/*#-code-walkthrough(5.stackSpacing)*/\nHStack {\n/*#-code-walkthrough(5.stackSpacing)*/\n    Spacer()\n    Image(systemName: \"books.vertical.fill\")\n        .font(.system(size: 40))\n        .background(Color.yellow)\n    //#-learning-code-snippet(5.addBook)\n}\n.background(Color.mint)\n/*#-code-walkthrough(5.SpacerAlignmentExplain)*/\n\nRectangle()\n    .frame(maxWidth: .infinity, maxHeight: 10)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page40..Paragraph80" = "Bạn có nhận thấy cách màu nền của chế độ xem `Image` không phủ kín toàn bộ hàng nữa không? Đó là vì việc thêm `Spacer` bên trong `HStack` khiến ngăn xếp mở rộng để phủ kín bất kỳ không gian chiều ngang nào còn lại và đẩy chế độ xem `Image` đến mép `.trailing`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph81" = "Thử thêm một sách khác vào kệ sách cuối cùng.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph82" = "Thêm mã này bên trong `HStack` bên dưới `Image` khác:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..CodeBlock22" = "Image(systemName: \"books.vertical.fill\")\n    .font(.system(size: 40))\n    //#-learning-code-snippet(5.padding)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page41..Paragraph83" = "Bạn có nhận thấy cách `Spacer` chỉ phủ kín không gian trống còn lại trong `HStack` không?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph84" = "Bạn vừa tìm hiểu về ba cách khác nhau để căn chỉnh các sách:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph85" = "Sử dụng tham số căn chỉnh trong chế độ xem bộ chứa";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph86" = "Thêm một trình sửa đổi khung hình với tham số căn chỉnh";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..UnorderedList2..Paragraph87" = "Sử dụng một `Spacer` để căn chỉnh các chế độ xem của bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page42..Paragraph88" = "Các kiểu chế độ xem và tình huống khác nhau yêu cầu các kỹ thuật khác nhau. Để tìm hiểu thêm về kích cỡ và khoảng cách của các chế độ xem, hãy xem [Tạo bố cục một chế độ xem đơn giản](doc://com.apple.documentation/documentation/swiftui/laying-out-a-simple-view).";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph89" = "Nếu bạn muốn khoảng cách giữa các sách xa hơn thì sao?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph90" = "Thử chỉ định khoảng cách bên trong `HStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..CodeBlock23" = "HStack(spacing: 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page43..Paragraph91" = "Việc này chỉ định khoảng cách theo chiều ngang giữa mỗi [chế độ xem phụ](glossary://subview) bên trong `HStack`.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph92" = "Nếu bạn muốn định vị các sách xa hơn so với mép thì bạn cũng có thể thêm phần đệm vào mép `.trailing` của sách:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..CodeBlock24" = ".padding(.trailing, 20)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page44..Paragraph93" = "Việc này thêm một chút khoảng trống vào mép sau của sách. Hãy thử khám phá các tùy chọn phần đệm khác như `.leading`, `.top`, `.bottom`, `.horizontal`, v.v.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph94" = "Bây giờ, nếu bạn muốn định vị tất cả các sách và kệ sách cách xa cạnh của màn hình thì sao?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph95" = "Bạn có thể thêm phần đệm ngang vào từng hàng của kệ sách và các sách, nhưng đó là rất nhiều công việc và không dễ duy trì. Thay vào đó, bạn nên áp dụng các trình sửa đổi vào [chế độ xem bộ chứa](glossary://container) mọi lúc. Trong trường hợp này, bộ chứa là `VStack`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..Paragraph96" = "Bằng việc áp dụng trình sửa đổi `padding` vào `VStack`, bạn chỉ phải thêm một lần thay vì thêm vào mỗi [chế độ xem phụ](glossary://subview) bên trong `VStack`.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page45..CodeBlock25" = ".padding(.horizontal)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph97" = "Tuy nhiên, nếu bạn muốn kệ sách của mình có chiều rộng cụ thể, hãy sử dụng `frame` thay vì `padding`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..Paragraph98" = "Để xem rõ ràng hiệu ứng của khung hình, hãy thử mở rộng bản xem trước để chiếm một nửa màn hình và sau đó chèn đoạn mã bên dưới. Việc thêm một `border` phía sau khung hình cũng giúp bạn trực quan hóa khung hình.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page46..CodeBlock26" = ".frame(width: 250)\n.border(Color.black)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskalignmentAndSpacing..Page47..Paragraph99" = "Tuyệt vời! Bây giờ, bạn có tất cả các công cụ để tạo ra các chế độ xem của riêng mình.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..title" = "Gỡ lỗi các chế độ xem";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph100" = "Khi các chế độ xem SwiftUI không hiển thị như bạn dự kiến, bạn sẽ cần sử dụng kỹ năng gỡ lỗi của mình để sửa chúng.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page48..Paragraph101" = "Bắt đầu bằng cách nhìn vào chế độ xem được hiển thị trong bản xem trước — rõ ràng là chế độ xem đang không hiển thị đúng cách! 😩 Bạn có thể đoán được chế độ xem này đáng lẽ ra phải là gì không?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph102" = "Đó là lá bài Q cơ (hoặc đáng lẽ ra phải là như vậy 😵‍💫).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph103" = "Đúng như gợi ý của tên gọi, `HalfCard` chứa một nửa lá bài. Bạn sử dụng hai thể hiện `HalfCard` trong một `VStack` để tạo ra chế độ xem này. Sau đó, lộn ngược `HalfCard` phía dưới để tạo thành một hình ảnh phản chiếu của `HalfCard` phía trên.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page49..Paragraph104" = "Bằng cách kết hợp nửa trên và nửa dưới, bạn tạo ra một lá bài đầy đủ.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph105" = "Bất kỳ mã nào được áp dụng cho chế độ xem `HalfCard` đều ảnh hưởng đến cả nửa trên và nửa dưới của lá bài, cho phép bạn khắc phục các sự cố trong cả hai nửa cùng lúc.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph106" = "Thử thêm một `border` vào chế độ xem `HalfCard` để xem từng nửa:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..CodeBlock27" = ".border(Color.green)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page50..Paragraph107" = "Việc thêm đường viền vào chế độ xem là một công cụ gỡ lỗi tuyệt vời vì nó cho phép bạn nhìn thấy mức không gian mà một chế độ xem chiếm giữ. Bạn có thể sử dụng kỹ thuật này để chẩn đoán nhiều sự cố trong mã của mình.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph108" = "Vấn đề lớn đầu tiên ở đây là tất cả các hình ảnh đồ họa dính với nhau.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..Paragraph109" = "Thêm một `frame` trong `HalfCard` rồi đặt `maxWidth` và `maxHeight` thành `.infinity`. Việc này cho phép `frame` mở rộng để phủ kín bất kỳ không gian nào khả dụng do bộ chứa `VStack` cung cấp.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page51..CodeBlock28" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph110" = "Mặc dù khung hình đã mở rộng nhưng tất cả các hình ảnh đồ họa vẫn dính với nhau.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph111" = "Thêm một đường viền khác phía trên trình sửa đổi `frame`. Việc này cho phép bạn nhìn thấy viền ngoài của `VStack` trước khi bạn áp dụng `frame`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..Paragraph112" = "Có thể bạn thắc mắc, tại sao việc áp dụng đường viền ở phía trước hoặc phía sau `frame` lại tạo ra sự khác biệt? Đó là vì bạn thực sự tạo ra một chế độ xem mới mỗi lần áp dụng một trình sửa đổi, nên [thứ tự áp dụng chúng rất quan trọng](doc://com.apple.documentation/documentation/swiftui/configuring-views).";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page52..CodeBlock29" = ".border(Color.blue)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph113" = "Hãy xem sự khác biệt trong đường viền màu lam và màu lục. Đường viền màu lam bao quanh các hình ảnh đồ họa bị dính trong `VStack`, nhưng không mở rộng vào không gian trống bao quanh của `frame` màu lục.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page53..Paragraph114" = "Bạn có nghĩ được bất kỳ cách nào để khắc phục sự cố này sao cho nội dung của `VStack` phủ kín toàn bộ `frame` không?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph115" = "Hãy nghĩ về thứ tự của những trình sửa đổi này trên `VStack` của bạn:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph116" = "Bạn có thể tạo một `overlay`, đặt một `VStack` ngay bên trên `VStack` cấp cao nhất.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..UnorderedList3..Paragraph117" = "Bạn mở rộng `frame` của `VStack` cấp cao nhất, đặt một không gian đường viền trống xung quanh đó.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page54..Paragraph118" = "Nếu bạn chuyển đổi thứ tự của `overlay` và `frame` thì sao? Việc đó sẽ cho phép bạn mở rộng `frame` trước tiên, cung cấp cho bạn thêm không gian, sau đó áp dụng `overlay` ở nơi phù hợp.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..Paragraph119" = "Thử xóa `frame` hiện có và thêm một khung hình mới ngay bên dưới `VStack` cấp cao nhất, nhưng ở phía trên trình sửa đổi `overlay`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page55..CodeBlock30" = ".frame(maxWidth: .infinity, maxHeight: .infinity)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph120" = "Tốt hơn rồi. Chỉ còn một vấn đề nữa cần khắc phục. Theo mặc định, bất kỳ nội dung nào bên trong `frame` đều được căn giữa. Tuy nhiên, vương miện ở giữa `HalfCard` cần căn chỉnh theo cạnh dưới của `HalfCard`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page56..Paragraph121" = "Bạn có thể tìm ra cách thực hiện việc này không? Hãy nhớ rằng bạn có thể thêm một `border` để trực quan hóa mức không gian mà chế độ xem của bạn cần và so sánh với cách mà bạn cho rằng chế độ xem sẽ hoạt động.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph122" = "Có hai cách để căn chỉnh vương miện theo cạnh dưới của chế độ xem `HalfCard`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph123" = "Bạn có thể thêm tham số `alignment` vào `frame`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock31" = ".frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..Paragraph124" = "Hoặc thêm một `Spacer` phía trên vương miện:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page57..CodeBlock32" = "VStack {\n    Spacer()\n    Image(systemName: \"crown.fill\")\n        .font(.system(size: 80))\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page58..Paragraph125" = "Bây giờ, bạn đã khắc phục vấn đề căn chỉnh trong lá bài này, bạn có thể xóa bất kỳ đường viền nào đã thêm.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph126" = "Hãy xem lá bài tuyệt đẹp đó!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup0..TaskdebuggingViews..Page59..Paragraph127" = "Lần tiếp theo bạn không chắc chắn tại sao các chế độ xem không hiển thị như mong muốn thì đừng quên là bạn có thể thêm đường viền hoặc nền để giúp gỡ lỗi các sự cố với chế độ xem.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..title" = "Mở rộng ứng dụng nhật ký";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..title" = "Tạo một chế độ xem biểu ngữ tiêu đề";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph128" = "Biểu ngữ tiêu đề cho một mục nhập nhật ký hiển thị tên của mục nhập cùng với một số trang trí sặc sỡ.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph129" = "Giả sử bạn là một kỹ sư phần mềm có nhiệm vụ điều chỉnh thiết kế biểu ngữ tiêu đề ở dưới cùng bên trái của bản xem trước. Nhà thiết kế trong nhóm đã cung cấp cho bạn các thông số thiết kế cho biểu ngữ mà họ muốn, chính là chế độ xem mà bạn nhìn thấy ở trên cùng của bản xem trước.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page60..Paragraph130" = "Hãy làm hết sức mình để biểu ngữ tiêu đề trông giống với mô hình thiết kế ở nửa trên của bản xem trước.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph131" = "Bắt đầu bằng cách thêm hình tròn màu vàng ở góc trên cùng bên trái.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..Paragraph132" = "Đặt một chế độ xem `Circle` lên trên hình tròn màu lam bằng cách sử dụng [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack) hiện có. Bạn cũng sẽ cần sử dụng các trình sửa đổi `.frame(width:height:)` và `.foregroundColor(_:)` để điều chỉnh kích cỡ và màu của chế độ xem hình tròn.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page61..CodeBlock33" = "Circle()\n    .frame(width: 15)\n    .foregroundColor(.bannerYellow)\n    //#-learning-code-snippet(4.entryBanner)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph133" = "Đẹp đấy! Nhưng đáng lẽ ra hình tròn màu vàng phải ở đúng vị trí. 😣";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph134" = "Bạn có thể điều chỉnh vị trí của chế độ xem bằng cách thêm trình sửa đổi [độ lệch](doc://com.apple.documentation/documentation/swiftui/view/offset(x:y:)) vào hình tròn màu vàng.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..Paragraph135" = "Hãy thử tự mình thêm, sử dụng gợi ý sau đây nếu bạn bị vướng mắc:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page62..CodeBlock34" = ".offset(x: -10, y: -5)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph136" = "Tuyệt vời! Bây giờ, hãy thử thêm một hình tròn màu cam vào dưới cùng bên trái của biểu ngữ để khớp với hình ảnh.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph137" = "Sử dụng màu `Color.bannerOrange`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page63..Paragraph138" = "Nếu bạn cần gợi ý thì giải pháp ở trong bước tiếp theo.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph139" = "Để thêm hình tròn màu cam, hãy tạo ra một chế độ xem `Circle` và sử dụng các trình sửa đổi `.frame(width:)`, `.foregroundColor(_:)` và `.offset(x:y:)` để điều chỉnh kích cỡ, vị trí và màu.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..Paragraph140" = "Nếu bạn vẫn cần trợ giúp thì đây là mã cho hình tròn:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page64..CodeBlock35" = "    Circle()\n        .frame(width: 20)\n        .foregroundColor(.bannerOrange)\n        .offset(x: 6, y: 5)\n\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph141" = "Phía bên trái của biểu ngữ trông rất tuyệt. Đã đến lúc sử dụng những kỹ năng bố cục đó ở phía bên phải của biểu ngữ.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page65..Paragraph142" = "Ngay bây giờ, chỉ có một hình tròn lớn màu lam và một hình tròn trung bình màu hồng ở phía bên phải. Hãy bổ sung màu sắc bằng cách thêm vào một hình tròn màu cam nhỏ hơn.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page66..Paragraph143" = "Ở phía bên trái của biểu ngữ, bạn đã sử dụng `ZStack` để đặt các chế độ xem hình tròn chồng lên nhau. Hãy thử cùng phương pháp đó tại đây.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..Paragraph144" = "Đây là một gợi ý để thêm chế độ xem hình tròn màu cam:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page67..CodeBlock36" = "Circle()\n   .frame(width: 18)\n   .foregroundColor(.bannerOrange)\n   .offset(y: 20)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph145" = "Hoàn hảo! Thiết kế của bạn bây giờ khớp với mô hình.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..TaskentryBanner..Page68..Paragraph146" = "Tiếp theo, bạn sẽ sử dụng các kỹ năng bố cục của mình để sửa đổi thiết kế của trình theo dõi giấc ngủ.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..title" = "Tạo chế độ xem trình theo dõi giấc ngủ của riêng bạn";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph147" = "Đối với thử thách tiếp theo, bạn sẽ tạo ra chế độ xem trình theo dõi giấc ngủ của riêng mình.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph148" = "Trước khi bạn bắt đầu, hãy chạy bản xem trước ứng dụng và thêm một mục nhập nhật ký mới với trình theo dõi giấc ngủ đầy đủ kích cỡ. Lưu ý rằng nút để thêm trình theo dõi giấc ngủ một nửa kích cỡ bị tắt.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page69..Paragraph149" = "Nhà thiết kế trong nhóm của bạn đã cung cấp các thông số thiết kế đối với hình thức của thẻ trình theo dõi giấc ngủ một nửa chế độ xem mà họ muốn. Là một kỹ sư phần mềm, đã đến lúc để bạn tạo ra chế độ xem.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph150" = "Nhìn vào bản xem trước `SleepViewHalf`, nửa trên của chế độ xem có mô hình của thiết kế, nửa dưới là những gì mà bạn sẽ tạo ra!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..Paragraph151" = "Bắt đầu bằng việc tạo các thẻ đúng kích cỡ. Thêm một trình sửa đổi `.frame(minHeight:maxHeight:)` vào `VStack` của bạn để đặt chiều cao tối thiểu và tối đa. Nếu bạn nhớ lại trước đó thì việc đặt chiều cao tối thiểu cho phép chế độ xem định tỷ lệ và điều chỉnh theo các kích cỡ màn hình khác nhau.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page70..CodeBlock37" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph152" = "Bây giờ, các thẻ đã có cùng kích cỡ, hãy lưu ý cách các thẻ có hai trạng thái:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph153" = "Trạng thái hiển thị ở bên trái";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..UnorderedList4..Paragraph154" = "Trạng thái sửa ở bên phải";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page71..Paragraph155" = "Trình theo dõi giấc ngủ của bạn cũng cần có hai trạng thái này.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph156" = "Hãy bắt đầu với trạng thái hiển thị. Hiện tại, bạn có hai chế độ xem `Text` được sắp xếp trong một `VStack`; một ngăn xếp đang hiển thị tiêu đề và ngăn xếp còn lại đang hiển thị số giờ ngủ.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page72..Paragraph157" = "So sánh bản mẫu của bạn với mô hình thiết kế. Vẫn chưa giống lắm.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph158" = "Bạn cần một khoảng trống rộng hơn giữa tiêu đề thẻ và giá trị giấc ngủ. Một cách để thực hiện việc này là thêm trình sửa đổi `.padding()` vào mép trên hoặc mép dưới của giá trị giấc ngủ:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..CodeBlock38" = ".padding(.top)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page73..Paragraph159" = "Bạn có thể nhận thấy rằng mình đã giống với mô hình hơn, nhưng vẫn chưa khớp hoàn toàn. Đừng lo, bạn sẽ khắc phục việc này sau.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph160" = "Bây giờ là lúc xử lý trạng thái sửa. Có một [Trình tạo bước](doc://com.apple.documentation/documentation/swiftui/stepper) bên trong trạng thái sửa. `Stepper` cho phép mọi người thay đổi giá trị giấc ngủ bằng cách chạm vào các mũi tên lên hoặc xuống.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph161" = "Câu lệnh `if statement` đảm bảo rằng `Stepper` chỉ xuất hiện khi `isEditing` là `true`. Giá trị của `isEditing` thay đổi thành `true` khi có người sửa một mục nhập nhật ký, ngược lại giá trị là `false`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..Paragraph162" = "Thêm mã sau đây ở dưới cùng của `VStack`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page74..CodeBlock39" = "if isEditing {\n    Stepper(\"Hours Slept\", value: $value, in: 0...12, step: 1)\n        .labelsHidden()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph163" = "Để thêm `SleepViewHalf` vào ứng dụng, bạn sẽ thêm logic để hiển thị `SleepViewHalf` khi một người chọn trình theo dõi giấc ngủ một nửa thẻ.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..Paragraph164" = "Xóa mã được tô sáng và thay thế bằng đoạn mã bên dưới:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page75..CodeBlock40" = "if size == .small {\n    SleepViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    SleepViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph165" = "Để bật nút có chức năng thêm trình theo dõi giấc ngủ một nửa thẻ, hãy đặt `disableSleepViewHalf` thành `false`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..CodeBlock41" = "static var disableSleepViewHalf = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page76..Paragraph166" = "Bây giờ, hãy thử thêm một trình theo dõi giấc ngủ một nửa thẻ trong bản xem trước ứng dụng của ứng dụng nhật ký. Bạn có thể thực hiện việc này bằng cách chạm vào “New Entry” và nút Thêm (+) để tạo ra một thẻ mới. Nút trình theo dõi giấc ngủ một nửa thẻ được bật.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker1..Page77..Paragraph167" = "Hay lắm! Bạn đã hoàn tất tạo ra chế độ xem một nửa thẻ cho trình theo dõi giấc ngủ. Đã đến lúc báo cáo với nhà thiết kế trong nhóm của bạn.";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..title" = "Tinh chỉnh chế độ xem trình theo dõi giấc ngủ của bạn";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph168" = "Bạn đã làm rất tốt! Tuy nhiên nhà thiết kế đã chỉ ra một số khác biệt nhỏ giữa chế độ xem của bạn và mô hình của họ. Đã đến lúc tinh chỉnh thiết kế của ứng dụng để bạn có thể hoàn thành!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page78..Paragraph169" = "Hãy kiểm tra lại mô hình. Bạn có tìm ra sự khác biệt không? Bạn cũng có thể thử mở rộng bản xem trước để xem thẻ bằng các kích cỡ màn hình khác nhau.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph170" = "Mở rộng bản xem trước để chiếm một nửa màn hình của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph171" = "Tiêu đề của thẻ cần căn chỉnh về bên trái khi có người đang sửa mục nhập giấc ngủ, nếu không tiêu đề sẽ được căn giữa. Bạn có thể sử dụng một [toán tử tam phân](glossary://ternary%20conditional%20operator) để chỉ định cách căn chỉnh cho từng trạng thái.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..Paragraph172" = "Thêm đoạn mã ở bên dưới để hiệu chỉnh cách căn chỉnh của tiêu đề thẻ:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page79..CodeBlock42" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph173" = "Bạn có nhận thấy rằng tiêu đề của thẻ này trong thông số thiết kế là “How many hours did you sleep?” trong khi người đó đang ở chế độ sửa không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..Paragraph174" = "Sao chép và thay thế văn bản được tô sáng bằng đoạn mã bên dưới:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page80..CodeBlock43" = "Text(isEditing ? \"How many hours did you sleep?\" : \"Hours Slept\")\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph175" = "Tiêu đề thẻ trông khá tốt, nhưng bạn cần đẩy tiêu đề lên trên cùng của thẻ khi ở chế độ hiển thị. Bạn có thể thực hiện việc này bằng cách thêm một [Ký tự khoảng trống](doc://com.apple.documentation/documentation/swiftui/spacer).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph176" = "Hãy xem bạn có thể tự mình thêm `Spacer` không:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..CodeBlock44" = "Spacer()\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page81..Paragraph177" = "Nếu bạn cần trợ giúp, hãy chạm vào Tiếp.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph178" = "Khi bạn thêm `Spacer` vào `VStack`, ký tự khoảng trống mở rộng để phủ kín bất kỳ không gian chiều dọc nào còn lại.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph179" = "Thêm một `Spacer` phía trên và phía dưới giá trị giấc ngủ.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page82..Paragraph180" = "Cả hai ký tự khoảng trống sẽ mở rộng bằng nhau để giữ cho giá trị giấc ngủ được căn giữa trong thẻ.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph181" = "Trước đó, bạn đã thêm một trình sửa đổi `.padding()` để mở rộng khoảng trống giữa tiêu đề thẻ và giá trị giấc ngủ. Bây giờ, bạn đã thêm các chế độ xem `Spacer` xung quanh giá trị giấc ngủ, bạn không cần thêm phần đệm bổ sung đó nữa.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page83..Paragraph182" = "Hãy xóa `.padding()` được tô sáng để không làm cho văn bản của bạn lệch khỏi tâm.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph183" = "Khi bạn thêm `Spacer` xung quanh giá trị giấc ngủ, tiêu đề thẻ và trình tạo bước được đẩy đến mép trên và mép dưới của thẻ. Tuy nhiên, chúng ở vị trí hơi quá gần so với các mép.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..Paragraph184" = "Thêm phần đệm xung quanh `VStack` của bạn để tạo ra khoảng trống xung quanh mép của thẻ:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page84..CodeBlock45" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..Paragraph185" = "Tuyệt vời! Bạn đã hoàn tất. Bây giờ, thẻ của bạn trông giống hệt như mô hình từ nhà thiết kế.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Tasksleeptracker2..Page85..CodeBlock46" = "VStack {\n    Text(isEditing ? \"How many hours did you sleep?\" : \"Hours Slept\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    Spacer()\n    \n    Text(\"\\(Int(value))\")\n        .modifier(FontStyle(size: 50))\n\n    Spacer()\n    \n    if isEditing {\n        Stepper(\"Hours Slept\", value: $value, in: 0...12, step: 1)\n            .labelsHidden()\n    }\n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+
+/* Title for task */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..title" = "Sửa chế độ xem trình theo dõi tâm trạng";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph186" = "Chúc mừng! Bây giờ, bạn có nhiệm vụ sửa trình theo dõi tâm trạng thẻ đầy đủ theo mô hình thiết kế.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page86..Paragraph187" = "Hãy thử tự mình khớp mô hình, sử dụng các gợi ý sau đây nếu bạn cần.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph188" = "Khoảng cách và căn chỉnh của thiết kế trông không đúng so với mô hình. Hãy bắt đầu bằng cách đặt `height` của thẻ.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph189" = "Cân nhắc các công cụ khác nhau mà bạn đã học, ví dụ như `Spacer`, `.frame(minHeight:maxHeight:)`, `.padding()` và suy nghĩ xem bạn có thể sử dụng chúng để cải thiện bố cục như thế nào.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..Paragraph190" = "Hãy nhớ rằng có nhiều cách khác nhau để tạo bố cục cho chế độ xem và đoạn mã bên dưới chỉ là một ví dụ:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page87..CodeBlock47" = ".frame(minHeight: 100, maxHeight: 200)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page88..Paragraph191" = "Hãy nhớ rằng việc đặt `minHeight` và `maxHeight` cho phép chế độ xem điều chỉnh tỷ lệ cho các kích cỡ màn hình khác nhau.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph192" = "Và tương tự như những gì bạn đã thực hiện đối với trình theo dõi giấc ngủ, bạn có thể đẩy tiêu đề thẻ đến mép bằng cách đặt chiều cao tối đa thành `.infinity`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..Paragraph193" = "Thêm một khung hình khác vào `HStack` của bạn:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page89..CodeBlock48" = ".frame(maxHeight: .infinity, alignment: .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph194" = "Tiếp theo, hãy thêm một vài phần đệm để tạo ra khoảng cách giữa tiêu đề và mép của thẻ.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..Paragraph195" = "Thêm `padding` vào mọi thứ bằng cách thêm vào `VStack` bên dưới trình sửa đổi `frame` của bạn:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page90..CodeBlock49" = ".padding()\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph196" = "Bây giờ, hãy xử lý căn chỉnh của tiêu đề thẻ. Căn chỉnh tiêu đề theo mép trước khi có người đang sửa nhật ký của họ và căn giữa tiêu đề thẻ khi họ đang hiển thị nhật ký.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..Paragraph197" = "Hãy thử tự mình viết mã, sử dụng giải pháp nếu cần:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page91..CodeBlock50" = ".frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph198" = "Thêm trình sửa đổi `.frame` với một `maxWidth` là `.infinity` để kéo giãn chế độ xem `Text` của bạn theo chiều ngang và phủ kín không gian khả dụng.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page92..Paragraph199" = "Tham số `alignment` cho `SwiftUI` biết rằng bất kỳ nội dung nào bên trong `frame` đều căn chỉnh theo mép trước trong trạng thái sửa và được căn giữa trong trạng thái hiển thị.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph200" = "Mở rộng bản xem trước để chiếm nửa màn hình. Bạn có nhận thấy cách các biểu tượng dính vào nhau ở giữa chế độ xem cho cả trạng thái sửa và hiển thị không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph201" = "Hãy thử viết mã một giải pháp; sử dụng gợi ý này nếu bạn bị vướng mắc:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..CodeBlock51" = ".frame(maxWidth: .infinity, alignment: .center)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page93..Paragraph202" = "Thêm mã của bạn vào nhãn nút trong trạng thái sửa và câu lệnh `ForEach` hiển thị các biểu tượng trong trạng thái hiển thị.";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph203" = "Còn việc thêm một khoảng trống giữa các nút tròn và biểu tượng trong trạng thái sửa thì thế nào?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..Paragraph204" = "Hãy nhớ rằng có nhiều cách để đạt được cùng một kết quả. Thử sử dụng một hoặc nhiều trình sửa đổi mà bạn đã học để tạo ra một số khoảng trống.";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page94..CodeBlock52" = ".padding(.bottom)\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph205" = "Để thêm `MoodViewFull` vào ứng dụng, bạn sẽ thêm một số logic để hiển thị `MoodViewFull` khi có người nào đó chọn trình theo dõi tâm trạng thẻ đầy đủ của bạn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..Paragraph206" = "Xóa mã được tô sáng và thay thế bằng đoạn mã bên dưới:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page95..CodeBlock53" = "if size == .small {\n    MoodViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n} else {\n    MoodViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph207" = "Để bật nút có chức năng thêm trình theo dõi tâm trạng thẻ đầy đủ, hãy đặt `disableMoodViewFull` thành `false`:";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..CodeBlock54" = "static var disableMoodViewFull = false\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page96..Paragraph208" = "Bây giờ, hãy thử thêm một trình theo dõi tâm trạng thẻ đầy đủ trong ứng dụng nhật ký. Bạn có nhìn thấy chế độ xem mà bạn vừa tạo ra không?";
+
+/* title for page */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph209" = "Chà! Trình theo dõi tâm trạng của bạn trông rất tuyệt! Đó chính là những gì mà nhà thiết kế mong muốn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph210" = "Nếu cảm thấy tự tin thì bạn có thể tiếp tục sửa và điều chỉnh chế độ xem thẻ để làm cho chúng giống hệt như bạn muốn.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..Paragraph211" = "Bây giờ, bạn đang trên đường trở thành một chuyên gia bố cục chế độ xem SwiftUI!";
+
+/*  */
+"GuideBook..Guide0..StepMy Journal..TaskGroup1..Taskmoodtracker..Page97..CodeBlock55" = "VStack {\n    Text(isEditing ? \"What\'s your mood?\" : \"Mood\")\n        .foregroundColor(.darkBrown)\n        .font(fontStyle.uiFont(15))\n        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)\n    \n    HStack {\n        if isEditing {\n            ForEach(emojis, id: \\.self) { emoji in\n                Button{\n                    value = emoji\n                } label: {\n                    VStack {\n                        Text(emoji)\n                            .font(.system(size: 35))\n                            .frame(maxWidth: .infinity, alignment: .center)\n                            .padding(.bottom)\n                        \n                        Image(systemName: value == emoji ? \"circle.fill\" : \"circle\")\n                            .font(.system(size: 16))\n                            .foregroundColor(.darkBrown)\n                    }\n                }\n            }\n        } else {\n        ForEach(0..<displayEmojis, id:\\.self) { index in\n                Text(value)\n                    .font(.system(size: 50))\n                    .frame(maxWidth: .infinity, alignment: .center)\n            }\n        }\n    }\n    .frame(maxHeight: .infinity, alignment: .center)\n    \n}\n.frame(minHeight: 100, maxHeight: 200)\n.padding()\n";
+

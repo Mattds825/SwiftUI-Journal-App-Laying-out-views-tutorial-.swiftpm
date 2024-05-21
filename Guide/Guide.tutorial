@@ -1,0 +1,944 @@
+@GuideBook(title: "Laying Out Views", icon: title.png, background: titleBackground.png, firstFile: JournalApp.swift) {
+    @WelcomeMessage(title: "Create a unique journal app! 📓💕") {
+        Learn the basics of how to lay out a variety of views in SwiftUI to extend the journal app with more fun views. Ready to get started?
+    }
+    @Guide {
+        @Step(title: "My Journal") {
+            @ContentAndMedia {
+                ![Composition showing sleep tracker, mood tracker, and text entry cards.](intro-header.png)
+                
+               When creating an app, one of the first skills to learn is how to lay out your [user interface](glossary://user%20interface), or UI. When laying out a UI, there are three major things you need to do:
+                
+                * Organize your views in different configurations using [container views](glossary://container).
+
+                * Fine tune the sizing, spacing, alignment, and positioning of your views. 
+
+                * Debug your views when something goes wrong.
+                
+                In this sample, you’ll learn all of these skills and more, and then use them to add views with different layouts to the journal app. Ready to start your journey into view layout?
+               
+               @GuideButton(type: walkthrough, title: "Start Walkthrough", description: "AX description for button")
+
+            }
+            @TaskGroup(title: "Deep dive into view layout") {
+                @Task(type: experiment, title: "Organize your views", id: "containers", file: OrganizingViews.swift) {
+                    @Page(id: "1.containers", title: "") {
+                        A view can act as a [container](glossary://container) that holds and organizes other views, known as [subviews](glossary://subview). 
+                         
+                        The [VStack](doc://com.apple.documentation/documentation/swiftui/vstack) below is an example of a container view that organizes two `Circle` subviews vertically. 
+
+                    }
+                    @Page(id: "2.containers", title: "") {
+                         Add one more circle into the `VStack`. Now you have three circles in your stack which causes all of the circle views to shrink.
+                         
+                         This is because containers, like this `VStack`, divide the space available to their [subviews](glossary://subview). In this case, the container offers the same amount of space to all three circle views, since they have the exact same sizing requirements.
+
+                    }
+                    @Page(id: "3.containers", title: "") {
+                        `Shape` views expand to fill the entire space that’s offered by the container view. Because there are three circle views that need to share the space in the `VStack` equally, their sizes adapt accordingly.
+                        
+                        See what happens when you add in a `Capsule()` or `Ellipse()`. 
+                    }
+                    @Page(id: "4.containers", title: "") {
+                        You can also organize your views horizontally using a [HStack](doc://com.apple.documentation/documentation/swiftui/hstack).  
+                        
+                        Inside your `VStack`, under the circle views, add an `HStack` container to organize the views horizontally:
+                        ```
+                        HStack {
+                            Rectangle()
+                            Rectangle()
+                            Rectangle()
+                        }
+                        ```
+                    }
+                    @Page(id: "5.containers", title: "") {
+                        You can also organize your views on top of each other using a [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack). 
+                        
+                        Add this code under the `HStack`, then change up the type of stack that’s holding your shape views to see how it changes the layout.
+                        ```
+                        ZStack {
+                            Circle()
+                                .foregroundColor(.blue)
+                            Circle()
+                                .inset(by: 40)
+                                .foregroundColor(.mint)
+                            Text("🤩")
+                        }
+                        ```
+                    }
+                    @Page(id: "6.containers", title: "") {
+                        A stack can also contain other stacks. Here is an example of an `HStack` that contains two `VStack` views, and each `VStack` contains an [Image view](doc://com.apple.documentation/documentation/swiftui/image) and a `RoundedRectangle()` view. 
+                        
+                        Add this into your code and see how it lays out in the view:
+                        ```
+                        HStack {
+                            VStack {
+                                Image(systemName: "tortoise")
+                                RoundedRectangle(cornerRadius: 10)
+                                    .foregroundColor(.blue)
+                                
+                            }
+                            VStack {
+                                Image(systemName: "hare")
+                                RoundedRectangle(cornerRadius: 10)
+                                    .foregroundColor(.brown)
+                            }
+                        }
+                        ```
+                    }
+                    @Page(id: "7.containers", title: "") {
+                    SwiftUI organizes and tracks the relationships of views using a [view hierarchy](glossary://view%20hierarchy). 
+                    }
+                    @Page(id: "10.containers", title: "") {
+                        There are more containers than just `HStack`, `VStack`, and `ZStack` views. To explore different containers and how to use them to lay out your content, see [Picking container views for your content](doc://com.apple.documentation/documentation/swiftui/picking-container-views-for-your-content).
+                    }
+                }
+                @Task(type: experiment, title: "Design Challenge #1: Match a layout using containers", id: "patternChallenge", file: PatternChallenge.swift) {
+                    
+                    @Page(id: "1.patternChallenge", title: "") {
+                        As a software engineer, you often have to match the designer’s [UI](glossary://user%20interface) mock-up in code.
+                                    
+                        In your first design challenge, your mission is to update the `PatternChallengeView` body, which is drawn in the bottom-half of the preview, to match the top-half of the preview.
+                                    
+                        Try it out now, and don’t be shy about using the hints if you get stuck.
+                    }
+                    @Page(id: "2.patternChallenge", title: "") {
+                        Do you notice that the top mock-up stacks two rectangles vertically? How can you edit this line of code to match what you see in the top-half of the preview?
+                        
+                    }
+                    @Page(id: "3.patternChallenge", title: "") {
+                        What do you have to add to the `ZStack` in the highlighted code to make the top rectangle in your design look like the top rectangle in the preview?
+                    }
+                    @Page(id: "5.patternChallenge", title: "") {
+                        The rectangle with the two circles on it is pretty close to the design mock-up.
+                        
+                        Can you guess what you have to change to make it the same?
+                    }
+                    @Page(id: "6.patternChallenge", title: "", isHidden: true) {
+                       Wow, you made it through that whole challenge! If your design looks a little funky, here is a hint of what your code could look like to match the design mock-up:
+                       
+                       ```
+                       VStack {
+                           ZStack {
+                               Rectangle()
+                                   .foregroundColor(.themeBlue)
+                               Circle()
+                                   .foregroundColor(.themePink)
+                           }
+                           ZStack {
+                               Rectangle()
+                                   .foregroundColor(.themeBlue)
+                               HStack {
+                                   Circle()
+                                       .foregroundColor(.themeRed)
+                                   Circle()
+                                       .foregroundColor(.themeOrange)
+                               }
+                           }
+                       }
+
+                       ```
+                    }
+
+                }
+                @Task(type: experiment, title: "Modify and determine view sizes", id: "viewSizing", file: ViewSizing.swift) {
+                    @Page(id: "1.viewSizing", title: "") {
+                        A SwiftUI [View](doc://com.apple.documentation/documentation/swiftui/view) determines its size based on the space offered by its [container](glossary://container) view.
+                    }
+                    @Page(id: "2.viewSizing", title: "") {
+                        Different views have different space requirements. Not all views take up the same amount of space. Time for an experiment! 
+                        Add the following code into the `HStack`: 
+                        ```
+                        //#-learning-code-snippet(3.viewSizing)
+                        VStack {
+                            Image(systemName: "ladybug")
+                            Text("I’m squished")
+                        }
+                        Rectangle()
+                        ```
+                    }
+                    @Page(id: "3.viewSizing", title: "") {
+                        Notice how your `Text` view and ladybug are squished? No matter how big you make the preview, the `Text` and `Image` views take up exactly the amount of space they need, but the rectangle fills in the rest of the space in the `HStack`.
+                       
+                      Time for another experiment. Add this `Rectangle()` above the `VStack` in the `HStack`:
+                        
+                        ```
+                        Rectangle()
+                        ```
+                    }
+                    @Page(id: "4.viewSizing", title: "") {
+                        You can see that the `Rectangle` views adjust how much space they take up, but the `Text` and `Image` stay exactly the same size. Weird right?
+                        
+                        Because all views are unique, different types of views have their own space requirements within a container.
+                    }
+                    @Page(id: "5.viewSizing", title: "") {
+                        Views are somewhat magical, in that certain view types control how they resize when placed in a container:
+                        
+                        * Expanding to fill the available space, such as `Rectangle` or other [Shapes](doc://com.apple.documentation/documentation/swiftui/shape).
+                        * Resizing to fit their content, such as `Text(“Supercalifragilisticexpialidocious”)` or `Image("myCoolImage")`.
+                        * Maintaining a specific size that doesn't change, like [Stepper](doc://com.apple.documentation/documentation/swiftui/stepper).
+                    }
+                    @Page(id: "6.viewSizing", title: "") {
+                        To adjust the amount of space either the `Text` or `Rectangle` views need, you can specify which view needs to take up more space.
+                        Try adding the `.frame` modifier to the `Text`, `Image`, and `Rectangle` views one at a time, and notice how each view changes: 
+                        ```
+                        .frame(width: 150)
+                        ```
+                    }
+                    @Page(id: "7.viewSizing", title: "") {
+                        The [frame modifier](doc://com.apple.documentation/documentation/SwiftUI/View/frame(width:height:alignment:)) allows you to adjust the size of a view. 
+                        
+                        Try adding the `height` parameter to one of your `Rectangle` views to see how it changes:
+                        ```
+                        .frame(width: 100, height: 200)
+                        ```
+                    }
+                    @Page(id: "8.viewSizing", title: "") {
+                        Providing fixed values for the `width` and `height` limits how adaptive the view can be. 🙃  
+                        
+                        A better way to do this is to give a maximum, minimum, or ideal width and height for a view. This allows the view to resize as necessary based on how much space is available in the container. 
+                        
+                       Add one of these modifiers to your `Image` view:
+                        ```
+                        .frame(minWidth: 100, maxHeight: 200)
+                        ```
+                        ```
+                        .frame(maxWidth: 50)
+                        ```
+                    }
+                    @Page(id: "9.viewSizing", title: "" ) {
+                        You may notice that adding a `frame` to the `Image` view doesn’t change the actual size of the ladybug. This is because you need to add the [.resizable](doc://com.apple.documentation/documentation/SwiftUI/Image/resizable(capInsets:resizingMode:)) modifier to an image, if you want to change its size.
+                        
+                        Add this modifier between the `Image` and the `frame`:
+                        ```
+                        .resizable()
+                        ```
+                        Adding `resizable` after `frame` causes a compiler error. Applying the `frame` modifier to the `Image` actually creates a new view that isn’t an `Image`, so it doesn’t have access to the resizable method.
+                    }
+                    @Page(id: "10.viewSizing", title: "") {
+                       Notice how the ladybug looks stretched even by adding an ideal width and height? For images, it’s often better to use [scaledToFill()](doc://com.apple.documentation/documentation/swiftui/view/scaledtofill()) or [scaledToFit()](doc://com.apple.documentation/documentation/swiftui/menu/scaledtofit()) instead of a `frame`. 
+                       
+                       Replace the `Image` view `frame` with the code below:
+                       ```
+                       .scaledToFit()
+                       ```
+                    }
+                    @Page(id: "11.viewSizing", title: "") {
+                        You also may have noticed that adding the `frame` to the `Text` view didn’t make the actual text inside the view larger — it made the view holding the text larger. This allows for more text to fit into the view, but if you want to make the actual text bigger, you can add the [font](doc://com.apple.documentation/documentation/swiftui/font) modifier to your text view.
+                        
+                        Add this modifier below the text view and see how the text changes:
+                        ```
+                        .font(.title)
+                        ```
+                    }
+                }
+                @Task(type: experiment, title:  "Design Challenge #2: Adjust view sizing", id: "viewSizingChallenge", file: SizingChallenge.swift) {
+                
+                    @Page(id: "1.viewSizing", title: "" ) {
+                        Time for another challenge. Take a look at the preview on the right. See if you can size your views so that your design on the bottom matches the mock-up on top. 🧐
+                    }
+                    @Page(id: "2.viewSizing", title: "" ) {
+                        You’ll notice that the rectangles in the mock-up are much smaller than in your design. How can you adjust the `Rectangle` views to make them a bit smaller?
+                    }
+                    @Page(id: "3.viewSizing", title: "", isHidden: true) {
+                        If you need some help, here is a hint:
+                        ```
+                        .frame(maxWidth: 200, maxHeight: 150)
+                        ```
+                        
+                        Be sure to add this code to both of your `Rectangle` views, or your design will look wonky! 
+                    }
+                    
+                    @Page(id: "4.viewSizingImage", title: "") {
+                        You’ll need to change the rose and heart `Image` views as well. The rose needs to be bigger to fill the space, while the heart needs to be smaller, right? 
+                        
+                        Use what you learned about view sizing to adjust the images in the view. 
+                    }
+                    @Page(id: "5.viewSizingImage", title: "", isHidden: true) {
+                       If you can’t remember the best way to scale an `Image` view, here’s is a hint:
+                        
+                        ```
+                        .scaledToFit()
+                        ```
+                    }
+                    @Page(id: "6.viewSizingImageFrame", title: "") {
+                        Well, `.scaledToFit` enables the rose to scale to fit the size of its container, but what about the heart? It already has `scaledToFit`🤔. 
+                        
+                         Which modifier can you add to fine-tune the size of the heart?
+                    }
+                    @Page(id: "7.viewSizingImageFrame", title: "", isHidden: true) {
+                        
+                        If you need a little reminder, here’s a hint:
+                        ```
+                        .frame(maxWidth: 50)
+                        ```
+                    }
+                    @Page(id: "8.viewSizingFont", title: "") {
+                        Notice how the text in the mock-up is bolder than in your design. Which modifier can you use to adjust the size and weight of the [font](doc://com.apple.documentation/documentation/swiftui/font)? 
+                    }
+                    @Page(id: "9.viewSizingFont", title: "", isHidden: true) {
+                        This is one way you can adjust the font. You can add it as a modifier to the containing `VStack` so that it’s applied to all the `Text` views:
+                        
+                        ```
+                        .font(.headline)
+                        ```
+                    }
+                    
+                    @Page(id: "13.viewSizing", title: "", file: SizingChallenge.swift) {
+                        You are a view sizing champion! If the layout still look a little funny, this is what the code could look like to achieve the design you were going for:
+                        
+                        ```
+                        VStack {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 10)
+                                    .foregroundColor(.paleOrange)
+                                    .frame(maxWidth: 200, maxHeight: 150)
+                                VStack {
+                                    Text("Roses are red,")
+                                    Image("Rose")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(maxWidth: 50)
+                                        .foregroundColor(.themeRed)
+                                    Text("violets are blue, ")
+                                }
+                            }
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 10)
+                                    .foregroundColor(.paleOrange)
+                                    .frame(maxWidth: 200, maxHeight: 150)
+                                VStack {
+                                    Text("I just love")
+                                    Image("Heart")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(maxWidth: 50)
+                                        .foregroundColor(.themeRed)
+                                    Text("coding with you!")
+                                }
+                            }
+                        }
+                        .font(.headline)
+                        .foregroundColor(.darkBrown)
+                        ```
+                    }
+                }
+                @Task(type: experiment, title: "Refine the spacing and alignment of your views", id: "alignmentAndSpacing", file: AmazingAlignment.swift) {
+                    
+                    @Page(id: "5.alignmentIntro", title: "") {
+                        There are multiple ways to specify alignment in SwiftUI. One way is to specify the `alignment` inside `HStack`, `VStack`, or `ZStack`.
+                        
+                        Try removing the `alignment: .leading` parameter from your `VStack`. The `VStack` is the [container view](glossary://container) and the shelf and books are subviews. This is why the books are aligned to the right edge of your screen.  
+                        
+                        Notice how your books are now centered. That is because the default is to center align the views inside a `VStack`.
+                    }
+                    @Page(id: "5.VStackAlignment", title: "") {
+                        Now what happens if you want to add another row with the books aligned to the right edge of the shelf?
+                        
+                        One way is to add another `VStack` and set its alignment to `.trailing`.
+                        
+                        Add this code below the `Rectangle` inside the `VStack`:
+                        ```
+                        VStack (alignment: .trailing){
+                            Image(systemName: "books.vertical.fill")
+                                .font(.system(size: 40))
+                                
+                            Rectangle()
+                                .frame(maxWidth: .infinity, maxHeight: 10)
+                        }
+                        ```
+                    }
+                    @Page(id: "5.alignmentTip", title: "") {
+                        One thing to note: 
+                        In vertical stacks, you can only set the horizontal alignment, like `.leading` or `.trailing`.
+                        
+                        Likewise, in horizontal stacks you can only set the vertical alignment, like `.top` or `.bottom`.
+                    }
+
+                    @Page(id: "5.frameAlignment", title: "") {
+                        Another way to align books to the other side of the shelf is to use a `frame` modifier and specify the `alignment`.
+                        
+                        Add this code below your last `VStack`:
+                        ```
+                        Image(systemName: "books.vertical.fill")
+                            .font(.system(size: 40))
+                            /*#-code-walkthrough(5.frameAlignmentExplain)*/
+                            .frame(maxWidth: .infinity, alignment: .trailing)
+                            /*#-code-walkthrough(5.frameAlignmentExplain)*/
+                            //#-learning-code-snippet(5.frameAlignmentExplain)
+
+                        Rectangle()
+                            .frame(maxWidth: .infinity, maxHeight: 10)
+                        ```
+                    }
+                    @Page(id: "5.frameAlignmentExplain", title: "") {
+                        To visualize the frame around the book, add a background color below the `frame` modifier.
+                        ```
+                        .background(Color.yellow)
+                        ```                        
+                        By setting the `maxWidth` to `.infinity`, you stretch the `Image` view horizontally until it fills in the remaining space. 
+                        
+                        Setting `alignment` parameter to `.trailing` makes the `frame` contents align to the `.trailing` edge.
+                    }
+                    @Page(id: "5.SpacerAlignment", title: "") {
+                        But wait, there’s more! You can also achieve the same results with a [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer).
+                        
+                        Add this code below your other views inside the `VStack` to try it out:
+                        ```
+                        /*#-code-walkthrough(5.SpacerAlignmentExplain)*/
+                        /*#-code-walkthrough(5.stackSpacing)*/
+                        HStack {
+                        /*#-code-walkthrough(5.stackSpacing)*/
+                            Spacer()
+                            Image(systemName: "books.vertical.fill")
+                                .font(.system(size: 40))
+                                .background(Color.yellow)
+                            //#-learning-code-snippet(5.addBook)
+                        }
+                        .background(Color.mint)
+                        /*#-code-walkthrough(5.SpacerAlignmentExplain)*/
+
+                        Rectangle()
+                            .frame(maxWidth: .infinity, maxHeight: 10)
+                        ```
+                    }
+                    @Page(id: "5.SpacerAlignmentExplain", title: "") {
+                        Notice how the background color of the `Image` view no longer fills in the entire row? That’s because adding a `Spacer` inside an `HStack` causes the stack to expand to fill in any remaining horizontal space, and pushes the `Image` view to the `.trailing` edge.
+                    }
+                    @Page(id: "5.addBook", title: "") {
+                        Try adding another book to the last shelf.
+                        
+                        Add this code inside the `HStack` below the other `Image`:
+                        
+                        ```
+                        Image(systemName: "books.vertical.fill")
+                            .font(.system(size: 40))
+                            //#-learning-code-snippet(5.padding)
+                        ```
+                        
+                        Notice how the `Spacer` only fills in the empty space that’s left in the `HStack`?
+                        
+                    }
+                    @Page(id: "5.alignmentTechniques", title: "") {
+                        You just learned about three different ways to align your books:
+                        
+                        * Using the alignment parameter in the container view
+                        * Adding a frame modifier with the alignment parameter 
+                        * Utilizing a `Spacer` to align your views
+                      
+                      Different types of views and circumstances require different techniques. To learn more about the size and spacing of views, see [Laying out a simple view](doc://com.apple.documentation/documentation/swiftui/laying-out-a-simple-view).
+                    }
+                    @Page(id: "5.stackSpacing", title: "") {
+                        What if you want to space the books further apart from each other?
+                        
+                        Try specifying the spacing inside the `HStack`:
+                        ```
+                        HStack(spacing: 20)
+                        ```
+                        This specifies the horizontal spacing between every [subview](glossary://subview) inside the `HStack`.
+                    }
+                    
+                    @Page(id: "5.padding", title: "") {
+                        If you want to position the books further from the edge, you can also add padding to the `.trailing` edge of the book:
+                        ```
+                        .padding(.trailing, 20)
+                        ```
+                        This adds a little space to the trailing edge of the book. Try exploring other padding options such as `.leading`, `.top`, `.bottom`, `.horizontal`, and so on.
+                    }
+                    
+                    
+                    @Page(id: "5.viewPadding", title: "") {
+                        Now, what if you want to position all of the books and shelves away from the edge of the screen?  
+                        
+                        You could add horizontal padding to every row of shelves and books, but that’s a lot of work and not easy to maintain. Instead, you should always apply modifiers to the [container view](glossary://container). In this case, the container is the `VStack`. 
+                        
+                        By applying the `padding` modifier to the `VStack`, you only have to add it once instead of adding it to every [subview](glossary://subview) inside the `VStack`.
+                        ```
+                        .padding(.horizontal)
+                        ```
+                    }
+                    @Page(id: "5.viewFrame", title: "") {
+                        However, if you want your bookshelf to have a specific width, use a `frame` instead of `padding`.
+                        
+                        To clearly see the effect of the frame, try extending your preview so it takes up half of the screen and then insert code snippet below. Adding a `border` after the frame also helps you visualize the frame.
+                        ```
+                        .frame(width: 250)
+                        .border(Color.black)
+                        ```
+                    }
+                    @Page(id: "5.alignmentDone", title: "") {
+                        Woohoo! Now you have all the tools to create your own views.
+                    }
+
+                }
+                @Task(type: experiment, title: "Debugging views", id: "debuggingViews", file: DebuggingViews.swift) {
+                    @Page(id: "6.debugIntro", title: "") {
+                        When your SwiftUI views don’t show up as you expect, you’ll need to flex your debugging skills to fix them. 
+                        
+                        Start by looking at the view displayed in the preview — it’s clearly not showing up correctly! 😩 Can you guess what this view is supposed to be?
+                    }
+                    @Page(id: "6.halfCardExplain", title: "") {
+                        It’s the queen of hearts playing card (or, it’s supposed to be 😵‍💫).
+                        
+                        As the name suggests, `HalfCard` contains half a card. You use two `HalfCard` instances in a `VStack` to create this view. Then, flip the bottom `HalfCard` upside down to form a mirror image of the top `HalfCard`.
+                        
+                        By combining the top and bottom halves, you create a full playing card. 
+                    }
+                    @Page(id: "6.debugBorder", title: "") {
+                        Any code applied to the `HalfCard` view affects both the top and bottom halves of the card, allowing you to fix issues in both halves at the same time. 
+                        
+                        Try adding a `border` to the `HalfCard` view to see each half:
+                        ```
+                        .border(Color.green)
+                        ```
+                        Adding a border to a view is a great debugging tool because it allows you to see how much space a view occupies. You can use this technique to diagnose lots of issues in your code.
+                    }
+                    @Page(id: "6.debugFrame", title: "") {
+                        The first major problem here is that all of the graphics are squished together.
+                        
+                        Add a `frame` in `HalfCard` and set the `maxWidth` and `maxHeight` to `.infinity`. This allows the `frame` to expand to fill any available space offered by the container, `VStack`.
+                        ```
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        ```
+                    }
+                    @Page(id: "6.debugFrameQuestion", title: "") {
+                        Even though the frame expanded, all of the graphics are still squished together. 
+                        
+                        Add another border above the `frame` modifier. This allows you to see the outline of the `VStack` before you apply the `frame`.
+                        
+                        You might wonder, why would it make a difference if you apply the border before or after the `frame`? This is because you actually produce a new view each time you apply a modifier, so the [order that you apply them really matters](doc://com.apple.documentation/documentation/swiftui/configuring-views).
+                        
+                        ```
+                        .border(Color.blue)
+                        ```
+                    }
+                    @Page(id: "6.debugFrameAnswer", title: "") {
+                        Look at the difference in the blue and green borders. The blue border surrounds the squished graphics in the `VStack`, but doesn’t expand into the empty surrounding space of the green `frame`. 
+                
+                        Can you think of anyway to fix this so the contents of the `VStack` fill the entire `frame`?
+                    }
+                    @Page(id: "thinkAboutModifiers", title: "") {
+                        Think about the order of these modifiers on your `VStack`:
+                        * You create an `overlay`, which places another `VStack` directly on top of the top-level `VStack`.
+                        * You expand the `frame` of the top-level `VStack`, placing an empty border space around it.
+                        
+                        What if you switched up the order of the `overlay` and the `frame`? That would allow you to expand the `frame` first, which gives you extra space, then apply the `overlay` where it fits.
+                    }
+                    @Page(id: "6.debugFrameCorrection", title: "") {
+                        Try removing the existing `frame` and add a new one right below the top-level `VStack`, but above the `overlay` modifier:
+                        ```
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        ```
+                    }
+                    @Page(id: "6.debugBorderVStack", title: "", isHidden: true) {
+                        Much better. There is just one more thing to fix. By default any content inside the `frame` is center-aligned. However, the crown at the center of the `HalfCard` needs to align to the bottom edge of `HalfCard.`
+                        
+                        Can you figure out a way to make this happen? Remember that you can add a `border` to visualize how much space your view needs and compare it to how you think the view should behave. 
+                    }
+                    @Page(id: "6.debugCrown", title: "", isAddable: false, isHidden: true) {
+                        There are two ways to align the crown to the bottom of your `HalfCard` view.
+                        
+                        You can add the `alignment` parameter to the `frame`:
+                        ```
+                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+                        ```
+                        Or, add a `Spacer` above the crown:
+                        ```
+                        VStack {
+                            Spacer()
+                            Image(systemName: "crown.fill")
+                                .font(.system(size: 80))
+                        }
+                        ```
+                    }
+                    @Page(id: "6.removeBorders", title: "", isAddable: false, isHidden: true) {
+                        Now that you have fixed the alignment in this card, you can remove any borders that you’ve added.
+                    }
+                    @Page(id: "6.debugDone", title: "", isHidden: true) {
+                        Look at that beautiful playing card!
+                        
+                        The next time you’re unsure why your views aren’t displaying the way you want them to, don’t forget that you can add a border or background to help you debug issues with your views. 
+                    }
+                   
+                }
+            }
+            @TaskGroup(title: "Extend the journal app") {
+                
+                @Task(type: experiment, title: "Create a title banner view", id: "entryBanner", file: YourTitleBanner.swift) {
+                    @Page(id: "1.entryBanner", title: "") {
+                      The title banner for a journal entry shows the entry’s name along with some flashy decorations.
+                      
+                      Say you are a software engineer tasked with tweaking the title banner design on the bottom-left of the preview. The designer on your team has given you the design specifications for what they want it to look like which is the view you see at the top of the preview.  
+                      
+                     Do your best to make your title banner look like the design mock-up on the top half of the preview. 
+                    }  
+                    @Page(id: "3.entryBanner", title: "", isHidden: true) {
+                        Start by adding the yellow circle at the top-left corner. 
+                        
+                        Place a `Circle` view on top of the blue circle using the existing [ZStack](doc://com.apple.documentation/documentation/swiftui/zstack). You’ll also need to use the `.frame(width:height:)` and `.foregroundColor(_:)` modifiers to adjust the size and color of the circle view.
+                        
+                        ```
+                        Circle()
+                            .frame(width: 15)
+                            .foregroundColor(.bannerYellow)
+                            //#-learning-code-snippet(4.entryBanner)
+                        ```
+                    } 
+                    @Page(id: "4.entryBanner", title: "", isHidden: true) {
+                       Nice! But the yellow circle isn’t exactly where it’s supposed to be. 😣 
+                       
+                       You can adjust a view’s position by adding the [offset](doc://com.apple.documentation/documentation/swiftui/view/offset(x:y:)) modifier to the yellow circle. 
+                       
+                       Try adding it yourself, using the following hint if you get stuck:
+                       
+                        ```
+                        .offset(x: -10, y: -5)
+                        ```
+                    } 
+                    @Page(id: "5.entryBanner", title: "") {
+                       Awesome! Now try adding an orange circle to the bottom-left of the banner to match the image.
+                       
+                       Use the color, `Color.bannerOrange`.
+                       
+                       If you need a hint, the solution is in the next step.
+                    } 
+                    
+                    @Page(id: "6.entryBanner", title: "", isHidden: true) {
+                       To add the orange circle, create a `Circle` view and use the `.frame(width:)`, `.foregroundColor(_:)`, and `.offset(x:y:)` modifiers to adjust its size, position, and color.
+                       
+                       If you still need help, here’s the code for the circle:
+                       ```
+                           Circle()
+                               .frame(width: 20)
+                               .foregroundColor(.bannerOrange)
+                               .offset(x: 6, y: 5)
+                       
+                       ```
+                    } 
+                    @Page(id: "7.entryBanner", title: "") {
+                       The left side of the banner looks great. Time to use those layout skills on the right side of the banner. 
+                       
+                       Right now, there’s only a large blue circle and a medium pink one on the right side. Add a spark of color by adding in the smaller orange circle.
+                    } 
+                    @Page(id: "8.entryBanner", title: "") {
+                        On the left side of the banner, you used a `ZStack` to place the circle views on tops of each other. Try the same approach here.
+                    } 
+                    @Page(id: "10.entryBanner", title: "", isHidden: true) {
+                        Here is a hint for adding the orange circle view:
+                        
+                       ```
+                       Circle()
+                           .frame(width: 18)
+                           .foregroundColor(.bannerOrange)
+                           .offset(y: 20)
+                       ```
+                    }
+                    @Page(id: "11.entryBanner", title: "") {
+                        Perfect! Your design now matches the mock-up. 
+                        
+                        Next, you’ll use your layout skills to modify the sleep tracker design.
+                    } 
+                }
+                    
+                @Task(type: experiment, title: "Make your own sleep tracker view", id: "sleeptracker1", file: SleepViewHalf.swift) {
+                    @Page(id: "5.sleepIntro", title: "") {
+                        For your next challenge, you'll create your own sleep tracker view. 
+                        
+                        Before you begin, run the app preview and add a new journal entry with a full-sized sleep tracker. Notice that the button to add a half-sized sleep tracker is disabled.
+                        
+                        The designer on your team has given you design specifications for what they want the half view sleep tracker card to look like. As the software engineer, it’s time for you to create it.
+                    } 
+                    @Page(id: "5.sleepFrame", title: "") {
+                        Looking at the `SleepViewHalf` preview, the top-half of the view has the design’s mock-up, the bottom-half is what you’ll create!
+                        
+                        Start by making the cards the correct size. Add a `.frame(minHeight:maxHeight:)` modifier to your `VStack` to set a minimum and maximum height. If you recall from earlier, setting the minimum height allows the view to scale and adjust to different screen sizes.
+                        
+                        ```
+                        .frame(minHeight: 100, maxHeight: 200)
+                        ```
+                    }
+                    @Page(id: "5.sleepContext", title: "") {
+                        Now that the cards are the same size, notice how the card has two states:
+                        * A display state on the left
+                        * An editing state on the right
+                       
+                       Your sleep tracker needs to have these two states as well.
+                    }
+                    @Page(id: "5.composition", title: "", isHidden: true) {
+                        Start with the display state. You currently have two `Text` views arranged in a `VStack`; one displaying a title, and the other displaying the number of hours slept.
+                        
+                        Compare your prototype to the design mock-ups. It’s not quite there yet. 
+                    }
+                    @Page(id: "5.paddingSleep", title: "") {                        
+                        You need a wider gap between the card title and sleep value. One way to do this is to add a `.padding()` modifier to the top or bottom edge of the sleep value:
+                        
+                        ```
+                        .padding(.top)
+                        ```
+                        
+                        You may notice that you’re closer to the mock-up, but it doesn’t exactly match yet. Don’t worry, you’ll fix this later.
+                    }
+                    @Page(id: "5.stepper", title: "") {
+                        Now its time to tackle the editing state. There’s a [Stepper](doc://com.apple.documentation/documentation/swiftui/stepper) inside the editing state. The `Stepper` allows people to change the sleep value by tapping the up or down arrows.
+                        
+                        The `if statement` ensures that the `Stepper` only appears when `isEditing` is `true`. The value of `isEditing` changes to `true` when a someone edits a journal entry, otherwise the value is `false`.
+                        
+                        Add the following code at the bottom of the `VStack`:
+                        
+                        ```
+                        if isEditing {
+                            Stepper("Hours Slept", value: $value, in: 0...12, step: 1)
+                                .labelsHidden()
+                        }
+                        ```
+                    }
+                    
+                    @Page(id: "5.draftAdd", title: "", file: SleepView.swift) {
+                        To add `SleepViewHalf` to the app, you’ll add logic to display `SleepViewHalf` when a person selects the half-card sleep tracker.
+                        
+                        Remove the highlighted code and replace it with the code snippet below:
+                        ```
+                        if size == .small {
+                            SleepViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)
+                        } else {
+                            SleepViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)
+                        }
+                        ```
+                    }
+                    @Page(id: "5.enableSleepButton", title: "", file: SleepView.swift, isAddable: false) {
+                        To enable the button to add the half-card sleep tracker, set `disableSleepViewHalf` to `false`:
+                        ```
+                        static var disableSleepViewHalf = false
+                        ```
+                        Now try adding a half-card sleep tracker in the app preview of the journal app. You can do this by tapping "New Entry" and the Add button (+) to create a new card. The half-card sleep tracker button is enabled.
+                    }
+                    @Page(id: "5.draftComplete", title: "", file: SleepView.swift) {
+                        Yay! You finished creating the half-card view for sleep tracker. Time to check-in with the designer on your team.
+                    }
+                }
+                
+                @Task(type: experiment, title: "Polishing touches for your sleep tracker view", id: "sleeptracker2", file: SleepViewHalf.swift) {
+                    @Page(id: "6.designFeedback", title: "") {
+                        You did great! However, the designer pointed out some small differences between your views and their mock-up. Time to polish up the app design so you can call it a day!
+                        
+                        Check the mock-up again. Can you spot the differences? You can also try expanding the preview to view the card in different screen sizes.
+                    }
+                    @Page(id: "6.frameAlignment", title: "") {
+                        Expand your preview so it takes up half of your screen. 
+                        
+                        The title of your card needs to align to the left when someone is editing a sleep entry, and centered otherwise. You can use a [ternary operator](glossary://ternary%20conditional%20operator) to specify the alignment for each state. 
+                        
+                        Add the code snippet below to correct the alignment of the card title:
+                        ```
+                        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)
+                        ```
+                    }
+                    @Page(id: "6.textConditional", title: "") {
+                        Did you notice that in the design specs the title of this card is "How many hours did you sleep?" while the person is in the editing state? 
+
+                       Copy and replace the highlighted text with the code snippet below:
+                       ```
+                       Text(isEditing ? "How many hours did you sleep?" : "Hours Slept")
+                       ```
+                    }
+                    
+                    @Page(id: "6.SpacerHint", title: "") {
+                        It’s looking pretty good, but you need to push the card title to the top of the card when in the display state. You can do this by adding a [Spacer](doc://com.apple.documentation/documentation/swiftui/spacer). 
+                        
+                        See if you can add the `Spacer` yourself:
+                        ```
+                        Spacer()
+                        ```
+                        If you need some help, tap Next.
+                    }
+                    @Page(id: "6.SpacerSolution", title: "", isHidden: true) {
+                        When you add a `Spacer` to a `VStack`, the spacer expands to fill in any remaining vertical space. 
+                        
+                        Add a `Spacer` above and below the sleep value. 
+                        
+                        Both spacers will expand equally to keep the sleep value centered in the card. 
+                    }
+                    @Page(id: "6.removePadding", title: "") {
+                        Earlier, you added a `.padding()` modifier to expand the gap between the card title and sleep value. Now that you’ve added `Spacer` views around the sleep value, you no longer need that extra padding.
+                        
+                        Remove the highlighted `.padding()`, so it doesn’t make your text appear off-center.
+                    }
+                    @Page(id: "6.paddingCard", title: "") {
+                        When you added the `Spacer` around your sleep value, the card title and stepper were pushed to the top and bottom edges of the card. However, those are just a bit too close to the edges. 
+                        
+                        Add padding around your `VStack` to create a gap around the edge of the card:
+                        ```
+                        .padding()
+                        ```
+                    }
+                    @Page(id: "6.complete", title: "", isHidden: true) {
+                        Woohoo! You’re done. Now your card looks exactly like the mock-up from the designer.
+                        ```
+                        VStack {
+                            Text(isEditing ? "How many hours did you sleep?" : "Hours Slept")
+                                .foregroundColor(.darkBrown)
+                                .font(fontStyle.uiFont(15))
+                                .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)
+                            Spacer()
+                            
+                            Text("\(Int(value))")
+                                .modifier(FontStyle(size: 50))
+
+                            Spacer()
+                            
+                            if isEditing {
+                                Stepper("Hours Slept", value: $value, in: 0...12, step: 1)
+                                    .labelsHidden()
+                            }
+                        }
+                        .frame(minHeight: 100, maxHeight: 200)
+                        .padding()
+                        ```
+                    }          
+                }
+                
+                @Task(type: experiment, title: "Fix the mood tracker view", id: "moodtracker", file: MoodViewFull.swift) {
+                    @Page(id: "7.moodIntro", title: "") {
+                        Congratulations! 
+                        You’re now in charge of fixing the full-card mood tracker according to the design mock-up.
+                        
+                        Try matching the mock-up yourself, using the following hints if you need them.
+                    }
+                    @Page(id: "7.moodCardFrame", title: "", isHidden: true) {
+                        The spacing and alignment of the design looks off compared to the mock-up. Start by setting `height` of your card.
+
+                        Consider the different tools you’ve learned, such as `Spacer`, `.frame(minHeight:maxHeight:)`, `.padding()`, and think of how you can use them to improve the layout. 
+                        
+                        Remember that there are many different ways to layout a view and the code snippet below is just one example: 
+                        
+                        ```
+                        .frame(minHeight: 100, maxHeight: 200)
+                        ```
+                    }
+                    @Page(id: "7.moodCardFrameExplain", title: "", isHidden: true) {
+                        Remember that setting the `minHeight` and `maxHeight` allows the view to scale for different screen sizes.
+                    }
+                    @Page(id: "7.moodTitleEdge", title: "", isHidden: true) {
+                        And similar to what you did for the sleep tracker, you can push your card title to the edge by setting the maximum height to `.infinity`. 
+                        
+                        Add another frame to your `HStack`:
+                        
+                        ```
+                        .frame(maxHeight: .infinity, alignment: .center)
+                        ```
+                    }
+                    @Page(id: "7.moodPadding", title: "", isHidden: true) {
+                        Next, add some padding to create space between the title and the edge of your card.
+                        
+                        Add `padding` to everything by adding it to the `VStack` below your `frame` modifier:
+                        
+                        ```
+                        .padding()
+                        ```
+                    }
+                    @Page(id: "7.moodTitle", title: "", isHidden: true) {
+                        Now tackle the alignment of your card title. Align it to the leading edge when someone is editing their journal, and center-align the card title when they’re displaying the journal.
+                        
+                        Try coding this yourself, using the solution if needed:
+                        ```
+                        .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)
+                        ```
+                    }
+                    @Page(id: "7.moodTitleExplain", title: "", isHidden: true) {
+                        Add the `.frame` modifier with a `maxWidth` of `.infinity` to stretch your `Text` view horizontally and fill the available space. 
+                        
+                        The `alignment` parameter tells `SwiftUI` that any content inside the `frame` aligns to the leading edge in the editing state, and center-aligned in the displaying state. 
+                    }
+
+                    @Page(id: "7.moodButton", title: "", isHidden: true) {
+                        Expand the preview to take up half of the screen. Notice how the emoji are squished in the middle of the view for both the editing and display state?
+                        
+                        Try coding a solution; use this hint if you get stuck:
+        
+                        ```
+                        .frame(maxWidth: .infinity, alignment: .center)
+                        ```
+                        
+                        Add your code to the button label in the editing state and the `ForEach` statement that shows the emojis in the display state.
+                    }
+                    @Page(id: "7.moodButtonPadding", title: "", isHidden: true) {
+                        How about adding a gap between the circular buttons and the emoji in the editing state?
+                        
+                        Remember that there are multiple ways to achieve the same results. Try using one or more of the modifiers you’ve learned to create some space.
+                        
+                        ```
+                        .padding(.bottom)
+                        ```
+                    }
+                    @Page(id: "7.addMood", title: "", file: MoodView.swift) {
+                        To add `MoodViewFull` to the app, you’ll add some logic to display `MoodViewFull` when your someone selects the full-card mood tracker.
+                        
+                        Remove the highlighted code and replace it with the code snippet below:
+                        ```
+                        if size == .small {
+                            MoodViewHalf(value: $value, isEditing: isEditing, fontStyle: fontStyle)
+                        } else {
+                            MoodViewFull(value: $value, isEditing: isEditing, fontStyle: fontStyle)
+                        }
+                        ```
+                    }
+                    @Page(id: "7.enableMoodButton", title: "", file: MoodView.swift, isAddable: false) {
+                        To enable the button to add the full-card mood tracker, set `disableMoodViewFull` to `false`:
+                        ```
+                        static var disableMoodViewFull = false
+                        ```
+                        Now try adding a full-card mood tracker in the journal app. Do you see the view you just created?
+                    }
+                    @Page(id: "7.moodComplete", title: "", isHidden: true) {
+                        Wow! Your mood tracker looks great. Just what the designer wanted.
+                        
+                        If you are feeling brave, you can keep editing and adjusting the card views to make them exactly as you like. 
+                        
+                        You are now on your way to being a SwiftUI view layout expert! 
+                        ```
+                        VStack {
+                            Text(isEditing ? "What's your mood?" : "Mood")
+                                .foregroundColor(.darkBrown)
+                                .font(fontStyle.uiFont(15))
+                                .frame(maxWidth: .infinity, alignment: isEditing ? .leading : .center)
+                            
+                            HStack {
+                                if isEditing {
+                                    ForEach(emojis, id: \.self) { emoji in
+                                        Button{
+                                            value = emoji
+                                        } label: {
+                                            VStack {
+                                                Text(emoji)
+                                                    .font(.system(size: 35))
+                                                    .frame(maxWidth: .infinity, alignment: .center)
+                                                    .padding(.bottom)
+                                                
+                                                Image(systemName: value == emoji ? "circle.fill" : "circle")
+                                                    .font(.system(size: 16))
+                                                    .foregroundColor(.darkBrown)
+                                            }
+                                        }
+                                    }
+                                } else {
+                                ForEach(0..<displayEmojis, id:\.self) { index in
+                                        Text(value)
+                                            .font(.system(size: 50))
+                                            .frame(maxWidth: .infinity, alignment: .center)
+                                    }
+                                }
+                            }
+                            .frame(maxHeight: .infinity, alignment: .center)
+                            
+                        }
+                        .frame(minHeight: 100, maxHeight: 200)
+                        .padding()
+                        ```
+                    }  
+                }
+            }
+        }
+    }
+}
+
+
